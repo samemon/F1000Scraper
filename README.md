@@ -1,8 +1,8 @@
 # [![F1000 header](https://f1000research.com/img/AMP/F1000Research_image.png)](https://f1000research.com/)
 
-# F1000Scrape
+# F1000Scraper
 
-[F1000Research](https://f1000research.com/) is an open access publishing platform. It provides an [API](https://f1000research.com/developers) to extract XML or PDF of articles published in F1000Research. This is a python wrapper for scraping these articles as XML, and parsing the XML. 
+[F1000Research](https://f1000research.com/) is an open access publishing platform. It provides an [API](https://f1000research.com/developers) to extract XML or PDF of articles published in F1000Research. F1000Scraper is a python wrapper for scraping these articles as XML, and parsing the XML. 
 
 <!-- ## Sample
 
