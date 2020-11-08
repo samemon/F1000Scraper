@@ -1,4 +1,4 @@
-# [![F1000 header](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.stm-publishing.com%2Ff1000-research-ltd-wins-european-commission-contract-to-set-up-an-open-access-publishing-platform-for-horizon-2020-and-horizon-europe-beneficiaries%2F&psig=AOvVaw2zgDhJdGXjWk9XwZC2TxDY&ust=1604935218393000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOi4pOCf8-wCFQAAAAAdAAAAABAJ)](https://f1000research.com/)
+# [![F1000 header](https://f1000research.com/img/AMP/F1000Research_image.png)](https://f1000research.com/)
 
 # F1000Scrape
 
