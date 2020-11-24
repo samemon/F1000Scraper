@@ -87,12 +87,12 @@ def get_all_dois(url, dois, number_of_pages):
 		- Appends to the dois list 
 	"""
 
-	for page in range(1, number_of_pages):
-		url = url + "&page=" + str(page)
+	for page in range(2, number_of_pages):
+		url_with_page = url[:] + "&page=" + str(page)
 
 		# opening the url and scraping
 		opener = urllib.request.build_opener()
-		tree = ET.parse(opener.open(url))
+		tree = ET.parse(opener.open(url_with_page))
 
 		for p in tree.xpath("//results//doi"):
 			dois.append(p.text.strip())
@@ -193,7 +193,7 @@ def download(date_from, date_to, output_directory,
 	if not os.path.exists(output_directory):
 		os.makedirs(output_directory)
 
-	print("Number of files downloading:", len(dois))
+	print("Number of files downloading:", len(set(dois)))
    	# reading and writing xml
 	for doi in dois:
 		doi_query = base + doi
