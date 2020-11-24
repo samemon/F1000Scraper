@@ -1,0 +1,1276 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.2 20190208//EN" "http://jats.nlm.nih.gov/publishing/1.2/JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article">
+    <front>
+        <journal-meta>
+            <journal-id journal-id-type="pmc">F1000Research</journal-id>
+            <journal-title-group>
+                <journal-title>F1000Research</journal-title>
+            </journal-title-group>
+            <issn pub-type="epub">2046-1402</issn>
+            <publisher>
+                <publisher-name>F1000 Research Limited</publisher-name>
+                <publisher-loc>London, UK</publisher-loc>
+            </publisher>
+        </journal-meta>
+        <article-meta>
+            <article-id pub-id-type="doi">10.12688/f1000research.12802.3</article-id>
+            <article-categories>
+                <subj-group subj-group-type="heading">
+                    <subject>Research Article</subject>
+                </subj-group>
+                <subj-group>
+                    <subject>Articles</subject>
+                    <subj-group>
+                        <subject>Methods for Diagnostic &amp; Therapeutic Studies</subject>
+                    </subj-group>
+                </subj-group>
+            </article-categories>
+            <title-group>
+                <article-title>Monocytes isolated by positive and negative magnetic sorting techniques show different molecular characteristics and immunophenotypic behaviour</article-title>
+                <fn-group content-type="pub-status">
+                    <fn>
+                        <p>[version 3; peer review: 2 approved]</p>
+                    </fn>
+                </fn-group>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author" corresp="no">
+                    <name>
+                        <surname>Bhattacharjee</surname>
+                        <given-names>Jashdeep</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Conceptualization</role>
+                    <role content-type="http://credit.casrai.org/">Investigation</role>
+                    <role content-type="http://credit.casrai.org/">Methodology</role>
+                    <role content-type="http://credit.casrai.org/">Writing &#x2013; Original Draft Preparation</role>
+                    <xref ref-type="aff" rid="a1">1</xref>
+                    <xref ref-type="aff" rid="a2">2</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no">
+                    <name>
+                        <surname>Das</surname>
+                        <given-names>Barun</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Investigation</role>
+                    <role content-type="http://credit.casrai.org/">Methodology</role>
+                    <role content-type="http://credit.casrai.org/">Writing &#x2013; Original Draft Preparation</role>
+                    <xref ref-type="aff" rid="a2">2</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no">
+                    <name>
+                        <surname>Mishra</surname>
+                        <given-names>Alaknanda</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Investigation</role>
+                    <role content-type="http://credit.casrai.org/">Methodology</role>
+                    <role content-type="http://credit.casrai.org/">Writing &#x2013; Review &amp; Editing</role>
+                    <xref ref-type="aff" rid="a2">2</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no">
+                    <name>
+                        <surname>Sahay</surname>
+                        <given-names>Preeti</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Methodology</role>
+                    <role content-type="http://credit.casrai.org/">Writing &#x2013; Original Draft Preparation</role>
+                    <xref ref-type="aff" rid="a2">2</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                    <name>
+                        <surname>Upadhyay</surname>
+                        <given-names>Pramod</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Conceptualization</role>
+                    <role content-type="http://credit.casrai.org/">Funding Acquisition</role>
+                    <role content-type="http://credit.casrai.org/">Investigation</role>
+                    <role content-type="http://credit.casrai.org/">Methodology</role>
+                    <role content-type="http://credit.casrai.org/">Supervision</role>
+                    <role content-type="http://credit.casrai.org/">Writing &#x2013; Original Draft Preparation</role>
+                    <role content-type="http://credit.casrai.org/">Writing &#x2013; Review &amp; Editing</role>
+                    <uri content-type="orcid">https://orcid.org/0000-0002-5560-822X</uri>
+                    <xref ref-type="corresp" rid="c1">a</xref>
+                    <xref ref-type="aff" rid="a2">2</xref>
+                </contrib>
+                <aff id="a1">
+                    <label>1</label>Division of Gastroenterology, Hepatology and Nutrition, Children's Hospital Los Angeles, Los Angeles, CA, USA</aff>
+                <aff id="a2">
+                    <label>2</label>National Institute of Immunology, New Delhi , India</aff>
+            </contrib-group>
+            <author-notes>
+                <corresp id="c1">
+                    <label>a</label>
+                    <email xlink:href="mailto:pkumar@nii.ac.in">pkumar@nii.ac.in</email>
+                </corresp>
+                <fn fn-type="conflict">
+                    <p>No competing interests were disclosed.</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="epub">
+                <day>28</day>
+                <month>3</month>
+                <year>2018</year>
+            </pub-date>
+            <pub-date pub-type="collection">
+                <year>2017</year>
+            </pub-date>
+            <volume>6</volume>
+            <elocation-id>2045</elocation-id>
+            <history>
+                <date date-type="accepted">
+                    <day>26</day>
+                    <month>3</month>
+                    <year>2018</year>
+                </date>
+            </history>
+            <permissions>
+                <copyright-statement>Copyright: &#x00a9; 2018 Bhattacharjee J et al.</copyright-statement>
+                <copyright-year>2018</copyright-year>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                    <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution Licence, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+            </permissions>
+            <self-uri content-type="pdf" xlink:href="f1000research-6-15707.pdf"/>
+            <abstract>
+                <p>
+                    <bold>Background</bold>: Magnetic sorting of cells, based on &#x00a0;microbead conjugated antibodies (Abs), employs positive as well as negative immunomagnetic separation methods, for isolation of a specific cell population. These microbeads are suggested to be nontoxic, biodegradable carriers conjugated to various antibodies. Isolation of cells through positive selection involves the attachment of antibody conjugated microbeads to the cells of interest, followed by their isolation in the presence of a strong magnetic field to obtain higher purity. Negative selection involves attachment of microbead conjugated antibodies to all other cell populations except the cells of interest, which remain untagged. In the present study, we compared the two methods for their effect on functional and immunophenotypic behavior of isolated CD14+ monocytes.</p>
+                <p> 
+                    <bold>Methods</bold>: Peripheral blood mononuclear cells (PBMCs) were isolated from blood collected from healthy volunteers by density gradient centrifugation. Human blood derived monocytes were isolated through positive selection and negative selection, making use of the appropriate monocyte isolation kit. Monocytes were then stimulated with lipopolysaccharide (LPS) and their activation and proliferation capacity were examined. The degradation or dissociation of cell-bound microbeads was also investigated.</p>
+                <p> 
+                    <bold>Results</bold>: We observed an impaired LPS sensitivity as well as poor activation and proliferation capacity upon stimulation by LPS in positively sorted CD14+ monocytes as compared to negatively sorted CD14+ monocytes. The attached microbeads did not degrade and remained attached to the cells even after 6 days of culture.</p>
+                <p> 
+                    <bold>Conclusions</bold>: Our results suggest that positively sorted CD14+ cells exhibit hampered functionality and may result in inaccurate analysis and observations in downstream applications. However, these cells can be used for immediate analytical procedures.</p>
+            </abstract>
+            <kwd-group kwd-group-type="author">
+                <kwd>immune-magnetic cell sorting</kwd>
+                <kwd>lipopolysaccharide sensitivity</kwd>
+                <kwd>CD14+ve monocytes</kwd>
+            </kwd-group>
+            <funding-group>
+                <award-group id="fund-1">
+                    <funding-source>Department of Biotechnology, Government of India</funding-source>
+                </award-group>
+                <funding-statement>This work has been supported by the core grant received from the Department of Biotechnology, Government of India, to the National Institute of Immunology, New Delhi.</funding-statement>
+                <funding-statement>
+                    <italic>The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</italic>
+                </funding-statement>
+            </funding-group>
+        </article-meta>
+        <notes>
+            <sec sec-type="version-changes">
+                <label>Revised</label>
+                <title>Amendments from Version 2</title>
+                <p>In the second revision of the manuscript following changes have been made. 1. A couple of sentences have been rewritten in the Introduction section to bring clarity on 'how positive magnetic sorting of CD14 may not be expected to trigger any signal transduction pathways'. &#x00a0; 2. A typo has been corrected the Results section; sub section &#x201c;Degradation of microbeads&#x201d;.</p>
+            </sec>
+        </notes>
+    </front>
+    <body>
+        <sec sec-type="intro">
+            <title>Introduction</title>
+            <p>Magnetic sorting is a common technique used to obtain a highly pure population of cells of interest from a mixed population of cells, making use of microbead conjugated antibodies against the cell surface antigen. Positive sorting involves the tagging of cells with magnetic microbead conjugated antibodies, followed by isolation of the labeled cells by placing them in a magnetic field. After positive sorting, cells that have microbead conjugated antibodies on their surface can be conveniently analyzed using flow cytometry (
+                <xref ref-type="bibr" rid="ref-18">Miltenyi 
+                    <italic>et al</italic>., 1990</xref>; 
+                <xref ref-type="bibr" rid="ref-20">Pei 
+                    <italic>et al</italic>., 1998</xref>). Negative sorting involves the labeling of all cells, except the cells of interest, by incubating them in a cocktail of magnetic microbead conjugated antibodies and subsequently removing them by placing them in a magnetic field.</p>
+            <p>Cluster of differentiation 14 (CD14) are specific markers used to identify monocytic populations, and they act as a coreceptors for LPS (
+                <xref ref-type="bibr" rid="ref-11">Guha &amp; Mackman, 2001</xref>). Since CD14 lacks a cytoplasmatic domain, the positive magnetic sorting of CD14 may not be expected to trigger any signal transduction pathways or alter its functionality. However it has been demonstrated that anti-CD14 antibody reduces LPS responsiveness of monocytes (
+                <xref ref-type="bibr" rid="ref-14">Kim &amp; Kim, 2014</xref>).</p>
+            <p>We investigated the immunophenotypic behaviour and molecular characteristics of monocytes after both positive and negative sorting, by analyzing their response and proliferation to stimuli like LPS. The biodegradation profile of the attached microbeads from the CD14+ cells was also investigated.</p>
+        </sec>
+        <sec sec-type="methods">
+            <title>Methods</title>
+            <sec>
+                <title>Ethical statement</title>
+                <p>The investigation was approved (project serial number: IHEC/#52/10) by the Institutional human ethics committee of the National Institute of Immunology, New Delhi-67, India.</p>
+            </sec>
+            <sec>
+                <title>Isolation of PBMCs</title>
+                <p>Experiments were performed at the National Institute of Immunology, New Delhi. 20 ml of peripheral blood was collected from five healthy volunteers aged between 25&#x2013;30 years, after obtaining their written informed consent. Blood was collected more than once from some of the volunteers and there was a minimum gap of three months between two successive sample collections. The peripheral blood mononuclear cells (PBMCs) were isolated from blood by density gradient centrifugation using HiSep
+                    <sup>TM</sup> LSM 1077 (Himedia, Mumbai; India). The obtained PBMCs were washed thrice with Dulbecco&#x2019;s phosphate buffered saline (Himedia, Mumbai; India) and counted using the trypan blue dye exclusion method with a hemocytometer (Rohem Industries Pvt Ltd, India).</p>
+            </sec>
+            <sec>
+                <title>Isolation of monocytes by magnetic activated cell sorting</title>
+                <p>Human blood derived monocytes were sorted using anti-human CD14 MicroBeads (Miltenyi Biotec, Bergisch Gladbach, Germany), as per manufacturer&#x2019;s protocol. Similarly, monocytes were isolated by negative sorting using the monocyte isolation Kit II (Miltenyi Biotec, Bergisch Gladbach; Germany) according to manufacturer&#x2019;s protocol.</p>
+            </sec>
+            <sec>
+                <title>Cell culture and antibody dissociation assay</title>
+                <p>The positively sorted CD14 positive cells were re-suspended in RPMI 1640 medium (Himedia, Mumbai; India) supplemented with 10% fetal bovine serum (FBS) (Biological Industries, Beit-Haemek Israel) and 1X antibiotic-antimycotic solution containing streptomycin sulphate, penicillin and amphotericin-B (Himedia, Mumbai; India), and plated at a density of 4 &#x00d7; 10
+                    <sup>6</sup> cells per well in 6 well low adherence plates (Corning, Tewksbury; USA). The cells were periodically harvested by gentle scrapping and passed through a magnetic column. Cells with and without bound microbeads (obtained in the flowthrough) were counted using a hemocytometer (Rohem Industries Pvt Ltd, India).</p>
+            </sec>
+            <sec>
+                <title>LPS stimulation of sorted monocytes</title>
+                <p>Monocytes separated either by positive or negative selections were re-suspended in RPMI 1640 media supplemented with 10% FBS and 1X antibiotic-antimycotic solution. 1 million cells/ well were plated in a 24 well cell culture plate (Corning, Tewksbury, USA) and placed in a humidified CO
+                    <sub>2</sub> incubator (ShelLab, Cornelius; USA) at 5% CO
+                    <sub>2</sub>/ 37&#x00b0;C for 24 hours. The cells were examined for adherence and thereafter stimulated with 1 ml complete RPMI media containing 500ng/ml of LPS (Sigma, St. Louis; USA). Fresh media containing 500ng/ml of LPS was replaced at each time point (8h, 16h, 24h) for supernatant collection.</p>
+            </sec>
+            <sec>
+                <title>Cytometric bead array</title>
+                <p>The supernatants collected at various time points were analysed for the presence of pro- and anti-inflammatory cytokines; IL-8, IL-10, TGF-&#x03b2;1 and RANTES, using cytometric bead array (CBA) Soluble Protein Flex Set (BD Biosciences, San Jose; USA) as per manufacturer&#x2019;s protocol. Equal volumes of five independent samples were pooled and undiluted samples were analysed. The data was recorded using BD FACSVerse (BD Biosciences, San Jose; USA) and was analysed using FCAP Array software v3.0 (BD Biosciences, San Jose; USA). The assay samples were appropriately diluted to match the detection range of the CBA kit.</p>
+            </sec>
+            <sec>
+                <title>Live cell imaging</title>
+                <p>The magnetic sorted monocytes were plated at a density of 1 million cells per well in a 24 well plate. After allowing the cells to adhere for 24 hours, RPMI 1640 media supplemented with 10% FBS and 1% antibiotic-antimycotic solution containing 500 ng/ml of LPS was added to the respective wells. The culture plates were then placed in Cell-IQ (CM Technologies, Tampere; Finland) and specific fields were focussed using 10X objective magnification. Time lapse microscopy was performed and analysed for 76 hours at 30 minutes interval using live cell imaging and software (Cell IQ Analyser, Finland).</p>
+            </sec>
+        </sec>
+        <sec sec-type="results">
+            <title>Results</title>
+            <sec>
+                <title>Activation and proliferation of sorted CD14+ monocytes</title>
+                <p>Sorted monocytes incubated with LPS were examined for secretion of various pro- and anti-inflammatory cytokines. The levels of IL-8, IL-10, TGF-&#x03b2;1 and RANTES at different time points after positively and negatively isolated CD14+ monocytes were incubated with LPS were analyzed. The secretion of IL-8 was observed to be at its maximum at 8 hours in negatively sorted monocytes and at 16 hours in positively sorted monocytes (
+                    <xref ref-type="fig" rid="f1">Figure 1A</xref>). The IL-8 level in negatively sorted CD14+ cells was 6 times higher than positively sorted CD14+ cells. A similar pattern was observed for secretion of RANTES (
+                    <xref ref-type="fig" rid="f1">Figure 1C</xref>) and TGF-&#x03b2;1 (
+                    <xref ref-type="fig" rid="f1">Figure 1D</xref>), though the differences were not very pronounced. It was of significance to observe the reversed pattern for an anti-inflammatory cytokine, IL-10 (
+                    <xref ref-type="fig" rid="f1">Figure 1B</xref>).</p>
+                <fig fig-type="figure" id="f1" position="float">
+                    <label>Figure 1. </label>
+                    <caption>
+                        <title>The levels of IL-8, IL-10, TGF-&#x03b2;1 and RANTES in 5 pooled samples at different time points after positively and negatively isolated CD14+ monocytes were stimulated with LPS.</title>
+                    </caption>
+                    <graphic xlink:href="f1000research-6-15707-g0000.gif"/>
+                </fig>
+                <p>Greater secretion of the pro-inflammatory cytokines in negatively sorted CD14+ monocytes upon activation was observed, during proliferation of activated monocytes. 
+                    <xref ref-type="fig" rid="f2">Figure 2</xref> shows the variation in the average number of cells per field (487&#x03bc;m&#x00d7;364&#x03bc;m) for positively and negatively sorted cells. Further, the progression of proliferation is shown in Video V1 for negatively sorted cells and Video V2 for positively sorted cells. Alongside 
+                    <xref ref-type="fig" rid="f2">Figure 2</xref>, the videos show that negatively sorted cells proliferated rapidly and extensively upon activation, and the maximum number of cells was reached after 16 hours. However, there was no clearly defined time point of maximum number of cells reached by positively sorted cells.</p>
+                <fig fig-type="figure" id="f2" position="float">
+                    <label>Figure 2. </label>
+                    <caption>
+                        <title>The changes in the average number of cells per field (487&#x03bc;mX364&#x03bc;m) over time, upon stimulation by LPS in positively and negatively sorted cells.</title>
+                    </caption>
+                    <graphic xlink:href="f1000research-6-15707-g0001.gif"/>
+                </fig>
+            </sec>
+            <sec>
+                <title>Degradation of microbeads</title>
+                <p>To examine the degradation of microbeads, PBMCs were labeled with anti-human CD14 antibody conjugated microbeads and sorted under a magnetic field. The sorted cells were maintained in a culture and the numbers of cells with and without microbeads were counted via flow cytometric analysis. Results of three independent samples are shown in 
+                    <xref ref-type="fig" rid="f3">Figure 3</xref>.</p>
+                <fig fig-type="figure" id="f3" position="float">
+                    <label>Figure 3. </label>
+                    <caption>
+                        <title>Variation in the percentages of CD14+ cells which do not have bound anti-CD14 microbeads when they were cultured for several days.</title>
+                    </caption>
+                    <graphic xlink:href="f1000research-6-15707-g0002.gif"/>
+                </fig>
+                <p>These results show the variation in percentage of cells collected in the &#x2018;flow through&#x2019; of column placed in magnetic field. These were the cells from which the microbeads were either degraded or detached and cells were without microbeads. In all the three cultures we examined, the percentage of cells without microbeads was different but there was hardly any change in these percentages when the culture was continued for 6 days. This suggests that in typical culture conditions the Ab-microbeads remain bound with cells for many days.</p>
+                <supplementary-material id="DS0" xlink:href="https://f1000researchdata.s3.amazonaws.com/datasets/12802/7f9b163f-8814-4172-a572-ce55fcd15622_Revised_dataset_1.csv">
+                    <label>Raw data corresponding to the results shown in Figure 1</label>
+                </supplementary-material>
+                <supplementary-material id="DS1" xlink:href="https://f1000researchdata.s3.amazonaws.com/datasets/12802/be1f8d66-08a0-4f8d-a3d1-0df5674db6a9_Figure2.CSV">
+                    <label>Raw data corresponding to the results shown in Figure 2</label>
+                </supplementary-material>
+                <supplementary-material id="DS2" xlink:href="https://f1000researchdata.s3.amazonaws.com/datasets/12802/9c8ac477-c4d5-41bb-85b6-de4b3c5c477f_Figure3.CSV">
+                    <label>Raw data corresponding to the results shown in Figure 3</label>
+                </supplementary-material>
+            </sec>
+        </sec>
+        <sec sec-type="discussion">
+            <title>Discussion</title>
+            <p>Magnetic cell sorting for the separation of large numbers of cells according to specific cell surface markers is a technique that is commonly used. It is a common notion that magnetic beads are biodegradable, do not activate cells and do not affect downstream application. We have however observed that the activation and proliferation of positively sorted CD14+ cells is impaired compared to the negatively sorted cells.</p>
+            <p>The activation of monocytes by LPS is known to occur through surface CD14, which is an LPS sensing receptor. Surface CD14 plays a crucial role; it binds and transfers LPS to the surface via TLR4:MD2 complex to enable its recognition. The LPS stimulation of monocytes activates several intracellular signaling pathways which in turn activates a variety of transcription factors ultimately leading to induction of many genes encoding inflammatory cytokines (
+                <xref ref-type="bibr" rid="ref-11">Guha &amp; Mackman, 2001</xref>). In short, CD14 is involved in the LPS-induced release of IL-8, which is an important pro-inflammatory cytokine (
+                <xref ref-type="bibr" rid="ref-12">He 
+                    <italic>et al</italic>., 2013</xref>).</p>
+            <p>After positively sorting CD14+ monocytes from PBMCs, the surface CD14 molecules on monocytes are blocked by anti-CD14 microbeads and these CD14+ surface sites can no longer mediate the stimulation by LPS and the positively sorted CD14+ monocytes may show impaired stimulation by LPS.</p>
+            <p>In two experiments, identical numbers of CD14+ monocytes isolated by positive and negative sorting were stimulated with LPS and their activation and proliferation was monitored. 
+                <xref ref-type="fig" rid="f1">Figure 1</xref> shows that upon stimulation by LPS the negatively sorted CD14+ monocytes secreted enormous amount of IL-8 almost instantaneously and they exhibited acute proliferation (
+                <xref ref-type="fig" rid="f2">Figure 2</xref>). This is in accordance with the observation that IL-8 transcript is highly expressed in LPS-stimulated monocytes (
+                <xref ref-type="bibr" rid="ref-24">Standiford 
+                    <italic>et al</italic>., 1992</xref>; 
+                <xref ref-type="bibr" rid="ref-25">Suzuki 
+                    <italic>et al</italic>., 2000</xref>).</p>
+            <p>The positively sorted CD14+ monocytes responded only after 24 hours, and their level of stimulation was impaired and the cells did not proliferate. This delayed and reduced stimulation by LPS is due to the CD14 independent receptors which function to direct LPS mediated cytokine secretion under conditions where the CD14 dependent pathway is blocked or non-functional (
+                <xref ref-type="bibr" rid="ref-16">Lynn 
+                    <italic>et al</italic>., 1993</xref>). There are a few LPS-associated cell surface proteins which are distinct from CD14 and these surface proteins too can bind TLRs to initiate a response (
+                <xref ref-type="bibr" rid="ref-27">Triantafilou 
+                    <italic>et al</italic>., 2001</xref>). Our results suggest that the density of these surface proteins is low compared to CD14 as lesser stimulation was observed when CD14 surface groups were blocked by Abs and secondly, the delayed stimulation indicate that most likely a different pathway was followed for their activation.</p>
+            <p>Further, the secretion of somewhat higher amount of IL-10 by positively sorted CD14+ monocytes only suggest the absence of highly inflammatory conditions upon LPS activation. The levels of RANTES and TGF-&#x03b2;1 also indicate that the LPS activation of monocytes via CD14 independent receptors produces unique results which could be very different from common experimental situation. </p>
+            <p>In one such related report, the, human primary monocytes were isolated by either positive or negative immunomagnetic selection and differentiated to macrophages (
+                <xref ref-type="bibr" rid="ref-19">Neu 
+                    <italic>et al</italic>., 2013</xref>). The phagocytosis of 
+                <italic>Listeria monocytogenes</italic> (Lm) by GM-CSF-derived macrophages (GM-M) was markedly influenced by the method used for isolation of monocytes. The GM-M derived from negatively isolated monocytes showed low phagocytosis of Lm whereas GM-M generated from positively selected monocytes displayed high phagocytosis of Lm. The paper concludes that macrophages derived by 
+                <italic>ex vivo</italic> differentiation of negatively selected human primary monocytes as the most suitable model to study Lm infection of macrophages. In yet another report (
+                <xref ref-type="bibr" rid="ref-7">Elkord 
+                    <italic>et al</italic>., 2005</xref>) it was demonstrated that the human dendritic cells generated from positively isolated monocytes by anti-CD14-coated microbeads show impaired induction by LPS.</p>
+            <p>Beliakova-Bethell 
+                <italic>et al.</italic> (
+                <xref ref-type="bibr" rid="ref-7">Beliakova-Bethell 
+                    <italic>et al</italic>., 2014</xref>) examined  the gene expression profiles of CD8+ T cells, B cells and monocytes isolated using positive selection, negative selection and FACS. They concluded that gene expression signatures were more similar between cells isolated by negative selection and FACS compared to cells isolated by positive selection. These findings were made on cells immediately after isolation and our findings establish the long-term effects of positive and negative isolation methods. In these reports it was not investigated further why the positively isolated monocytes were not suitable and had poor cytokines production upon stimulation. Our data suggests that in these experiments, the positively isolated monocytes were tagged permanently with anti-CD14 molecules attached with microbeads. The positively isolated CD14+ monocytes are identical with monocytes whose surface CD14 molecules have been blocked by Abs and these monocytes are known to behave differently (
+                <xref ref-type="bibr" rid="ref-6">Delirezh 
+                    <italic>et al</italic>., 2013</xref>; 
+                <xref ref-type="bibr" rid="ref-7">Elkord 
+                    <italic>et al</italic>., 2005</xref>; 
+                <xref ref-type="bibr" rid="ref-14">Kim &amp; Kim, 2014</xref>).</p>
+            <p>An alternate strategy to positively isolate monocytes could be by using anti-CD33 coated beads instead of anti-CD14 coated beads. The monocytes isolated using this approach too most likely will result in impaired response upon LPS stimulation. It has been reported  that CD33 and CD14 are colocalized on cell surface and when monocyte-derived immature dendritic cells were stimulated with LPS in the presence of CD33 antibody, the production of IL-12 and phosphorylation of NF-&#x03ba;B decreased significantly (
+                <xref ref-type="bibr" rid="ref-1">Ishida 
+                    <italic>et al</italic>., 2014</xref>). The monocytes culture in the presence of anti-CD33 and the positively isolated monocytes using anti-CD33 coated beads, both have antibody bound CD33, and both are likely to respond in a similar manner.</p>
+            <p>In this context, diverse outcome could be observed when cells positively isolated by antibody bound microbeads were used for extended culture work (
+                <xref ref-type="bibr" rid="ref-9">Govers 
+                    <italic>et al</italic>., 2012</xref>; 
+                <xref ref-type="bibr" rid="ref-10">Greish 
+                    <italic>et al</italic>., 2012</xref>; 
+                <xref ref-type="bibr" rid="ref-15">Lapenna 
+                    <italic>et al</italic>., 2013</xref>; 
+                <xref ref-type="bibr" rid="ref-17">Meinhardt 
+                    <italic>et al</italic>., 2012</xref>).</p>
+            <p>There are two important findings from these experiments; positively isolated CD14+ monocytes have impaired LPS sensitivity and magnetic beads used in positive isolation do not degrade within days. These conclusions suggest that for most experiments, positively isolated cells are usable for analysis purpose only and should not be used for any further culture experiments.</p>
+        </sec>
+        <sec>
+            <title>Data availability</title>
+            <p>The data referenced by this article are under copyright with the following copyright statement: Copyright: &#x00ef;&#x00bf;&#x00bd; 2018 Bhattacharjee J et al.</p>
+            <p>Data associated with the article are available under the terms of the Creative Commons Zero "No rights reserved" data waiver (CC0 1.0 Public domain dedication).
+                <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/publicdomain/zero/1.0/"/>
+            </p>
+            <p>Dataset 1: Raw data corresponding to the results shown in 
+                <xref ref-type="fig" rid="f1">Figure 1</xref>. DOI, 
+                <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5256/f1000research.12802.d188477">10.5256/f1000research.12802.d188477</ext-link> (
+                <xref ref-type="bibr" rid="ref-3">Bhattacharjee 
+                    <italic>et al</italic>., 2017a</xref>)</p>
+            <p>Dataset 2: Raw data corresponding to the results shown in 
+                <xref ref-type="fig" rid="f2">Figure 2</xref>. DOI, 
+                <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5256/f1000research.12802.d182357">10.5256/f1000research.12802.d182357</ext-link> (
+                <xref ref-type="bibr" rid="ref-4">Bhattacharjee 
+                    <italic>et al</italic>., 2017b</xref>)</p>
+            <p>Dataset 3: Raw data corresponding to the results shown in 
+                <xref ref-type="fig" rid="f3">Figure 3</xref>. DOI, 
+                <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5256/f1000research.12802.d182358">10.5256/f1000research.12802.d182358</ext-link> (
+                <xref ref-type="bibr" rid="ref-5">Bhattacharjee 
+                    <italic>et al</italic>., 2017c</xref>)</p>
+        </sec>
+    </body>
+    <back>
+        <ack>
+            <title>Author details</title>
+            <p>This work was carried out at: National Institute of Immunology, New Delhi, India. The first author, Jashdeep Bhattacharjee, has now moved to: Division of Gastroenterology, Hepatology and Nutrition, Children&#x2019;s Hospital Los Angeles.</p>
+        </ack>
+        <sec sec-type="supplementary-material">
+            <title>Supplementary material</title>
+            <p>
+
+                <bold>Supplementary Video V1:</bold> The progression of proliferation after stimulation by LPS in negatively sorted CD14+ monocytes.</p>
+            <p>
+                <ext-link ext-link-type="uri" xlink:href="https://f1000researchdata.s3.amazonaws.com/supplementary/12802/c625d9f4-f2f6-49b9-8a4b-c294d18650ef.wmv">Click here to access the data</ext-link>.</p>
+            <p>
+
+                <bold>Supplementary Video V2:</bold> The progression of proliferation after stimulation by LPS in positively sorted CD14+ monocytes.</p>
+            <p>
+                <ext-link ext-link-type="uri" xlink:href="https://f1000researchdata.s3.amazonaws.com/supplementary/12802/2b130c32-3536-46e2-981a-e3e8a543d93c.wmv">Click here to access the data</ext-link>.</p>
+        </sec>
+        <ref-list>
+            <ref id="ref-2">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Beliakova-Bethell</surname>
+                            <given-names>N</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Massanella</surname>
+                            <given-names>M</given-names>
+                        </name>
+
+                        <name>
+                            <surname>White</surname>
+                            <given-names>C</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>The effect of cell subset isolation method on gene expression in leukocytes.</article-title>
+                    <source>
+
+                        <italic>Cytometry A.</italic>
+</source>
+                    <year>2014</year>;<volume>85</volume>(<issue>1</issue>):<fpage>94</fpage>&#x2013;<lpage>104</lpage>.
+                    <pub-id pub-id-type="pmid">24115734</pub-id>
+                    <pub-id pub-id-type="doi">10.1002/cyto.a.22352</pub-id>
+                    <pub-id pub-id-type="pmcid">3975050</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-3">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Bhattacharjee</surname>
+                            <given-names>J</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Das</surname>
+                            <given-names>B</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Mishra</surname>
+                            <given-names>A</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Dataset 1 in: Monocytes isolated by positive and negative magnetic sorting techniques show different molecular characteristics and immunophenotypic behaviour.</article-title>
+                    <source>
+
+                        <italic>F1000Research.</italic>
+</source>
+                    <year>2017a</year>.
+                    <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5256/f1000research.12802.d188477">Data Source</ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-4">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Bhattacharjee</surname>
+                            <given-names>J</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Das</surname>
+                            <given-names>B</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Mishra</surname>
+                            <given-names>A</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Dataset 2 in: Monocytes isolated by positive and negative magnetic sorting techniques show different molecular characteristics and immunophenotypic behaviour.</article-title>
+                    <source>
+
+                        <italic>F1000Research.</italic>
+</source>
+                    <year>2017b</year>.
+                    <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5256/f1000research.12802.d182357">Data Source</ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-5">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Bhattacharjee</surname>
+                            <given-names>J</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Das</surname>
+                            <given-names>B</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Mishra</surname>
+                            <given-names>A</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Dataset 3 in: Monocytes isolated by positive and negative magnetic sorting techniques show different molecular characteristics and immunophenotypic behaviour.</article-title>
+                    <source>
+
+                        <italic>F1000Research.</italic>
+</source>
+                    <year>2017c</year>.
+                    <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5256/f1000research.12802.d182358">Data Source</ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-6">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Delirezh</surname>
+                            <given-names>N</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Shojaeefar</surname>
+                            <given-names>E</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Parvin</surname>
+                            <given-names>P</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Comparison the effects of two monocyte isolation methods, plastic adherence and magnetic activated cell sorting methods, on phagocytic activity of generated dendritic cells.</article-title>
+                    <source>
+
+                        <italic>Cell J.</italic>
+</source>
+                    <year>2013</year>;<volume>15</volume>(<issue>3</issue>):<fpage>218</fpage>&#x2013;<lpage>223</lpage>.
+                    <pub-id pub-id-type="pmid">24027662</pub-id>
+                    <pub-id pub-id-type="pmcid">3769603</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-7">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Elkord</surname>
+                            <given-names>E</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Williams</surname>
+                            <given-names>PE</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Kynaston</surname>
+                            <given-names>H</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Human monocyte isolation methods influence cytokine production from 
+                        <italic>in vitro</italic> generated dendritic cells.</article-title>
+                    <source>
+
+                        <italic>Immunology.</italic>
+</source>
+                    <year>2005</year>;<volume>114</volume>(<issue>2</issue>):<fpage>204</fpage>&#x2013;<lpage>212</lpage>.
+                    <pub-id pub-id-type="pmid">15667565</pub-id>
+                    <pub-id pub-id-type="doi">10.1111/j.1365-2567.2004.02076.x</pub-id>
+                    <pub-id pub-id-type="pmcid">1782075</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-9">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Govers</surname>
+                            <given-names>C</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Berrevoets</surname>
+                            <given-names>C</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Treffers-Westerlaken</surname>
+                            <given-names>E</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Magnetic-activated cell sorting of TCR-engineered T cells, using tCD34 as a gene marker, but not peptide-MHC multimers, results in significant numbers of functional CD4
+                        <sup>+</sup> and CD8
+                        <sup>+</sup> T cells.</article-title>
+                    <source>
+
+                        <italic>Hum Gene Ther Methods.</italic>
+</source>
+                    <year>2012</year>;<volume>23</volume>(<issue>3</issue>):<fpage>213</fpage>&#x2013;<lpage>224</lpage>.
+                    <pub-id pub-id-type="pmid">22871260</pub-id>
+                    <pub-id pub-id-type="doi">10.1089/hgtb.2012.074</pub-id>
+                    <pub-id pub-id-type="pmcid">4015082</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-10">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Greish</surname>
+                            <given-names>S</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Abogresha</surname>
+                            <given-names>N</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Abdel-Hady</surname>
+                            <given-names>Z</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Human umbilical cord mesenchymal stem cells as treatment of adjuvant rheumatoid arthritis in a rat model.</article-title>
+                    <source>
+
+                        <italic>World J Stem Cells.</italic>
+</source>
+                    <year>2012</year>;<volume>4</volume>(<issue>10</issue>):<fpage>101</fpage>&#x2013;<lpage>109</lpage>.
+                    <pub-id pub-id-type="pmid">23189211</pub-id>
+                    <pub-id pub-id-type="doi">10.4252/wjsc.v4.i10.101</pub-id>
+                    <pub-id pub-id-type="pmcid">3506964</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-11">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Guha</surname>
+                            <given-names>M</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Mackman</surname>
+                            <given-names>N</given-names>
+                        </name>
+</person-group>:
+                    <article-title>LPS induction of gene expression in human monocytes.</article-title>
+                    <source>
+
+                        <italic>Cell Signal.</italic>
+</source>
+                    <year>2001</year>;<volume>13</volume>(<issue>2</issue>):<fpage>85</fpage>&#x2013;<lpage>94</lpage>.
+                    <pub-id pub-id-type="pmid">11257452</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/S0898-6568(00)00149-2</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-12">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>He</surname>
+                            <given-names>W</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Qu</surname>
+                            <given-names>T</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Yu</surname>
+                            <given-names>Q</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>LPS induces IL-8 expression through TLR4, MyD88, NF-kappaB and MAPK pathways in human dental pulp stem cells.</article-title>
+                    <source>
+
+                        <italic>Int Endod J.</italic>
+</source>
+                    <year>2013</year>;<volume>46</volume>(<issue>2</issue>):<fpage>128</fpage>&#x2013;<lpage>136</lpage>.
+                    <pub-id pub-id-type="pmid">22788664</pub-id>
+                    <pub-id pub-id-type="doi">10.1111/j.1365-2591.2012.02096.x</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-1">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Ishida</surname>
+                            <given-names>A</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Akita</surname>
+                            <given-names>K</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Mori</surname>
+                            <given-names>Y</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Negative regulation of Toll-like receptor-4 signaling through the binding of glycosylphosphatidylinositol-anchored glycoprotein, CD14, with the sialic acid-binding lectin, CD33.</article-title>
+                    <source>
+
+                        <italic>J Biol Chem.</italic>
+</source>
+                    <year>2014</year>;<volume>289</volume>(<issue>36</issue>):<fpage>25341</fpage>&#x2013;<lpage>50</lpage>.
+                    <pub-id pub-id-type="pmid">25059667</pub-id>
+                    <pub-id pub-id-type="doi">10.1074/jbc.M113.523480</pub-id>
+                    <pub-id pub-id-type="pmcid">4155695</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-14">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Kim</surname>
+                            <given-names>D</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Kim</surname>
+                            <given-names>JY</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Anti-CD14 antibody reduces LPS responsiveness 
+                        <italic>via</italic> TLR4 internalization in human monocytes.</article-title>
+                    <source>
+
+                        <italic>Mol Immunol.</italic>
+</source>
+                    <year>2014</year>;<volume>57</volume>(<issue>2</issue>):<fpage>210</fpage>&#x2013;<lpage>215</lpage>.
+                    <pub-id pub-id-type="pmid">24172224</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/j.molimm.2013.09.009</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-15">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Lapenna</surname>
+                            <given-names>A</given-names>
+                        </name>
+
+                        <name>
+                            <surname>B-Lynch</surname>
+                            <given-names>C</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Kapeni</surname>
+                            <given-names>C</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>A simple model system enabling human CD34
+                        <sup>+</sup> cells to undertake differentiation towards T cells.</article-title>
+                    <source>
+
+                        <italic>PLoS One.</italic>
+</source>
+                    <year>2013</year>;<volume>8</volume>(<issue>7</issue>):<fpage>e69572</fpage>.
+                    <pub-id pub-id-type="pmid">23894504</pub-id>
+                    <pub-id pub-id-type="doi">10.1371/journal.pone.0069572</pub-id>
+                    <pub-id pub-id-type="pmcid">3720953</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-16">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Lynn</surname>
+                            <given-names>WA</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Liu</surname>
+                            <given-names>Y</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Golenbock</surname>
+                            <given-names>DT</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Neither CD14 nor serum is absolutely necessary for activation of mononuclear phagocytes by bacterial lipopolysaccharide.</article-title>
+                    <source>
+
+                        <italic>Infect Immun.</italic>
+</source>
+                    <year>1993</year>;<volume>61</volume>(<issue>10</issue>):<fpage>4452</fpage>&#x2013;<lpage>4461</lpage>.
+                    <pub-id pub-id-type="pmid">7691750</pub-id>
+                    <pub-id pub-id-type="pmcid">281179</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-17">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Meinhardt</surname>
+                            <given-names>K</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Kroeger</surname>
+                            <given-names>I</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Abendroth</surname>
+                            <given-names>A</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Influence of NK cell magnetic bead isolation methods on phenotype and function of murine NK cells.</article-title>
+                    <source>
+
+                        <italic>J Immunol Methods.</italic>
+</source>
+                    <year>2012</year>;<volume>378</volume>(<issue>1&#x2013;2</issue>):<fpage>1</fpage>&#x2013;<lpage>10</lpage>.
+                    <pub-id pub-id-type="pmid">22306357</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/j.jim.2012.01.008</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-18">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Miltenyi</surname>
+                            <given-names>S</given-names>
+                        </name>
+
+                        <name>
+                            <surname>M&#x00fc;ller</surname>
+                            <given-names>W</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Weichel</surname>
+                            <given-names>W</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>High gradient magnetic cell separation with MACS.</article-title>
+                    <source>
+
+                        <italic>Cytometry.</italic>
+</source>
+                    <year>1990</year>;<volume>11</volume>(<issue>2</issue>):<fpage>231</fpage>&#x2013;<lpage>238</lpage>.
+                    <pub-id pub-id-type="pmid">1690625</pub-id>
+                    <pub-id pub-id-type="doi">10.1002/cyto.990110203</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-19">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Neu</surname>
+                            <given-names>C</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Sedlag</surname>
+                            <given-names>A</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Bayer</surname>
+                            <given-names>C</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>CD14-dependent monocyte isolation enhances phagocytosis of 
+                        <italic>listeria monocytogenes</italic> by proinflammatory, GM-CSF-derived macrophages.</article-title>
+                    <source>
+
+                        <italic>PLoS One.</italic>
+</source>
+                    <year>2013</year>;<volume>8</volume>(<issue>6</issue>):<fpage>e66898</fpage>.
+                    <pub-id pub-id-type="pmid">23776701</pub-id>
+                    <pub-id pub-id-type="doi">10.1371/journal.pone.0066898</pub-id>
+                    <pub-id pub-id-type="pmcid">3679097</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-20">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Pei</surname>
+                            <given-names>R</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Wang</surname>
+                            <given-names>G</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Tarsitani</surname>
+                            <given-names>C</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Simultaneous HLA Class I and Class II antibodies screening with flow cytometry.</article-title>
+                    <source>
+
+                        <italic>Hum Immunol.</italic>
+</source>
+                    <year>1998</year>;<volume>59</volume>(<issue>5</issue>):<fpage>313</fpage>&#x2013;<lpage>322</lpage>.
+                    <pub-id pub-id-type="pmid">9619770</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/S0198-8859(98)00020-2</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-24">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Standiford</surname>
+                            <given-names>TJ</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Strieter</surname>
+                            <given-names>RM</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Allen</surname>
+                            <given-names>RM</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>IL-7 up-regulates the expression of IL-8 from resting and stimulated human blood monocytes.</article-title>
+                    <source>
+
+                        <italic>J Immunol.</italic>
+</source>
+                    <year>1992</year>;<volume>149</volume>(<issue>6</issue>):<fpage>2035</fpage>&#x2013;<lpage>2039</lpage>.
+                    <pub-id pub-id-type="pmid">1517567</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-25">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Suzuki</surname>
+                            <given-names>T</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Hashimoto</surname>
+                            <given-names>S</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Toyoda</surname>
+                            <given-names>N</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Comprehensive gene expression profile of LPS-stimulated human monocytes by SAGE.</article-title>
+                    <source>
+
+                        <italic>Blood.</italic>
+</source>
+                    <year>2000</year>;<volume>96</volume>(<issue>7</issue>):<fpage>2584</fpage>&#x2013;<lpage>2591</lpage>.
+                    <pub-id pub-id-type="pmid">11001915</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-27">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Triantafilou</surname>
+                            <given-names>K</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Triantafilou</surname>
+                            <given-names>M</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Dedrick</surname>
+                            <given-names>RL</given-names>
+                        </name>
+</person-group>:
+                    <article-title>A CD14-independent LPS receptor cluster.</article-title>
+                    <source>
+
+                        <italic>Nat Immunol.</italic>
+</source>
+                    <year>2001</year>;<volume>2</volume>(<issue>4</issue>):<fpage>338</fpage>&#x2013;<lpage>345</lpage>.
+                    <pub-id pub-id-type="pmid">11276205</pub-id>
+                    <pub-id pub-id-type="doi">10.1038/86342</pub-id>
+                </mixed-citation>
+            </ref>
+        </ref-list>
+    </back>
+    <sub-article article-type="ref-report" id="report31885">
+        <front-stub>
+            <article-id pub-id-type="doi">10.5256/f1000research.14717.r31885</article-id>
+            <title-group>
+                <article-title>Reviewer response for version 2</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Roy</surname>
+                        <given-names>Aniruddha</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="r31885a1">1</xref>
+                    <role>Referee</role>
+                    <uri content-type="orcid">https://orcid.org/0000-0003-3374-421X</uri>
+                </contrib>
+                <aff id="r31885a1">
+                    <label>1</label>Department of Pharmacy, Birla Institute of Technology &amp; Science, Pilani (BITS), Pilani, India</aff>
+            </contrib-group>
+            <author-notes>
+                <fn fn-type="conflict">
+                    <p>
+                        <bold>Competing interests: </bold>No competing interests were disclosed.</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="epub">
+                <day>23</day>
+                <month>3</month>
+                <year>2018</year>
+            </pub-date>
+            <permissions>
+                <copyright-statement>Copyright: &#x00a9; 2018 Roy A</copyright-statement>
+                <copyright-year>2018</copyright-year>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                    <license-p>This is an open access peer review report distributed under the terms of the Creative Commons Attribution Licence, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+            </permissions>
+            <related-article ext-link-type="doi" id="relatedArticleReport31885" related-article-type="peer-reviewed-article" xlink:href="10.12688/f1000research.12802.2"/>
+            <custom-meta-group>
+                <custom-meta>
+                    <meta-name>recommendation</meta-name>
+                    <meta-value>approve</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </front-stub>
+        <body>
+            <p>In the current manuscript, the authors have investigated the impact of positive selection and negative selection on the activation, function, and proliferation of&#x00a0;monocytes. It is an important study as many researchers use these techniques interchangeably, greatly impacting the final outcome of the study and erroneous conclusion. Though the current study has used only a few experiments to draw the conclusion, their&#x00a0;study design was neat.</p>
+            <p> </p>
+            <p> The authors may clarify some minor points to make the manuscript better: 
+                <list list-type="order">
+                    <list-item>
+                        <p>In the introduction section, the authors have written: "CD14 lacks a cytoplasmatic domain and such cells are reported to function in a restricted manner" - a brief explanation of what is meant by&#x00a0;restricted manner would be helpful.</p>
+                    </list-item>
+                    <list-item>
+                        <p>The sentence on page number 5 reads: 'These were the cells from which the microbeads were either degraded or "
+                            <bold>detected</bold>" and cells were without microbeads.' : Probably instead of detected, it will be detached.&#x00a0;</p>
+                    </list-item>
+                    <list-item>
+                        <p>Is the size of the beads known? Can there be a size-dependent effect due to steric hindrance of the CD14 bound beads to the TLR4? If only antibody is used, can we see the same effect? The main function of CD14 in LPS signaling in monocytes is it binds with&#x00a0;LPS binding protein (LBP).&#x00a0;The role of LBP appears to be that of aiding LPS to dock at the LPS receptor complex by initially binding LPS and then forming a ternary complex with CD14, thus enabling LPS to be transferred to the LPS receptor complex composed of TLR4&#x00a0;and MD-2. As in these in vitro studies, LBP has not been used, probably CD14 may not directly affect the LPS binding with the TLR4 receptor.</p>
+                    </list-item>
+                </list>
+            </p>
+            <p>Is the work clearly and accurately presented and does it cite the current literature?</p>
+            <p>Yes</p>
+            <p>If applicable, is the statistical analysis and its interpretation appropriate?</p>
+            <p>Not applicable</p>
+            <p>Are all the source data underlying the results available to ensure full reproducibility?</p>
+            <p>Yes</p>
+            <p>Is the study design appropriate and is the work technically sound?</p>
+            <p>Yes</p>
+            <p>Are the conclusions drawn adequately supported by the results?</p>
+            <p>Yes</p>
+            <p>Are sufficient details of methods and analysis provided to allow replication by others?</p>
+            <p>Yes</p>
+            <p>Reviewer Expertise:</p>
+            <p>NA</p>
+            <p>I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard.</p>
+        </body>
+        <sub-article article-type="response" id="comment3548-31885">
+            <front-stub>
+                <contrib-group>
+                    <contrib contrib-type="author">
+                        <name>
+                            <surname>Upadhyay</surname>
+                            <given-names>Pramod</given-names>
+                        </name>
+                        <aff>National Institute of Immunology</aff>
+                    </contrib>
+                </contrib-group>
+                <author-notes>
+                    <fn fn-type="conflict">
+                        <p>
+                            <bold>Competing interests: </bold>There are competing interests.</p>
+                    </fn>
+                </author-notes>
+                <pub-date pub-type="epub">
+                    <day>26</day>
+                    <month>3</month>
+                    <year>2018</year>
+                </pub-date>
+            </front-stub>
+            <body>
+                <p>Thank you for providing us valuable comments. We have addressed all of them in the revised version of the manuscript.</p>
+                <p> Specifically</p>
+                <p> 
+                    <italic>&#x00a0;In the introduction section, the authors have written: "CD14 lacks a cytoplasmatic domain and such cells are reported to function in a restricted manner" - a brief explanation of what is meant by restricted manner would be helpful.</italic>
+                </p>
+                <p> </p>
+                <p> It was an inadvertent mistake to write an incomplete sentence. This has been corrected in the revised manuscript.&#x00a0;&#x00a0;&#x00a0;&#x00a0;</p>
+                <p> </p>
+                <p> 
+                    <italic>The sentence on page number 5 reads: 'These were the cells from which the microbeads were either degraded or "detected" and cells were without microbeads.' : Probably instead of detected, it will be detached. </italic>
+                </p>
+                <p> </p>
+                <p> The correction has been made in the revised manuscript.</p>
+                <p> </p>
+                <p> 
+                    <italic>Is the size of the beads known? Can there be a size-dependent effect due to steric hindrance of the CD14 bound beads to the TLR4? If only antibody is used, can we see the same effect? The main function of CD14 in LPS signaling in monocytes is it binds with LPS binding protein (LBP). The role of LBP appears to be that of aiding LPS to dock at the LPS receptor complex by initially binding LPS and then forming a ternary complex with CD14, thus enabling LPS to be transferred to the LPS receptor complex composed of TLR4 and MD-2. As in these in vitro studies, LBP has not been used, probably CD14 may not directly affect the LPS binding with the TLR4 receptor.</italic>
+                </p>
+                <p> </p>
+                <p> Nano meter size beads are used is cells isolation and these are unlikely to create significant steric hindrance. The main point is that once Ab-conjugated beads get bound to the antigen cell surface (CD14 in present case); it is bound to influence the expression, transcription and translation machinery inside the cell. And secondly, as a result of conjugation of cell surface CD14 molecule with Ab-conjugated bead in cells isolation step, the cell surface CD14 molecule would no longer be available for LBP to initiate the activation cascade.</p>
+                <p> This has been elaborated in the Introduction section of the revised manuscript.</p>
+            </body>
+        </sub-article>
+    </sub-article>
+    <sub-article article-type="ref-report" id="report28324">
+        <front-stub>
+            <article-id pub-id-type="doi">10.5256/f1000research.13872.r28324</article-id>
+            <title-group>
+                <article-title>Reviewer response for version 1</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Beliakova-Bethell</surname>
+                        <given-names>Nadejda</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="r28324a1">1</xref>
+                    <role>Referee</role>
+                </contrib>
+                <aff id="r28324a1">
+                    <label>1</label>VA San Diego Healthcare System, San Diego, CA, USA</aff>
+            </contrib-group>
+            <author-notes>
+                <fn fn-type="conflict">
+                    <p>
+                        <bold>Competing interests: </bold>No competing interests were disclosed.</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="epub">
+                <day>12</day>
+                <month>12</month>
+                <year>2017</year>
+            </pub-date>
+            <permissions>
+                <copyright-statement>Copyright: &#x00a9; 2017 Beliakova-Bethell N</copyright-statement>
+                <copyright-year>2017</copyright-year>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                    <license-p>This is an open access peer review report distributed under the terms of the Creative Commons Attribution Licence, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+            </permissions>
+            <related-article ext-link-type="doi" id="relatedArticleReport28324" related-article-type="peer-reviewed-article" xlink:href="10.12688/f1000research.12802.1"/>
+            <custom-meta-group>
+                <custom-meta>
+                    <meta-name>recommendation</meta-name>
+                    <meta-value>approve</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </front-stub>
+        <body>
+            <p>This study assesses monocyte function following isolation of these cells from total peripheral blood mononuclear cells (PBMC) using positive or negative immunomagnetic selection. It addresses an important topic, because cell isolation procedure may affect cell function and skew conclusions obtained from 
+                <italic>in vitro</italic> studies of immune cells isolated from blood. Despite a limited assessment of functions and isolation methods, this study should have an impact on selection of monocyte isolation protocol when these cells are intended for investigation of specific responses, which this study tested. The study design is appropriate and conclusions drawn are adequately supported by the results. The paper may be improved, however, by providing more details in methods, raw data and discussion, and by careful revision of citations as detailed below:</p>
+            <p> </p>
+            <p> Methods:</p>
+            <p> Cytometic bead array: there are several cytometric bead arrays available for human samples (e.g. &#x201c;human inflammatory cytokine kit&#x201d;, &#x201c;human chemokine kit&#x201d;). Which one was used? Legend for Figure 1 indicates that 5 samples were pooled. It would be helpful to provide details on how the pooling was done (the entire samples, equal volumes, equal proportions?) and what dilutions were made for the assay.</p>
+            <p> </p>
+            <p> Live cell imaging: It appears that information in methods contradicts the data shown in Figure 2. According to the figure and supplied raw data, imaging was performed over a course of over 76 hours, while methods section states &#x201c;48 hours&#x201d;.</p>
+            <p> </p>
+            <p> Raw data:</p>
+            <p> Data for Figure 1: it might be easier to understand the data if columns were labeled by cytokine and sample (e.g. IL8 negative selection, IL8 positive selection, etc. as opposed to IL8B, IL8C, etc.)</p>
+            <p> Data for Figure 2: were 36 fields for each sample for each time point individually counted, as the information on the figure indicates? Raw data appears to have only the averages. Was the distribution of counts tight, or was there high variation? Including raw data for individual field counts might be more appropriate.</p>
+            <p> </p>
+            <p> Discussion:</p>
+            <p> Another option to positively isolate monocytes is to use anti-CD33 instead of anti-CD14 coated beads. This may be more appropriate in studies that aim to measure response to LPS, when positive selection is preferred (e.g. in cases of limited sample from which sequential separation of different lymphocyte subsets is desired). It might be worthy to discuss this option.</p>
+            <p> </p>
+            <p> Citations:</p>
+            <p> Several citations throughout the paper appear to be inaccurate; for example, in Introduction some citations on altered behavior of cells following microbead attachment: (1) Safarik and Safarikova is a method review, and Horgan et al. is a protocol; neither studies cell behavior; (2) Semple et al. observed no functional changes in limited tests they did; the difference that they report pertains to CD19+ vs CD19- cells, not positively isolated vs negatively isolated cells; (3) Fuchslin et al. labeled bacterial cells for their quantification in water; and Ribaut et al. labeled parasites for their isolation from infected blood for research purposes; the relevance of these two citations for the present study may be questionable. In Discussion, Adams et al. describe a special case of MACS for multitarget sort, and may not be appropriate for referencing commonality of magnetic sorting. While the results from the present study are consistent with gene expression studies by Beliakova-Bethell et al. in terms of effects of positive selection, the reference to Beliakova-Bethell et al. is made following description of Neu et al. and Elkord et al. studies, stating that the findings were similar. This is not accurate because Neu et al. and Elkord et al. performed functional assessment following cell separation, while Beliakova-Bethell et al. lysed the cells immediately after isolation and did not measure cell function. Instead of the statement of similarity of findings, it might be worth pointing out that positive selection affects monocytes the most both in the short term and in the long term.</p>
+            <p>Is the work clearly and accurately presented and does it cite the current literature?</p>
+            <p>Partly</p>
+            <p>If applicable, is the statistical analysis and its interpretation appropriate?</p>
+            <p>Not applicable</p>
+            <p>Are all the source data underlying the results available to ensure full reproducibility?</p>
+            <p>Partly</p>
+            <p>Is the study design appropriate and is the work technically sound?</p>
+            <p>Yes</p>
+            <p>Are the conclusions drawn adequately supported by the results?</p>
+            <p>Yes</p>
+            <p>Are sufficient details of methods and analysis provided to allow replication by others?</p>
+            <p>Partly</p>
+            <p>Reviewer Expertise:</p>
+            <p>Virology, immunology, cell separation and flow cytometry, analysis of gene expression</p>
+            <p>I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard.</p>
+        </body>
+        <sub-article article-type="response" id="comment3283-28324">
+            <front-stub>
+                <contrib-group>
+                    <contrib contrib-type="author">
+                        <name>
+                            <surname>Upadhyay</surname>
+                            <given-names>Pramod</given-names>
+                        </name>
+                        <aff>National Institute of Immunology</aff>
+                    </contrib>
+                </contrib-group>
+                <author-notes>
+                    <fn fn-type="conflict">
+                        <p>
+                            <bold>Competing interests: </bold>No competing interests were disclosed.</p>
+                    </fn>
+                </author-notes>
+                <pub-date pub-type="epub">
+                    <day>18</day>
+                    <month>12</month>
+                    <year>2017</year>
+                </pub-date>
+            </front-stub>
+            <body>
+                <p>Thank you for providing us valuable comments. We have addressed all of them in the revised version of the manuscript.</p>
+                <p> Specifically</p>
+                <p> 
+                    <italic>Methods:</italic>
+                </p>
+                <p> 
+                    <italic>Cytometic bead array: there are several cytometric bead arrays available for human samples (e.g. &#x201c;human inflammatory cytokine kit&#x201d;, &#x201c;human chemokine kit&#x201d;). Which one was used? Legend for Figure 1 indicates that 5 samples were pooled. It would be helpful to provide details on how the pooling was done (the entire samples, equal volumes, equal proportions?) and what dilutions were made for the assay.</italic>
+                </p>
+                <p> We used Cytometric Bead Array (CBA) Soluble Protein Flex Set and equal volumes of the samples were pooled. The CBA assay was performed on culture supernatants without any dilution. These details have been included in the revised manuscript.</p>
+                <p> 
+                    <italic>Live cell imaging: It appears that information in methods contradicts the data shown in Figure 2. According to the figure and supplied raw data, imaging was performed over a course of over 76 hours, while methods section states &#x201c;48 hours&#x201d;.</italic>
+                </p>
+                <p> </p>
+                <p> Live cell imaging: The imaging was performed till 76 hours and it was a mistake to mention this as 48 hours in the method section, we thank you for pointing out this anomaly and this has been corrected in the revised manuscript.</p>
+                <p> </p>
+                <p> 
+                    <italic>Raw data:</italic>
+                </p>
+                <p> 
+                    <italic>Data for Figure 1: it might be easier to understand the data if columns were labeled by cytokine and sample (e.g. IL8 negative selection, IL8 positive selection, etc. as opposed to IL8B, IL8C, etc.)</italic>
+                </p>
+                <p> </p>
+                <p> Suggested changes have been made.</p>
+                <p> 
+                    <italic>Data for Figure 2: were 36 fields for each sample for each time point individually counted, as the information on the figure indicates? Raw data appears to have only the averages. Was the distribution of counts tight, or was there high variation? Including raw data for individual field counts might be more appropriate</italic>.</p>
+                <p> </p>
+                <p> During the live cell imaging experiment images were logged and later cells were counted using the Cell-IQ Analyser software. The protocol for cell counting in the analysis software was assembled to finally provide the average number of cell count in the selected fields. The cell counts from individual fields of various images were embedded in the analysis software, thought it was possible to export these tables but due to very large number of data files we focussed only on the averages.&#x00a0;</p>
+                <p> </p>
+                <p> 
+                    <italic>Discussion:</italic>
+                </p>
+                <p>
+                    <italic> Another option to positively isolate monocytes is to use anti-CD33 instead of anti-CD14 coated beads. This may be more appropriate in studies that aim to measure response to LPS, when positive selection is preferred (e.g. in cases of limited sample from which sequential separation of different lymphocyte subsets is desired). It might be worthy to discuss this option.</italic>
+                </p>
+                <p> </p>
+                <p> This is a good suggestion keeping in mind that the CD14 is an endogenous ligand for CD33 in monocyte-derived immature dendritic cells. It has been reported (Hiroshi Nakada et al.; J Biol Chem. 2014 Sep 5; 289(36): 25341&#x2013;25350) that when monocyte-derived immature dendritic cells were stimulated with LPS in the presence of anti-CD33Ab, the production of IL-12 and phosphorylation of NF-&#x03ba;B decreased significantly.</p>
+                <p> Most likely the positively isolated monocytes using CD33-Ab beads would behave in a similar manner.</p>
+                <p> This possibility has been discussed in the Discussion section of the revised manuscript.</p>
+                <p> 
+                    <italic>Citations:</italic>
+                </p>
+                <p>
+                    <italic> Several citations throughout the paper appear to be inaccurate; for example, in Introduction some citations on altered behavior of cells following microbead attachment: </italic>
+                </p>
+                <p> We once again thank the reviewer for thoroughly examining the citations; the list of references has been appropriately revised.</p>
+                <p> The differences between the findings of&#x00a0; Beliakova-Bethell et al. and Neu et al. &amp; Elkord et al. have been incorporated in the revised manuscript.</p>
+            </body>
+        </sub-article>
+    </sub-article>
+</article>

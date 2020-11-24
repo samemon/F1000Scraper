@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.2 20190208//EN" "http://jats.nlm.nih.gov/publishing/1.2/JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="opinion-article">
+    <front>
+        <journal-meta>
+            <journal-id journal-id-type="pmc">F1000Research</journal-id>
+            <journal-title-group>
+                <journal-title>F1000Research</journal-title>
+            </journal-title-group>
+            <issn pub-type="epub">2046-1402</issn>
+            <publisher>
+                <publisher-name>F1000 Research Limited</publisher-name>
+                <publisher-loc>London, UK</publisher-loc>
+            </publisher>
+        </journal-meta>
+        <article-meta>
+            <article-id pub-id-type="doi">10.12688/f1000research.13798.1</article-id>
+            <article-categories>
+                <subj-group subj-group-type="heading">
+                    <subject>Opinion Article</subject>
+                </subj-group>
+                <subj-group>
+                    <subject>Articles</subject>
+                </subj-group>
+            </article-categories>
+            <title-group>
+                <article-title>UTAUT for HSS: initial framework to study health IT adoption in the developing countries</article-title>
+                <fn-group content-type="pub-status">
+                    <fn>
+                        <p>[version 1; peer review: 2 approved]</p>
+                    </fn>
+                </fn-group>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                    <name>
+                        <surname>Fuad</surname>
+                        <given-names>Anis</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Conceptualization</role>
+                    <role content-type="http://credit.casrai.org/">Formal Analysis</role>
+                    <role content-type="http://credit.casrai.org/">Investigation</role>
+                    <role content-type="http://credit.casrai.org/">Methodology</role>
+                    <role content-type="http://credit.casrai.org/">Resources</role>
+                    <role content-type="http://credit.casrai.org/">Visualization</role>
+                    <role content-type="http://credit.casrai.org/">Writing &#x2013; Original Draft Preparation</role>
+                    <role content-type="http://credit.casrai.org/">Writing &#x2013; Review &amp; Editing</role>
+                    <uri content-type="orcid">https://orcid.org/0000-0003-2303-5903</uri>
+                    <xref ref-type="corresp" rid="c1">a</xref>
+                    <xref ref-type="aff" rid="a1">1</xref>
+                    <xref ref-type="aff" rid="a2">2</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no">
+                    <name>
+                        <surname>Hsu</surname>
+                        <given-names>Chien-Yeh</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Conceptualization</role>
+                    <role content-type="http://credit.casrai.org/">Formal Analysis</role>
+                    <role content-type="http://credit.casrai.org/">Investigation</role>
+                    <role content-type="http://credit.casrai.org/">Methodology</role>
+                    <role content-type="http://credit.casrai.org/">Resources</role>
+                    <role content-type="http://credit.casrai.org/">Supervision</role>
+                    <role content-type="http://credit.casrai.org/">Writing &#x2013; Review &amp; Editing</role>
+                    <xref ref-type="aff" rid="a3">3</xref>
+                    <xref ref-type="aff" rid="a4">4</xref>
+                </contrib>
+                <aff id="a1">
+                    <label>1</label>Department of Biostatistics, Epidemiology and Population Health , Faculty of Medicine, Public Health and Nursing, Universitas Gadjah Mada, Yogyakarta, Indonesia</aff>
+                <aff id="a2">
+                    <label>2</label>Center for Health Policy and Management, Faculty of Medicine, Public Health, and Nursing, Universitas Gadjah Mada, Yogyakarta, Indonesia</aff>
+                <aff id="a3">
+                    <label>3</label>Department of Information Management, National Taipei University of Nursing and Health Sciences, Taipei, Taiwan</aff>
+                <aff id="a4">
+                    <label>4</label>College of Public Health, Taipei Medical University, Taipei, Taiwan</aff>
+            </contrib-group>
+            <author-notes>
+                <corresp id="c1">
+                    <label>a</label>
+                    <email xlink:href="mailto:anisfuad@ugm.ac.id">anisfuad@ugm.ac.id</email>
+                </corresp>
+                <fn fn-type="conflict">
+                    <p>No competing interests were disclosed.</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="epub">
+                <day>23</day>
+                <month>1</month>
+                <year>2018</year>
+            </pub-date>
+            <pub-date pub-type="collection">
+                <year>2018</year>
+            </pub-date>
+            <volume>7</volume>
+            <elocation-id>101</elocation-id>
+            <history>
+                <date date-type="accepted">
+                    <day>19</day>
+                    <month>1</month>
+                    <year>2018</year>
+                </date>
+            </history>
+            <permissions>
+                <copyright-statement>Copyright: &#x00a9; 2018 Fuad A and Hsu CY</copyright-statement>
+                <copyright-year>2018</copyright-year>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                    <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution Licence, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+            </permissions>
+            <self-uri content-type="pdf" xlink:href="f1000research-7-15000.pdf"/>
+            <abstract>
+                <p>Unified Theory of Acceptance and Use of Technology (UTAUT) is an integrative concept that has been used widely to measure IT adoption. However, a recent study in a developing country concluded that UTAUT is not adequate in predicting IT adoption within the context of health system strengthening (HSS). It has been suggested that context-specific dimensions to modify UTAUT should be considered. The objective of this paper is to propose an extension of the theory, called UTAUT for HSS, as a reference for contextualizing health system variables for health IT adoption studies in the developing countries. We combined the multi-level framework of UTAUT with WHO health system building blocks. Modification of the original multi-level framework was performed on the 3 levels. i.e:&#x00a0; the higher-level contextual factors, middle-level, and individual-level contextual factors. Based on this, we propose a modified multi-level framework of technology acceptance and use for health system strengthening setting (UTAUT for HSS).&#x00a0; Given the complexities of health systems, more thoughts regarding the methodologies will be useful to enrich this initial framework.&#x00a0; Commentaries and discussions are invited for improvement, before implementation to obtain more complete story of health IT adoption in the low resources setting.</p>
+            </abstract>
+            <kwd-group kwd-group-type="author">
+                <kwd>UTAUT</kwd>
+                <kwd>health system strengthening</kwd>
+                <kwd>developing countries</kwd>
+            </kwd-group>
+            <funding-group>
+                <funding-statement>The author(s) declared that no grants were involved in supporting this work.</funding-statement>
+            </funding-group>
+        </article-meta>
+    </front>
+    <body>
+        <sec sec-type="intro">
+            <title>Introduction</title>
+            <p>Improved health status of the population can only be achieved by a strengthened health system. Health system strengthening (HSS) efforts require a sound and reliable health information system
+                <sup>
+                    <xref ref-type="bibr" rid="ref-1">1</xref>
+                </sup>. Consequently, adoption of information technology (IT) becomes inevitable to improve data use, program management, and health services. Despite the high expectation, adopting IT in a health system is far from simple. Similar interventions can produce opposite results in different health system environments. From non-adoption and abandonment on one side to a well adopted and sustainable use in another side
+                <sup>
+                    <xref ref-type="bibr" rid="ref-2">2</xref>
+                </sup>. Multiple factors, individual to social, are involved and interact each other influencing the behavior to adopt the technologies.</p>
+            <p>Unified Theory of Acceptance and Use of Technology (UTAUT) is an integrative concept that has been used widely to measure IT adoption since the original paper introduced in 2003
+                <sup>
+                    <xref ref-type="bibr" rid="ref-3">3</xref>
+                </sup>. UTAUT formulated four core determinants (performance expectation, effort expectation, social influence, and facilitating conditions) and up to four moderators (gender, age, experience, and voluntariness of use) influencing individual behavior to adopt and use IT. Scopus scholarly database recorded 8939 citations to UTAUT as of 16 January 2018. Although this has been cited in many fields for more than a decade, nevertheless, only a limited number of papers contributed to integration of UTAUT with external theories or extend the original conceptual framework
+                <sup>
+                    <xref ref-type="bibr" rid="ref-4">4</xref>
+                </sup>.</p>
+            <p>Until 16 January 2018, in PubMed, about 106 articles specifically mentioned UTAUT. Those studies were conducted in developed and developing countries. A recent study from Cameroon where public hospitals clinicians adopted hospital information systems, provided an interesting insight. The authors concluded that UTAUT is not adequate in predicting health IT adoption in a developing country setting. For researchers aiming to measure health IT adoption in developing countries, they suggested considering context-specific dimensions in modifying UTAUT
+                <sup>
+                    <xref ref-type="bibr" rid="ref-5">5</xref>
+                </sup>.</p>
+            <p>This paper aims to contextualize health system dimensions to study IT adoption using UTAUT framework in the low-resources setting. We try to integrate UTAUT with health system frameworks of WHO
+                <sup>
+                    <xref ref-type="bibr" rid="ref-1">1</xref>
+                </sup> with an expectation to invite more debates regarding the appropriate models to evaluate health IT intervention for health system strengthening initiatives, particularly in the developing countries.</p>
+        </sec>
+        <sec>
+            <title>UTAUT for HSS: extension of UTAUT for health system strengthening</title>
+            <p>Cognizant of the low number of UTAUT theoretical integration or extension research, UTAUT authors structured four promising extensions of UTAUT. These include new exogenous mechanisms, new endogenous mechanisms, new moderation mechanisms, and new outcome mechanisms. New exogenous mechanisms represent the impacts of external predictors to the four core determinants (i.e., performance expectation, effort expectation, social influence, and facilitating conditions). New endogenous mechanisms could include: 1) new predictors&#x2019; impact on the two endogenous variables (i.e., behavioral intention and use behavior) or 2) the enhancement of the four core determinants and the two endogenous variables. New moderating mechanisms involve new moderating effects complemented to the original UTAUT. New outcome mechanisms refer to the new effect of behavioral intention and technology use. All the four extensions are integrated into a multi-level framework consisting of higher-level contextual factors, a middle level containing the baseline model of UTAUT, and individual level contextual factors
+                <sup>
+                    <xref ref-type="bibr" rid="ref-4">4</xref>
+                </sup>.</p>
+            <p>This new framework offers opportunities to contextualize system-wide variables within the health system building blocks as predictors influencing the status of health IT adoption. Characteristics of developing countries (in national, sub-national or service delivery level) are very relevant to be embedded in the framework. A recent study identified four contextual factors in developing countries, namely hierarchical roles, aid funding, corruption, and competing priorities that potentially influence the success of health information strengthening
+                <sup>
+                    <xref ref-type="bibr" rid="ref-6">6</xref>
+                </sup>. Developing countries also face a shortage of health workers in rural areas, the variable quality of care, lack of patient compliance, and fraud
+                <sup>
+                    <xref ref-type="bibr" rid="ref-7">7</xref>
+                </sup>.</p>
+            <p>The above issues can be classified according to the six health building blocks i.e.1) service delivery, 2) health workforce, 3) information, 4) medical products, vaccines &amp; technologies (MPVT), 5) financing, and 6) leadership and governance
+                <sup>
+                    <xref ref-type="bibr" rid="ref-1">1</xref>
+                </sup>. Progress and characteristics of the information building block in a country depend on the following components: 1) leadership and governance, 2) strategy and investment, 3) services and applications, 4) standards and interoperability, 5) infrastructure and 6) workforce
+                <sup>
+                    <xref ref-type="bibr" rid="ref-8">8</xref>
+                </sup>.</p>
+            <p>Therefore, we propose UTAUT for HSS, a modified multi-level framework of technology acceptance and use for health system strengthening setting (
+                <xref ref-type="fig" rid="f1">Figure 1</xref>). We combined the UTAUT multi-level framework
+                <sup>
+                    <xref ref-type="bibr" rid="ref-4">4</xref>
+                </sup> with WHO health systems building block
+                <sup>
+                    <xref ref-type="bibr" rid="ref-1">1</xref>
+                </sup> to address the issue of contextualizing health system variables to improve health IT adoption models. Compared to the original framework
+                <sup>
+                    <xref ref-type="bibr" rid="ref-4">4</xref>
+                </sup> we performed a modification at the three levels. In the higher-level, we have changed the original attributes (environment, organization, and location) with five health system building blocks. In the middle-level, we have changed the original new outcome phenomenon with three related outcomes namely individual (health workforce) outcome, intermediate (health system) outcome and overall (health system) outcome. In the individual-level, we specifically mention health workforce and health IT attributes. E-health building blocks as proposed by WHO-ITU
+                <sup>
+                    <xref ref-type="bibr" rid="ref-8">8</xref>
+                </sup> could be embedded into the existing health system building blocks.</p>
+            <fig fig-type="figure" id="f1" position="float">
+                <label>Figure 1. </label>
+                <caption>
+                    <title>UTAUT for HSS: a modified multi-level framework of technology acceptance and use for health system strengthening context.</title>
+                </caption>
+                <graphic xlink:href="f1000research-7-15000-g0000.gif"/>
+            </fig>
+            <p>Another health IT research in a developing country reported process, result, and policy implication of electronic medical record (EMR) readiness assessment on 381 health facilities in Kenya
+                <sup>
+                    <xref ref-type="bibr" rid="ref-9">9</xref>
+                </sup>. This report is an example of event-time related activities before the implementation of health IT intervention. Since IT adoption is a time-dependent process, this current framework allows for multiple assessments periodically that could be compared to measure the progress of adoption.</p>
+            <p>Although promising, researchers wanting to use UTAUT in HSS setting should consider the potential limitations. Many UTAUT studies depend on a restricted user type, such as the office workers. In health system context, involving a different type of user including patients, various type of health workers and policymakers will enrich the big picture. UTAUT has long been recognized as a functionalist-institutionalist theory that focuses on systemic stability. Combining with other interpretive theories will be useful to better understand the complex social and symbolic reality of health IT adoption
+                <sup>
+                    <xref ref-type="bibr" rid="ref-10">10</xref>
+                </sup>. This will unsurprisingly trigger the discussion of the pro and con of using other methods such as Implementation Research, Mixed Methods, and Qualitative Studies to apply UTAUT within the milieu of HSS setting.</p>
+        </sec>
+    </body>
+    <back>
+        <ref-list>
+            <ref id="ref-1">
+                <label>1</label>
+                <mixed-citation publication-type="journal">
+                    <collab>World Health Organization</collab>:
+                    <article-title>Everybody's business--strengthening health systems to improve health outcomes: WHO's framework for action</article-title>.<year>2007</year>.
+                    <ext-link ext-link-type="uri" xlink:href="https://www.k4health.org/sites/default/files/WHO%20HSS%202007.pdf">Reference Source</ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-2">
+                <label>2</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+				
+                        <name>
+                            <surname>Greenhalgh</surname>
+                            <given-names>T</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Wherton</surname>
+                            <given-names>J</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Papoutsi</surname>
+                            <given-names>C</given-names>
+                        </name>
+				
+                        <etal/>
+			</person-group>:
+                    <article-title>Beyond Adoption: A New Framework for Theorizing and Evaluating Nonadoption, Abandonment, and Challenges to the Scale-Up, Spread, and Sustainability of Health and Care Technologies.</article-title>
+                    <source>
+				
+                        <italic>J Med Internet Res.</italic>
+			</source>
+                    <year>2017</year>;<volume>19</volume>(<issue>11</issue>):<fpage>e367</fpage>.
+                    <pub-id pub-id-type="pmid">29092808</pub-id>
+                    <pub-id pub-id-type="doi">10.2196/jmir.8775</pub-id>
+                    <pub-id pub-id-type="pmcid">5688245</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-3">
+                <label>3</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+				
+                        <name>
+                            <surname>Venkatesh</surname>
+                            <given-names>V</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Morris</surname>
+                            <given-names>MG</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Davis</surname>
+                            <given-names>GB</given-names>
+                        </name>
+				
+                        <etal/>
+			</person-group>:
+                    <article-title>User acceptance of information technology: Toward a unified view.</article-title>
+                    <source>
+				
+                        <italic>MIS Quarterly.</italic>
+			</source>
+                    <year>2003</year>;<volume>27</volume>(<issue>3</issue>):<fpage>425</fpage>&#x2013;<lpage>478</lpage>.
+                    <pub-id pub-id-type="doi">10.2307/30036540</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-4">
+                <label>4</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+				
+                        <name>
+                            <surname>Venkatesh</surname>
+                            <given-names>V</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Thong</surname>
+                            <given-names>JY</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Xu</surname>
+                            <given-names>X</given-names>
+                        </name>
+			</person-group>:
+                    <article-title>Unified Theory of Acceptance and Use of Technology: A Synthesis and the Road Ahead.</article-title>
+                    <source>
+				
+                        <italic>J Assoc Inf Syst.</italic>
+			</source>
+                    <year>2016</year>;<volume>17</volume>(<issue>5</issue>):<fpage>328</fpage>&#x2013;<lpage>376</lpage>.
+                    <ext-link ext-link-type="uri" xlink:href="http://www.vvenkatesh.com/wp-content/uploads/dlm_uploads/2016/01/2016_JAIS_Venkatesh-et-al.-UTAUT.pdf">Reference Source</ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-5">
+                <label>5</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+				
+                        <name>
+                            <surname>Bawack</surname>
+                            <given-names>RE</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Kala Kamdjoug</surname>
+                            <given-names>JR</given-names>
+                        </name>
+			</person-group>:
+                    <article-title>Adequacy of UTAUT in clinician adoption of health information systems in developing countries: The case of Cameroon.</article-title>
+                    <source>
+				
+                        <italic>Int J Med Inform.</italic>
+			</source>
+                    <year>2018</year>;<volume>109</volume>:<fpage>15</fpage>&#x2013;<lpage>22</lpage>.
+                    <pub-id pub-id-type="pmid">29195701</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/j.ijmedinf.2017.10.016</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-6">
+                <label>6</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+				
+                        <name>
+                            <surname>Thomas</surname>
+                            <given-names>JC</given-names>
+                        </name>
+			</person-group>:
+                    <article-title>Contextual factors affecting health information system strengthening.</article-title>
+                    <source>
+				
+                        <italic>Glob Public Health.</italic>
+			</source>
+                    <year>2017</year>;<volume>12</volume>(<issue>12</issue>):<fpage>1568</fpage>&#x2013;<lpage>1578</lpage>.
+                    <pub-id pub-id-type="pmid">27841079</pub-id>
+                    <pub-id pub-id-type="doi">10.1080/17441692.2016.1256419</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-7">
+                <label>7</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+				
+                        <name>
+                            <surname>Lewis</surname>
+                            <given-names>T</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Synowiec</surname>
+                            <given-names>C</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Lagomarsino</surname>
+                            <given-names>G</given-names>
+                        </name>
+				
+                        <etal/>
+			</person-group>:
+                    <article-title>E-health in low- and middle-income countries: findings from the Center for Health Market Innovations.</article-title>
+                    <source>
+				
+                        <italic>Bull World Health Organ.</italic>
+			</source>
+                    <year>2012</year>;<volume>90</volume>(<issue>5</issue>):<fpage>332</fpage>&#x2013;<lpage>340</lpage>.
+                    <pub-id pub-id-type="pmid">22589566</pub-id>
+                    <pub-id pub-id-type="doi">10.2471/BLT.11.099820</pub-id>
+                    <pub-id pub-id-type="pmcid">3341696</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-8">
+                <label>8</label>
+                <mixed-citation publication-type="journal">
+                    <collab>World Health Organization, International Telecommunication Union</collab>:
+                    <article-title>National eHealth strategy toolkit</article-title>.<year>2012</year>.
+                    <ext-link ext-link-type="uri" xlink:href="https://www.itu.int/dms_pub/itu-d/opb/str/D-STR-E_HEALTH.05-2012-PDF-E.pdf">Reference Source</ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-9">
+                <label>9</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+				
+                        <name>
+                            <surname>Muthee</surname>
+                            <given-names>V</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Bochner</surname>
+                            <given-names>AF</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Kang'a</surname>
+                            <given-names>S</given-names>
+                        </name>
+				
+                        <etal/>
+			</person-group>:
+                    <article-title>Site readiness assessment preceding the implementation of a HIV care and treatment electronic medical record system in Kenya.</article-title>
+                    <source>
+				
+                        <italic> Int J Med Inform.</italic>
+			</source>
+                    <year>2018</year>;<volume>109</volume>:<fpage>23</fpage>&#x2013;<lpage>29</lpage>.
+                    <pub-id pub-id-type="pmid">29195702</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/j.ijmedinf.2017.10.019</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-10">
+                <label>10</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+				
+                        <name>
+                            <surname>Sovacool</surname>
+                            <given-names>BK</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Hess</surname>
+                            <given-names>DJ</given-names>
+                        </name>
+			</person-group>:
+                    <article-title>Ordering theories: Typologies and conceptual frameworks for sociotechnical change.</article-title>
+                    <source>
+				
+                        <italic>Soc Stud Sci.</italic>
+			</source>
+                    <year>2017</year>;<volume>47</volume>(<issue>5</issue>):<fpage>703</fpage>&#x2013;<lpage>750</lpage>.
+                    <pub-id pub-id-type="pmid">28641502</pub-id>
+                    <pub-id pub-id-type="doi">10.1177/0306312717709363</pub-id>
+                    <pub-id pub-id-type="pmcid">5648049</pub-id>
+                </mixed-citation>
+            </ref>
+        </ref-list>
+    </back>
+    <sub-article article-type="ref-report" id="report36284">
+        <front-stub>
+            <article-id pub-id-type="doi">10.5256/f1000research.15000.r36284</article-id>
+            <title-group>
+                <article-title>Reviewer response for version 1</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Perakslis</surname>
+                        <given-names>Eric D.</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="r36284a1">1</xref>
+                    <role>Referee</role>
+                    <uri content-type="orcid">https://orcid.org/0000-0003-2395-810X</uri>
+                </contrib>
+                <aff id="r36284a1">
+                    <label>1</label>Department of Biomedical Informatics, Harvard Medical School, Boston, MA, USA</aff>
+            </contrib-group>
+            <author-notes>
+                <fn fn-type="conflict">
+                    <p>
+                        <bold>Competing interests: </bold>No competing interests were disclosed.</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="epub">
+                <day>30</day>
+                <month>7</month>
+                <year>2018</year>
+            </pub-date>
+            <permissions>
+                <copyright-statement>Copyright: &#x00a9; 2018 Perakslis ED</copyright-statement>
+                <copyright-year>2018</copyright-year>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                    <license-p>This is an open access peer review report distributed under the terms of the Creative Commons Attribution Licence, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+            </permissions>
+            <related-article ext-link-type="doi" id="relatedArticleReport36284" related-article-type="peer-reviewed-article" xlink:href="10.12688/f1000research.13798.1"/>
+            <custom-meta-group>
+                <custom-meta>
+                    <meta-name>recommendation</meta-name>
+                    <meta-value>approve</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </front-stub>
+        <body>
+            <p>The article would benefit from the inclusion of definition and context for health information technology. &#x00a0;For example, by HIT, does the author describe full EMR implementations, which are quite complex, versus other HIT tools? &#x00a0;Is the proposed framework suitable and needed to all forms of HIT efforts?</p>
+            <p> </p>
+            <p> Second, the author briefly describes other methodologies at the end of the paper. &#x00a0;It would be helpful to consider a few other methods in a bit more detail to compare and contrast the potential of the proposed/modified UTAUT approach.</p>
+            <p> </p>
+            <p> Lastly, the piece could benefit from examples of the proposed recommendations, even if hypothetical, that would provide some practical grounding and understanding of the proposed enhancements to the UTAUT framework.</p>
+            <p>Is the topic of the opinion article discussed accurately in the context of the current literature?</p>
+            <p>Partly</p>
+            <p>Are arguments sufficiently supported by evidence from the published literature?</p>
+            <p>Partly</p>
+            <p>Are all factual statements correct and adequately supported by citations?</p>
+            <p>Yes</p>
+            <p>Are the conclusions drawn balanced and justified on the basis of the presented arguments?</p>
+            <p>Yes</p>
+            <p>Reviewer Expertise:</p>
+            <p>NA</p>
+            <p>I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard.</p>
+        </body>
+        <sub-article article-type="response" id="comment3867-36284">
+            <front-stub>
+                <contrib-group>
+                    <contrib contrib-type="author">
+                        <name>
+                            <surname>Fuad</surname>
+                            <given-names>Anis</given-names>
+                        </name>
+                        <aff>Universitas Gadjah Mada, Indonesia</aff>
+                    </contrib>
+                </contrib-group>
+                <author-notes>
+                    <fn fn-type="conflict">
+                        <p>
+                            <bold>Competing interests: </bold>No competing interests were disclosed.</p>
+                    </fn>
+                </author-notes>
+                <pub-date pub-type="epub">
+                    <day>1</day>
+                    <month>8</month>
+                    <year>2018</year>
+                </pub-date>
+            </front-stub>
+            <body>
+                <p>We thank you for the constructive comments and suggestions to this paper. We agree to elaborate on the definition of health IT, comparisons with other methodologies and hypothetical examples that will come up from this framework. We will accommodate those issues in the second revision of this paper.</p>
+            </body>
+        </sub-article>
+    </sub-article>
+    <sub-article article-type="ref-report" id="report36269">
+        <front-stub>
+            <article-id pub-id-type="doi">10.5256/f1000research.15000.r36269</article-id>
+            <title-group>
+                <article-title>Reviewer response for version 1</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Pillai</surname>
+                        <given-names>Vijayan Kumara</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="r36269a1">1</xref>
+                    <role>Referee</role>
+                </contrib>
+                <aff id="r36269a1">
+                    <label>1</label>University of Texas at Arlington, Arlington, TX, USA</aff>
+            </contrib-group>
+            <author-notes>
+                <fn fn-type="conflict">
+                    <p>
+                        <bold>Competing interests: </bold>No competing interests were disclosed.</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="epub">
+                <day>27</day>
+                <month>7</month>
+                <year>2018</year>
+            </pub-date>
+            <permissions>
+                <copyright-statement>Copyright: &#x00a9; 2018 Pillai VK</copyright-statement>
+                <copyright-year>2018</copyright-year>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                    <license-p>This is an open access peer review report distributed under the terms of the Creative Commons Attribution Licence, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+            </permissions>
+            <related-article ext-link-type="doi" id="relatedArticleReport36269" related-article-type="peer-reviewed-article" xlink:href="10.12688/f1000research.13798.1"/>
+            <custom-meta-group>
+                <custom-meta>
+                    <meta-name>recommendation</meta-name>
+                    <meta-value>approve</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </front-stub>
+        <body>
+            <p>This article makes valuable contribution to the theory of UTAUT. Even though the extension suggested is by no means surprising, the authors have explained it well and conveyed their ideas both diagrammatically and in words. Only criticism is that, they have not reported any empirical support for the theoretical extension proposed.</p>
+            <p>Is the topic of the opinion article discussed accurately in the context of the current literature?</p>
+            <p>Yes</p>
+            <p>Are arguments sufficiently supported by evidence from the published literature?</p>
+            <p>Partly</p>
+            <p>Are all factual statements correct and adequately supported by citations?</p>
+            <p>Yes</p>
+            <p>Are the conclusions drawn balanced and justified on the basis of the presented arguments?</p>
+            <p>Yes</p>
+            <p>Reviewer Expertise:</p>
+            <p>NA</p>
+            <p>I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard.</p>
+        </body>
+        <sub-article article-type="response" id="comment3866-36269">
+            <front-stub>
+                <contrib-group>
+                    <contrib contrib-type="author">
+                        <name>
+                            <surname>Fuad</surname>
+                            <given-names>Anis</given-names>
+                        </name>
+                        <aff>Universitas Gadjah Mada, Indonesia</aff>
+                    </contrib>
+                </contrib-group>
+                <author-notes>
+                    <fn fn-type="conflict">
+                        <p>
+                            <bold>Competing interests: </bold>No competing interests were disclosed.</p>
+                    </fn>
+                </author-notes>
+                <pub-date pub-type="epub">
+                    <day>1</day>
+                    <month>8</month>
+                    <year>2018</year>
+                </pub-date>
+            </front-stub>
+            <body>
+                <p>Thanks for your useful comments and advice. We will elaborate examples of the empirical evidence in the second version of this paper.</p>
+            </body>
+        </sub-article>
+    </sub-article>
+</article>

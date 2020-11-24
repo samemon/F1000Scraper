@@ -1,0 +1,1893 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.2 20190208//EN" "http://jats.nlm.nih.gov/publishing/1.2/JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article">
+    <front>
+        <journal-meta>
+            <journal-id journal-id-type="pmc">F1000Research</journal-id>
+            <journal-title-group>
+                <journal-title>F1000Research</journal-title>
+            </journal-title-group>
+            <issn pub-type="epub">2046-1402</issn>
+            <publisher>
+                <publisher-name>F1000 Research Limited</publisher-name>
+                <publisher-loc>London, UK</publisher-loc>
+            </publisher>
+        </journal-meta>
+        <article-meta>
+            <article-id pub-id-type="doi">10.12688/f1000research.17707.1</article-id>
+            <article-categories>
+                <subj-group subj-group-type="heading">
+                    <subject>Research Article</subject>
+                </subj-group>
+                <subj-group>
+                    <subject>Articles</subject>
+                </subj-group>
+            </article-categories>
+            <title-group>
+                <article-title>Efficacy of a silver colloidal gel against selected oral bacteria 
+                    <italic>in vitro</italic>
+                </article-title>
+                <fn-group content-type="pub-status">
+                    <fn>
+                        <p>[version 1; peer review: 2 approved, 1 approved with reservations]</p>
+                    </fn>
+                </fn-group>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author" corresp="no">
+                    <name>
+                        <surname>Tran</surname>
+                        <given-names>Phat L.</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Investigation</role>
+                    <role content-type="http://credit.casrai.org/">Writing &#x2013; Review &amp; Editing</role>
+                    <xref ref-type="aff" rid="a1">1</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no">
+                    <name>
+                        <surname>Luth</surname>
+                        <given-names>Keaton</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Writing &#x2013; Review &amp; Editing</role>
+                    <xref ref-type="aff" rid="a1">1</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no">
+                    <name>
+                        <surname>Wang</surname>
+                        <given-names>James</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Writing &#x2013; Review &amp; Editing</role>
+                    <xref ref-type="aff" rid="a1">1</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no">
+                    <name>
+                        <surname>Ray</surname>
+                        <given-names>Coby</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Writing &#x2013; Review &amp; Editing</role>
+                    <xref ref-type="aff" rid="a1">1</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no">
+                    <name>
+                        <surname>de Souza</surname>
+                        <given-names>Anselm</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Conceptualization</role>
+                    <xref ref-type="aff" rid="a2">2</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no">
+                    <name>
+                        <surname>Mehta</surname>
+                        <given-names>Dilip</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Conceptualization</role>
+                    <role content-type="http://credit.casrai.org/">Writing &#x2013; Original Draft Preparation</role>
+                    <role content-type="http://credit.casrai.org/">Writing &#x2013; Review &amp; Editing</role>
+                    <xref ref-type="aff" rid="a2">2</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no">
+                    <name>
+                        <surname>Moeller</surname>
+                        <given-names>K. W.</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Writing &#x2013; Review &amp; Editing</role>
+                    <xref ref-type="aff" rid="a3">3</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no">
+                    <name>
+                        <surname>Moeller</surname>
+                        <given-names>C. D.</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Writing &#x2013; Review &amp; Editing</role>
+                    <xref ref-type="aff" rid="a3">3</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                    <name>
+                        <surname>Reid</surname>
+                        <given-names>Ted W.</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Project Administration</role>
+                    <role content-type="http://credit.casrai.org/">Writing &#x2013; Original Draft Preparation</role>
+                    <role content-type="http://credit.casrai.org/">Writing &#x2013; Review &amp; Editing</role>
+                    <xref ref-type="corresp" rid="c1">a</xref>
+                    <xref ref-type="aff" rid="a1">1</xref>
+                    <xref ref-type="aff" rid="a4">4</xref>
+                </contrib>
+                <aff id="a1">
+                    <label>1</label>Departments of Ophthalmology and Visual Sciences, Texas Tech University Health Sciences Center, Lubbock, Texas, USA</aff>
+                <aff id="a2">
+                    <label>2</label>Viridis BioPharma Pvt Ltd, Mumbai, Maharashtra, India</aff>
+                <aff id="a3">
+                    <label>3</label>American Biotech Labs LLC, Alpine, Utah, USA</aff>
+                <aff id="a4">
+                    <label>4</label>Selenium Ltd, Austin, TX, USA</aff>
+            </contrib-group>
+            <author-notes>
+                <corresp id="c1">
+                    <label>a</label>
+                    <email xlink:href="mailto:ted.reid@ttuhsc.edu">ted.reid@ttuhsc.edu</email>
+                </corresp>
+                <fn fn-type="conflict">
+                    <p>
+                        <bold>Competing interests: </bold>Dr. Dilip Mehta and Dr. Anselm de Souza are directors at Viridis BioPharma Pvt. Ltd. and K W Moeller and C D Moeller are directors at American Biotech Labs.</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="epub">
+                <day>7</day>
+                <month>3</month>
+                <year>2019</year>
+            </pub-date>
+            <pub-date pub-type="collection">
+                <year>2019</year>
+            </pub-date>
+            <volume>8</volume>
+            <elocation-id>267</elocation-id>
+            <history>
+                <date date-type="accepted">
+                    <day>14</day>
+                    <month>1</month>
+                    <year>2019</year>
+                </date>
+            </history>
+            <permissions>
+                <copyright-statement>Copyright: &#x00a9; 2019 Tran PL et al.</copyright-statement>
+                <copyright-year>2019</copyright-year>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                    <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution Licence, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+            </permissions>
+            <self-uri content-type="pdf" xlink:href="f1000research-8-19360.pdf"/>
+            <abstract>
+                <p>
+                    <bold>Background: </bold>It is necessary to develop new strategies to protect against bacteria such as S
+                    <italic>treptococcus mutans</italic>, S
+                    <italic>treptococcus sanguis</italic>, and
+                    <italic> Streptococcus salivarius</italic>, which contribute to tooth decay and plaque formation. Our current study investigated the efficacy of a colloidal silver gel in inhibiting biofilm formation by these principal oral bacteria
+                    <italic>, in vitro</italic>. The aim of this study was to assess the efficacy of a colloidal silver gel formulation for inhibiting bacterial biofilm formation (Ag-gel) by the principal bacteria that cause plaque formation and tooth decay.</p>
+                <p> 
+                    <bold>Methods:</bold> The effect of Ag-gel on viability of 
+                    <italic>S. mutans</italic>, 
+                    <italic>S. sanguis</italic>,
+                    <italic> and S. salivarius</italic> was assessed by quantifying their colony forming units (CFU) in presence or absence of the test gel. The effect of this formulation on biofilm-forming ability of these bacteria was studied through scanning electron microscopy.</p>
+                <p> 
+                    <bold>Results: </bold>Using the CFU assays, over 6 logs of inhibition (100%) were found for 
+                    <italic>S. mutans</italic>, 
+                    <italic>S. sanguis</italic>, and 
+                    <italic>S. salivarius</italic> for the Ag-gel-treated bacteria when compared with the control gel. In addition, the Ag-gel also inhibited biofilm formation by these three bacteria mixed together. These results were confirmed by scanning electron microscopy.</p>
+                <p> 
+                    <bold>Conclusions:</bold> The Ag-gel was effective in preventing biofilm formation by 
+                    <italic>S. mutans, S. sanguis, and S. salivarius</italic>. This Ag-gel should be tested for the ability to block plaque formation in the mouth, through its use as a tooth paste.</p>
+            </abstract>
+            <kwd-group kwd-group-type="author">
+                <kwd>Silver</kwd>
+                <kwd>biofilm</kwd>
+                <kwd>dental plaque</kwd>
+                <kwd>dental caries</kwd>
+            </kwd-group>
+            <funding-group>
+                <award-group id="fund-1">
+                    <funding-source>Viridis BioPharma Pvt. Ltd.</funding-source>
+                </award-group>
+                <funding-statement>This study was funded by Viridis BioPharma Pvt. Ltd.</funding-statement>
+                <funding-statement>
+                    <italic>The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</italic>
+                </funding-statement>
+            </funding-group>
+        </article-meta>
+    </front>
+    <body>
+        <sec sec-type="intro">
+            <title>Introduction</title>
+            <p>Problems associated with maintenance of oral health are faced by many people throughout the world, irrespective of their age and gender. The most common oral problems amongst all are dental caries, bleeding gums (periodontal diseases) and oral cancers
+                <sup>
+                    <xref ref-type="bibr" rid="ref-1">1</xref>
+                </sup>. Over few decades, the severity and prevalence of dental caries, and oral cancer, which can be a fatal condition, have increased
+                <sup>
+                    <xref ref-type="bibr" rid="ref-2">2</xref>,
+                    <xref ref-type="bibr" rid="ref-3">3</xref>
+                </sup>.</p>
+            <p>In the US, caries were estimated to be five times as common as asthma and seven times as common as allergic rhinitis
+                <sup>
+                    <xref ref-type="bibr" rid="ref-3">3</xref>
+                </sup>. According to the World Health Organization (WHO), dental caries are caused due to high sugar consumption, which is also linked with being overweight and obesity
+                <sup>
+                    <xref ref-type="bibr" rid="ref-4">4</xref>
+                </sup>. The incidence of periodontal diseases is estimated to be about 20&#x2013;50% of the global population
+                <sup>
+                    <xref ref-type="bibr" rid="ref-5">5</xref>
+                </sup>. There are two approaches for the management of caries: extraction and preventions. The primary treatment modality for these caries, though very painful, is extraction of carious teeth
+                <sup>
+                    <xref ref-type="bibr" rid="ref-2">2</xref>,
+                    <xref ref-type="bibr" rid="ref-3">3</xref>
+                </sup>. The routine prevention measures for dental caries are to maintain oral hygiene, involving the use of fluoride toothpaste and/or xylitol
+                <sup>
+                    <xref ref-type="bibr" rid="ref-6">6</xref>,
+                    <xref ref-type="bibr" rid="ref-7">7</xref>
+                </sup>. Looking at the currently prevailing painful treatment, there is a need for new products to be developed for the prevention of oral cavities. The pathological organisms responsible for these caries/ periodontal diseases are 
+                <italic>Streptococcus mutans</italic>, 
+                <italic>Streptococcus sanguis</italic> and 
+                <italic>Streptococcus salivarius.</italic>
+            </p>
+            <p>Since mouth washes and different tinctures have been found to be ineffective against dental biofilm formation
+                <sup>
+                    <xref ref-type="bibr" rid="ref-8">8</xref>
+                </sup>, finding novel products effective against cariogenic microbes like 
+                <italic>S. mutans</italic> is important. While Listerine
+                <sup>&#x00ae;</sup>, has some antimicrobial activity, toothpastes such as Toss-K and Senquel-AD have no activity against four important dental caries pathogens
+                <sup>
+                    <xref ref-type="bibr" rid="ref-9">9</xref>
+                </sup>. Thus, the search continues for more effective agent(s)
+                <sup>
+                    <xref ref-type="bibr" rid="ref-10">10</xref>
+                </sup>. A novel product that is effective against biofilm formation would be an important contribution to chewing sticks, toothpastes or other dental products.</p>
+            <p>
+                <italic>S. mutans</italic> has the ability to adhere the enamel surface, produce acid metabolites, build glycogen reserves and to synthesize extracellular polysaccharides. Mutans streptococci create acidic environment creating a risk for formation of cavity. During the formation of dental plaque, 
+                <italic>S. mutans</italic> adhere to primary colonizers by cell to cell interaction which forms biofilm on the teeth which induces bacterial growth
+                <sup>
+                    <xref ref-type="bibr" rid="ref-11">11</xref>
+                </sup>.</p>
+            <p>
+                <italic>Streptococcus sanguis</italic> is normally found in the human oral cavity. Due to low cariogenicity, it forms a colony on tooth surface which gets aggregated by other oral bacteria and leads to maturation of dental plaque
+                <sup>
+                    <xref ref-type="bibr" rid="ref-12">12</xref>
+                </sup>. Another organism, 
+                <italic>Streptococcus salivarius</italic> belonging to the 
+                <italic>salivarius</italic> subspecies is found in oral cavity in humans a few hours after birth and remain there as the predominant inhabitant. All these organisms enhance caries formation and thus the progression of periodontal disease. The aforementioned treatment modalities are unsuccessful in controlling or killing these bacteria and hence in prevention of caries.</p>
+            <p>Silver has been used since ancient times as antibacterial agent for various pathological elements. During the last century, the antimicrobial action of silver has been investigated
+                <sup>
+                    <xref ref-type="bibr" rid="ref-13">13</xref>
+                </sup>. Colloidal silver is observed to be less toxic than ionic silver and has good compatibility with human cells. Silver was found to be effective in dentine desensitizer and is used as root canal disinfectant
+                <sup>
+                    <xref ref-type="bibr" rid="ref-14">14</xref>
+                </sup>. Silver nanoparticles are also used in dental material depending on the type of material being used. For example, titanium samples are mainly soaked in AgNO
+                <sub>3</sub> solution for dental implants to avoid bacterial contamination
+                <sup>
+                    <xref ref-type="bibr" rid="ref-15">15</xref>
+                </sup>. The mechanism of action of silver compounds on carious tooth is to inhibit demineralization process and anti-bacterial effect by interfering with bacterial cell membrane, cytoplasmic enzyme and inhibition of DNA replication of bacteria
+                <sup>
+                    <xref ref-type="bibr" rid="ref-14">14</xref>
+                </sup>.</p>
+            <p>Oral health being a global concern, it is essential to develop strategies to prevent dental caries and plaque formation. This study aimed at investigating the efficacy of a colloidal silver gel in inhibiting biofilm formation 
+                <italic>in vitro</italic> by the principal oral bacteria, 
+                <italic>Streptococcus mutans</italic>, 
+                <italic>Streptococcus sanguis</italic> and 
+                <italic>Streptococcus salivarius.</italic>
+            </p>
+        </sec>
+        <sec sec-type="methods">
+            <title>Methods</title>
+            <sec>
+                <title>Bacterial strains, media, and growth conditions</title>
+                <p>
+                    <italic>Streptococcus salivarius</italic> strain ATCC&#x00ae; 13419
+                    <sup>TM</sup>, 
+                    <italic>Streptococcus sanguis</italic> ATCC
+                    <sup>&#x00ae;</sup> 10556
+                    <sup>TM</sup>, and 
+                    <italic>Streptococcus mutans</italic> strain ATCC&#x00ae; 35668
+                    <sup>TM</sup> were obtained from Remel (Lenexa, KS, USA). 
+                    <italic>S. salivarius</italic>, 
+                    <italic>S. sanguis</italic>, and 
+                    <italic>S. mutans</italic> were routinely grown in Brain Heart Infusion (BHI, #53286, Sigma-Aldrich, St. Louis, MO), at 37&#x00b0;C for 24 h.</p>
+            </sec>
+            <sec>
+                <title>Colloidal silver materials</title>
+                <p>Colloidal silver in a gel form was obtained from Viridis BioPharma Pvt., Ltd. (Mumbai, India). It was tested by evenly spreading 0.5 g on a 6-mm blank paper disc (BD Diagnostic System, Sparks, US) inoculated with the bacteria listed in the above paragraph. We assessed the bacteria remaining on the disc by the CFU assays below.</p>
+            </sec>
+            <sec>
+                <title>
+                    <italic>In vitro</italic> colony forming unit (CFU) assays</title>
+                <p>A total of three blank sterile (6 mm diameter) cellulose paper discs were placed onto  individual LB agar plates. Approximately 1x10
+                    <sup>3</sup> CFUs of the test bacteria were inoculated onto each disc. In the biofilm mixture study, approximately 4x10
+                    <sup>2</sup> of each bacterium were combined together. Either no gel (untreated), Ag-gel, or placebo gel (Viridis gel without Ag), were placed over the discs inoculated with bacteria. The plates were incubated under micro-aerobic conditions, which were generated by placing the plates inside a gas jar containing an EZ GasPak (Catalog no. 260678, BD, Franklin Lakes, NJ, USA) at 37&#x00b0;C for 24 h. Following incubation, each cellulose disc was analyzed for the remaining viable bacteria by the CFU assay as previously described
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-16">16</xref>
+                    </sup>. Each piece was carefully removed from the well, rinsed gently with sterile distilled H
+                    <sub>2</sub>O, and placed in a microcentrifuge tube containing 1 ml PBS. The tubes were placed in a water bath sonicator for 5 min to loosen the cells within the biofilm and then vigorously vortexed 3 times for 1 min to detach the cells. Suspended cells were serially diluted 10-fold in PBS, and 10-&#x00b5;l aliquots of each dilution were spotted onto BHI plates. The plates were incubated at 37&#x00b0;C for 24 h. In experiments where no bacteria were detected, the remaining 900 &#x00b5;l of undiluted samples were tested. Thus, the equation for back-calculating the bacterial concentration was CFU x dilution factor x 100, with the exception of the 100-&#x00b5;l sample which was calculated as CFU x 10. This means that the smallest number of bacteria that we could detect would be approximately 1 bacterium. All experiments were performed in triplicate.</p>
+            </sec>
+            <sec>
+                <title>Scanning electron microscopy (SEM)</title>
+                <p>Biofilms formed on discs were prepared for SEM by standard techniques and the experiment was performed as previously described
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-16">16</xref>&#x2013;
+                        <xref ref-type="bibr" rid="ref-18">18</xref>
+                    </sup>. 
+                    <italic>S. salivarius, S. sanguis, S. mutans</italic> or a mixture of 
+                    <italic>S. salivarius, S. sanguis,</italic> and 
+                    <italic>S. mutans</italic> biofilms were established on cellulose discs (with or without silver gel, as described above). After 24 h of incubation, each cellulose disc and any adherent bacteria were fixed with 2% (wt/vol) glutaraldehyde in filter-sterilized 0.05 M PBS (pH 7.4) at room temperature for 16 h and then rinsed three times for 15 min each in 0.05 M PBS. The fixed cellulose discs were then dehydrated in successive ethanol-water mixtures with increasing ethanol concentrations (20%, 40%, 60%, 80%, and 95% [vol/vol]) for 15 min each and then twice in absolute ethanol for 15 min. The ethanol-dehydrated samples were then placed in an absolute ethanol bath, which was placed in an EMS 850 critical point drier (Electron Microscopy Sciences, Hatfield, PA). The ethanol was replaced by successive additions of liquid carbon dioxide. Once the liquid CO
+                    <sub>2</sub> had replaced the ethanol, the chamber was heated under pressure to reach the critical evaporation point of carbon dioxide. The chamber was then slowly vented of gaseous CO
+                    <sub>2</sub> and the dry samples removed. The dried samples were affixed to aluminum mounts with double-sided carbon adhesive tape and sputter-coated with platinum and palladium to a thickness of 18 nm. Observations were performed at 5 to 7 kV with a scanning electron microscope (Hitachi S-570; Japan). Five fields of view at 5,000X-10,000X magnification were taken at randomly chosen areas from the optic surface of each sample. A biofilm-positive field was defined as being occupied by biofilm over at least half of the visible area.</p>
+            </sec>
+            <sec>
+                <title>Statistical analysis</title>
+                <p>The results of the CFU assays were analyzed with Prism
+                    <sup>&#x00ae;</sup> version 4.03 (GraphPad Software, San Diego, US) with 95% confidence intervals (CIs) of the difference. Comparisons of the 
+                    <italic>in vitro</italic> biofilms formed on the cellulose discs with either Ag-gel dressings or Ag-free ones were analyzed by a two-tailed unpaired t-test to determine significant differences. All experiments were done in triplicate.  The significance limit was P&lt;0.05.</p>
+            </sec>
+        </sec>
+        <sec sec-type="results">
+            <title>Results</title>
+            <sec>
+                <title>Effect of Ag-gel on bacterial biofilm formation for 
+                    <italic>in vitro</italic> CFU studies</title>
+                <p>The results for the 24-h micro-aerobic 
+                    <italic>in vitro</italic> studies using 
+                    <italic>S. salivarius</italic>, 
+                    <italic>S. sanguis</italic>, and 
+                    <italic>S. mutans</italic> isolates, as well as the mixture of all three, are illustrated in 
+                    <xref ref-type="fig" rid="f1">Figure 1</xref>. As seen in 
+                    <xref ref-type="fig" rid="f1">Figure 1A&#x2013;D</xref>, the cellulose discs that had no treatment, and those that were treated with the placebo gel, showed over 6 logs of bacterial growth in each case. However, the silver containing gel showed 100% inhibition (over 6 log of killing) in all cases with 
+                    <italic>S. salivarius</italic>, 
+                    <italic>S. sanguis</italic>, 
+                    <italic>S. mutans</italic>, or the combination of all three strains, when compared with the control, as showed in 
+                    <xref ref-type="fig" rid="f1">Figure 1A&#x2013;D</xref>. Raw data are available on OSF
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-19">19</xref>
+                    </sup>.</p>
+                <fig fig-type="figure" id="f1" position="float">
+                    <label>Figure 1. </label>
+                    <caption>
+                        <title>Colony forming unit analysis of biofilm formation.</title>
+                        <p>(
+                            <bold>A</bold>) 
+                            <italic>S. salivarius</italic>, (
+                            <bold>B</bold>) 
+                            <italic>S. sanguis</italic>, (
+                            <bold>C</bold>) 
+                            <italic>S. mutans</italic> or (
+                            <bold>D</bold>) all three on untreated discs, discs treated with placebo gel or discs treated with colloidal silver gel.</p>
+                    </caption>
+                    <graphic xlink:href="f1000research-8-19360-g0000.gif"/>
+                </fig>
+            </sec>
+            <sec>
+                <title>Effect of Ag-gel dressing on bacterial biofilm formation for 
+                    <italic>in vitro</italic> SEM studies</title>
+                <p>To confirm results of CFU assay described in previous section, the biofilm formation of 
+                    <italic>S. salivarius</italic>, 
+                    <italic>S. sanguis</italic>, 
+                    <italic>S. mutans</italic> or the mixture of all three strains was studied on cellulose discs by SEM. 
+                    <italic>S. salivarius</italic>, 
+                    <italic>S. sanguis</italic>, 
+                    <italic>S. mutans</italic> and the mixture of all three strains, were inoculated onto the discs in the same manner as for the CFU biofilm assay. Untreated discs were coated with placebo gel only. As above the discs were incubated for 24 h under micro-aerobic conditions at 37&#x00b0;C. As seen in 
+                    <xref ref-type="fig" rid="f2">Figure 2</xref>, 
+                    <italic>S. salivarius</italic>, 
+                    <italic>S. sanguis</italic>, 
+                    <italic>S. mutans</italic> and the mixture of all three strains, formed typical biofilms characterized by the presence of micro-colonies on the cellulose discs receiving no treatment, or treated with the placebo gel. However, no bacteria were seen on the cellulose discs treated with colloidal silver gel. These results confirm those obtained with the CFU assay. Raw SEM images are available on OSF
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-19">19</xref>
+                    </sup>.</p>
+                <fig fig-type="figure" id="f2" position="float">
+                    <label>Figure 2. </label>
+                    <caption>
+                        <title>Scanning electron microscopy (SEM) imaging.</title>
+                        <p>(
+                            <bold>A</bold>) SEM analysis of 
+                            <italic>S. salivarius, S. sanguis or S. mutans</italic> biofilm formation on untreated discs, discs treated with placebo gel or discs treated with colloidal silver gel. (
+                            <bold>B</bold>) SEM of a blank disc.</p>
+                    </caption>
+                    <graphic xlink:href="f1000research-8-19360-g0001.gif"/>
+                </fig>
+            </sec>
+        </sec>
+        <sec sec-type="discussion">
+            <title>Discussion</title>
+            <p>There are over 700 different species that contribute to the formation of dental biofilm (plaque)
+                <sup>
+                    <xref ref-type="bibr" rid="ref-9">9</xref>&#x2013;
+                    <xref ref-type="bibr" rid="ref-11">11</xref>
+                </sup>. Among these species, 
+                <italic>Streptococcus mutans</italic>, 
+                <italic>Streptococcus salavarius</italic>, and 
+                <italic>Streptococcus sanguinis</italic> are the main members of this plaque
+                <sup>
+                    <xref ref-type="bibr" rid="ref-20">20</xref>&#x2013;
+                    <xref ref-type="bibr" rid="ref-22">22</xref>
+                </sup>. These bacteria are also considered to be the primary etiologic agents of human dental caries
+                <sup>
+                    <xref ref-type="bibr" rid="ref-23">23</xref>&#x2013;
+                    <xref ref-type="bibr" rid="ref-26">26</xref>
+                </sup>. It is the interaction of 
+                <italic>S. mutans</italic> with other streptococci that is thought to be important in dental plaque formation.
+                <sup>
+                    <xref ref-type="bibr" rid="ref-27">27</xref>
+                </sup>. 
+                <italic>S. mutans</italic> can cause cariogenicigty by the production of glucosyltransferase enzymes that allows glucose from sucrose to be used for the synthesis of glucan, and have also been implicated in heart problems
+                <sup>
+                    <xref ref-type="bibr" rid="ref-28">28</xref>,
+                    <xref ref-type="bibr" rid="ref-29">29</xref>
+                </sup>. 
+                <italic>S. sanguinis</italic> is an another common organism in dental plaque, which can colonize dental cavities. An additional problem is that this organism is also often found in the bloodstream.  This allows it to attach to heart valves, causing bacterial endocarditis
+                <sup>
+                    <xref ref-type="bibr" rid="ref-22">22</xref>
+                </sup>. Thus, 
+                <italic>S. sanguinis</italic> is a key agent in infective endocarditis
+                <sup>
+                    <xref ref-type="bibr" rid="ref-21">21</xref>
+                </sup>.</p>
+            <p>Since 
+                <italic>S. salivarius</italic> is also part of the normal human flora, it can contaminate sterile body fluid. Thus, therapeutic interventions that disrupt the cells protecting the blood vessels can allow it to enter the blood stream and cause problems in areas such as the meninges and the cerebrospinal fluid.
+                <sup>
+                    <xref ref-type="bibr" rid="ref-30">30</xref>&#x2013;
+                    <xref ref-type="bibr" rid="ref-33">33</xref>
+                </sup>. This results in a variety of infections such as meningitis and bacteraemia along with many other bacterial problems.
+                <sup>
+                    <xref ref-type="bibr" rid="ref-27">27</xref>,
+                    <xref ref-type="bibr" rid="ref-30">30</xref>,
+                    <xref ref-type="bibr" rid="ref-34">34</xref>&#x2013;
+                    <xref ref-type="bibr" rid="ref-39">39</xref>
+                </sup>. Thus, these three bacterial species can not only work together to form plaque on teeth, but can play a major role in other medical problems in the body.</p>
+            <p>The objective of the current study was to evaluate the test Ag-gel for its efficacy to either control or annihilate the growth of these 3 organisms.  The results present quantitative data of the antimicrobial effect on 
+                <italic>S. salivarius</italic>, 
+                <italic>S. sanguis</italic>, 
+                <italic>or S. mutans</italic> bacteria, of Ag-gel, layered on a cellulose disc which was inoculated with these bacteria or a combination of all three bacterial strains. The CFU assay results of 
+                <italic>in vitro</italic> studies using Ag-gel treated dressings showed over 6 log of killing (100%) for 
+                <italic>S. salivarius</italic>, 
+                <italic>S. sanguis</italic>, 
+                <italic>or S. mutans</italic> as compared with a control gel dressing containing no Ag-gel. Since biofilms adhere strongly to surfaces, the experiments were also studied by SEM. These SEM studies confirmed the CFU results with 
+                <italic>S. salivarius</italic>, 
+                <italic>S. sanguis</italic>, 
+                <italic>or S. mutans</italic> biofilms, in the presence of Ag-gel or placebo gel. As seen in 
+                <xref ref-type="fig" rid="f2">Figure 2</xref>, mature biofilms formed in the presence of the placebo gel, but none in the presence of the Ag-gel.</p>
+            <p>The mixture of these three bacteria was also studied, since it is proposed that the combination of bacteria is more resistant to growth inhibition than the individual bacteria. Similar results to the individual bacteria, (&gt;6-log kill rate, 100%) were obtained with the combination of the three bacteria by both the CFU assay and by SEM studies.</p>
+        </sec>
+        <sec sec-type="conclusions">
+            <title>Conclusion</title>
+            <p>An Ag-gel was found to be capable of over 6 log (100%) inhibition of 
+                <italic>S. salivarius, S. sanguis, or S. mutans</italic> bacteria, or a mixture of all three bacteria forming biofilms on cellulose discs by CFU studies. These results were confirmed by SEM studies of biofilm formation by 
+                <italic>S. salivarius, S. sanguis,</italic> or 
+                <italic>S. mutans</italic> or a mixture of all three bacteria, where the Ag-gel dressing showed total inhibition of biofilm formation on cellulose discs. These results indicate that use of a colloidal silver gel is an effective way to inhibit the formation of biofilms by the most common bacteria implicated in oral plaque formation, and this gel stands good potential to be developed into an effective commercial dentifrice product.</p>
+        </sec>
+        <sec>
+            <title>Data availability</title>
+            <p>Raw data for this study are available on OSF. DOI: 
+                <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.17605/OSF.IO/AJNYU">https://doi.org/10.17605/OSF.IO/AJNYU</ext-link>
+                <sup>
+                    <xref ref-type="bibr" rid="ref-19">19</xref>
+                </sup>.</p>
+            <p>Data are available under the terms of the 
+                <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero "No rights reserved" data waiver</ext-link> (CC0 1.0 Public domain dedication).</p>
+        </sec>
+    </body>
+    <back>
+        <ref-list>
+            <ref id="ref-1">
+                <label>1</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Lansdown</surname>
+                            <given-names>AB</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Silver I: Its antibacterial properties and mechanism of action.</article-title>
+                    <source>
+
+                        <italic>J Wound Care.</italic>
+</source>
+                    <year>2002</year>;<volume>11</volume>(<issue>4</issue>):<fpage>125</fpage>&#x2013;<lpage>30</lpage>.
+                    <pub-id pub-id-type="pmid">11998592</pub-id>
+                    <pub-id pub-id-type="doi">10.12968/jowc.2002.11.4.26389</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-2">
+                <label>2</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Tredget</surname>
+                            <given-names>EE</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Shankowsky</surname>
+                            <given-names>HA</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Groeneveld</surname>
+                            <given-names>A</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>A matched-pair, randomized study evaluating the efficacy and safety of Acticoat silver-coated dressing for the treatment of burn wounds.</article-title>
+                    <source>
+
+                        <italic>J Burn Care Rehabil.</italic>
+</source>
+                    <year>1998</year>;<volume>19</volume>(<issue>6</issue>):<fpage>531</fpage>&#x2013;<lpage>537</lpage>.
+                    <pub-id pub-id-type="pmid">9848045</pub-id>
+                    <pub-id pub-id-type="doi">10.1097/00004630-199811000-00013</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-3">
+                <label>3</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Wright</surname>
+                            <given-names>JB</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Lam</surname>
+                            <given-names>K</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Burrell</surname>
+                            <given-names>RE</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Wound management in an era of increasing bacterial antibiotic resistance: a role for topical silver treatment.</article-title>
+                    <source>
+
+                        <italic>Am J Infect Control.</italic>
+</source>
+                    <year>1998</year>;<volume>26</volume>(<issue>6</issue>):<fpage>572</fpage>&#x2013;<lpage>7</lpage>.
+                    <pub-id pub-id-type="pmid">9836841</pub-id>
+                    <pub-id pub-id-type="doi">10.1053/ic.1998.v26.a93527</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-4">
+                <label>4</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Yin</surname>
+                            <given-names>HQ</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Langford</surname>
+                            <given-names>R</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Burrell</surname>
+                            <given-names>RE</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Comparative evaluation of the antimicrobial activity of ACTICOAT antimicrobial barrier dressing.</article-title>
+                    <source>
+
+                        <italic>J Burn Care Rehabil.</italic>
+</source>
+                    <year>1999</year>;<volume>20</volume>(<issue>3</issue>):<fpage>195</fpage>&#x2013;<lpage>200</lpage>.
+                    <pub-id pub-id-type="pmid">10342470</pub-id>
+                    <pub-id pub-id-type="doi">10.1097/00004630-199905000-00006</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-5">
+                <label>5</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Thomas</surname>
+                            <given-names>S</given-names>
+                        </name>
+
+                        <name>
+                            <surname>McCubbin</surname>
+                            <given-names>P</given-names>
+                        </name>
+</person-group>:
+                    <article-title>A comparison of the antimicrobial effects of four silver-containing dressings on three organisms.</article-title>
+                    <source>
+
+                        <italic>J Wound Care.</italic>
+</source>
+                    <year>2003</year>;<volume>12</volume>(<issue>3</issue>):<fpage>101</fpage>&#x2013;<lpage>7</lpage>.
+                    <pub-id pub-id-type="pmid">12677872</pub-id>
+                    <pub-id pub-id-type="doi">10.12968/jowc.2003.12.3.26477</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-6">
+                <label>6</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Thomas</surname>
+                            <given-names>S</given-names>
+                        </name>
+
+                        <name>
+                            <surname>McCubbin</surname>
+                            <given-names>P</given-names>
+                        </name>
+</person-group>:
+                    <article-title>An 
+                        <italic>in vitro</italic> analysis of the antimicrobial properties of 10 silver-containing dressings.</article-title>
+                    <source>
+
+                        <italic>J Wound Care.</italic>
+</source>
+                    <year>2003</year>;<volume>12</volume>(<issue>8</issue>):<fpage>305</fpage>&#x2013;<lpage>8</lpage>.
+                    <pub-id pub-id-type="pmid">14533238</pub-id>
+                    <pub-id pub-id-type="doi">10.12968/jowc.2003.12.8.26526</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-7">
+                <label>7</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Dunn</surname>
+                            <given-names>K</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Edwards-Jones</surname>
+                            <given-names>V</given-names>
+                        </name>
+</person-group>:
+                    <article-title>The role of Acticoat with nanocrystalline silver in the management of burns.</article-title>
+                    <source>
+
+                        <italic>Burns.</italic>
+</source>
+                    <year>2004</year>;<volume>30 Suppl</volume>:<fpage>S1</fpage>&#x2013;<lpage>9</lpage>.
+                    <pub-id pub-id-type="pmid">15327800</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/S0305-4179(04)90000-9</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-8">
+                <label>8</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Da Silva</surname>
+                            <given-names>NB</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Alexandria</surname>
+                            <given-names>AK</given-names>
+                        </name>
+
+                        <name>
+                            <surname>De Lima</surname>
+                            <given-names>AL</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>
+                        <italic>In vitro</italic> antimicrobial activity of mouth washes and herbal products against dental biofilm-forming bacteria.</article-title>
+                    <source>
+
+                        <italic>Contemp Clin Dent.</italic>
+</source>
+                    <year>2012</year>;<volume>3</volume>(<issue>3</issue>):<fpage>302</fpage>&#x2013;<lpage>5</lpage>.
+                    <pub-id pub-id-type="pmid">23293486</pub-id>
+                    <pub-id pub-id-type="doi">10.4103/0976-237X.103623</pub-id>
+                    <pub-id pub-id-type="pmcid">3532793</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-9">
+                <label>9</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Aneja</surname>
+                            <given-names>KR</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Joshi</surname>
+                            <given-names>R</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Sharma</surname>
+                            <given-names>C</given-names>
+                        </name>
+</person-group>:
+                    <article-title>The antimicrobial potential of ten often used mouthwashes against four dental caries pathogens.</article-title>
+                    <source>
+
+                        <italic>Jundishapur J Microbiol.</italic>
+</source>
+                    <year>2010</year>;<volume>3</volume>(<issue>1</issue>):<fpage>15</fpage>&#x2013;<lpage>27</lpage>.
+                    <ext-link ext-link-type="uri" xlink:href="http://jjmicrobiol.portal.tools/5723.pdf">Reference Source</ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-10">
+                <label>10</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Prabu</surname>
+                            <given-names>GR</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Gnanamani</surname>
+                            <given-names>A</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Sadulla</surname>
+                            <given-names>S</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Guaijaverin -- a plant flavonoid as potential antiplaque agent against 
+                        <italic>Streptococcus mutans</italic>.</article-title>
+                    <source>
+
+                        <italic>J App Microbiol.</italic>
+</source>
+                    <year>2006</year>;<volume>101</volume>(<issue>2</issue>):<fpage>487</fpage>&#x2013;<lpage>95</lpage>.
+                    <pub-id pub-id-type="pmid">16882158</pub-id>
+                    <pub-id pub-id-type="doi">10.1111/j.1365-2672.2006.02912.x</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-11">
+                <label>11</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Fong</surname>
+                            <given-names>J</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Wood</surname>
+                            <given-names>F</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Nanocrystalline silver dressings in wound management: a review.</article-title>
+                    <source>
+
+                        <italic>Int J Nanomedicine.</italic>
+</source>
+                    <year>2006</year>;<volume>1</volume>(<issue>4</issue>):<fpage>441</fpage>&#x2013;<lpage>9</lpage>.
+                    <pub-id pub-id-type="pmid">17722278</pub-id>
+                    <pub-id pub-id-type="pmcid">2676636</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-12">
+                <label>12</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Fong</surname>
+                            <given-names>J</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Wood</surname>
+                            <given-names>F</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Fowler</surname>
+                            <given-names>B</given-names>
+                        </name>
+</person-group>:
+                    <article-title>A silver coated dressing reduces the incidence of early burn wound cellulitis and associated costs of inpatient treatment: comparative patient care audits.</article-title>
+                    <source>
+
+                        <italic>Burns.</italic>
+</source>
+                    <year>2005</year>;<volume>31</volume>(<issue>5</issue>):<fpage>562</fpage>&#x2013;<lpage>7</lpage>.
+                    <pub-id pub-id-type="pmid">15993301</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/j.burns.2004.12.009</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-13">
+                <label>13</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Kroes</surname>
+                            <given-names>I</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Lepp</surname>
+                            <given-names>PW</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Relman</surname>
+                            <given-names>DA</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Bacterial diversity within the human subgingival crevice.</article-title>
+                    <source>
+
+                        <italic>Proc Natl Acad Sci U S A.</italic>
+</source>
+                    <year>1999</year>;<volume>96</volume>(<issue>25</issue>):<fpage>14547</fpage>&#x2013;<lpage>52</lpage>.
+                    <pub-id pub-id-type="pmid">10588742</pub-id>
+                    <pub-id pub-id-type="doi">10.1073/pnas.96.25.14547</pub-id>
+                    <pub-id pub-id-type="pmcid">24473</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-14">
+                <label>14</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Paster</surname>
+                            <given-names>BJ</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Boches</surname>
+                            <given-names>SK</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Galvin</surname>
+                            <given-names>JL</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Bacterial diversity in human subgingival plaque.</article-title>
+                    <source>
+
+                        <italic>J Bacteriol.</italic>
+</source>
+                    <year>2001</year>;<volume>183</volume>(<issue>12</issue>):<fpage>3770</fpage>&#x2013;<lpage>83</lpage>.
+                    <pub-id pub-id-type="pmid">11371542</pub-id>
+                    <pub-id pub-id-type="doi">10.1128/JB.183.12.3770-3783.2001</pub-id>
+                    <pub-id pub-id-type="pmcid">95255</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-15">
+                <label>15</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Aas</surname>
+                            <given-names>JA</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Paster</surname>
+                            <given-names>BJ</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Stokes</surname>
+                            <given-names>LN</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Defining the normal bacterial flora of the oral cavity.</article-title>
+                    <source>
+
+                        <italic>J Clin Microbiol.</italic>
+</source>
+                    <year>2005</year>;<volume>43</volume>(<issue>11</issue>):<fpage>5721</fpage>&#x2013;<lpage>32</lpage>.
+                    <pub-id pub-id-type="pmid">16272510</pub-id>
+                    <pub-id pub-id-type="doi">10.1128/JCM.43.11.5721-5732.2005</pub-id>
+                    <pub-id pub-id-type="pmcid">1287824</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-16">
+                <label>16</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Tran</surname>
+                            <given-names>PL</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Hammond</surname>
+                            <given-names>AA</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Mosley</surname>
+                            <given-names>T</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Organoselenium coating on cellulose inhibits the formation of biofilms by 
+                        <italic>Pseudomonas aeruginosa</italic> and 
+                        <italic>Staphylococcus aureus</italic>.</article-title>
+                    <source>
+
+                        <italic>Appl Environ Microbiol.</italic>
+</source>
+                    <year>2009</year>;<volume>75</volume>(<issue>11</issue>):<fpage>3586</fpage>&#x2013;<lpage>92</lpage>.
+                    <pub-id pub-id-type="pmid">19346348</pub-id>
+                    <pub-id pub-id-type="doi">10.1128/AEM.02683-08</pub-id>
+                    <pub-id pub-id-type="pmcid">2687307</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-17">
+                <label>17</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Araujo</surname>
+                            <given-names>JC</given-names>
+                        </name>
+
+                        <name>
+                            <surname>T&#x00e9;ran</surname>
+                            <given-names>FC</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Oliveira</surname>
+                            <given-names>RA</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Comparison of hexamethyldisilazane and critical point drying treatments for SEM analysis of anaerobic biofilms and granular sludge.</article-title>
+                    <source>
+
+                        <italic>J Electron Microsc (Tokyo).</italic>
+</source>
+                    <year>2003</year>;<volume>52</volume>(<issue>4</issue>):<fpage>429</fpage>&#x2013;<lpage>33</lpage>.
+                    <pub-id pub-id-type="pmid">14599106</pub-id>
+                    <pub-id pub-id-type="doi">10.1093/jmicro/52.4.429</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-18">
+                <label>18</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Braet</surname>
+                            <given-names>F</given-names>
+                        </name>
+
+                        <name>
+                            <surname>De Zanger</surname>
+                            <given-names>R</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Wisse</surname>
+                            <given-names>E</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Drying cells for SEM, AFM and TEM by hexamethyldisilazane: a study on hepatic endothelial cells.</article-title>
+                    <source>
+
+                        <italic>J Microsc.</italic>
+</source>
+                    <year>1997</year>;<volume>186</volume>(<issue>Pt 1</issue>):<fpage>84</fpage>&#x2013;<lpage>7</lpage>.
+                    <pub-id pub-id-type="pmid">9159923</pub-id>
+                    <pub-id pub-id-type="doi">10.1046/j.1365-2818.1997.1940755.x</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-19">
+                <label>19</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+				
+                        <name>
+                            <surname>Mehta</surname>
+                            <given-names>D</given-names>
+                        </name>
+			</person-group>:
+                    <article-title>&#x201c;Efficacy of a Silver Colloidal Gel against Selected Oral Bacteria in Vitro.&#x201d;</article-title>
+                    <source>
+				
+                        <italic>OSF.</italic>
+			</source>
+                    <year>2019</year>.
+                    <ext-link ext-link-type="uri" xlink:href="http://www.doi.org/10.17605/OSF.IO/AJNYU">http://www.doi.org/10.17605/OSF.IO/AJNYU</ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-20">
+                <label>20</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Caufield</surname>
+                            <given-names>PW</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Dasanayake</surname>
+                            <given-names>AP</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Li</surname>
+                            <given-names>Y</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Natural history of 
+                        <italic>Streptococcus sanguinis</italic> in the oral cavity of infants: evidence for a discrete window of infectivity.</article-title>
+                    <source>
+
+                        <italic>Infect Immun.</italic>
+</source>
+                    <year>2000</year>;<volume>68</volume>(<issue>7</issue>):<fpage>4018</fpage>&#x2013;<lpage>23</lpage>.
+                    <pub-id pub-id-type="pmid">10858217</pub-id>
+                    <pub-id pub-id-type="doi">10.1128/IAI.68.7.4018-4023.2000</pub-id>
+                    <pub-id pub-id-type="pmcid">101685</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-21">
+                <label>21</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Paik</surname>
+                            <given-names>S</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Senty</surname>
+                            <given-names>L</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Das</surname>
+                            <given-names>S</given-names>
+                        </name>
+						
+                        <etal/>
+					</person-group>:
+                    <article-title>Identification of virulence determinants for endocarditis in 
+                        <italic>Streptococcus sanguinis</italic> by signature-tagged mutagenesis.</article-title>
+                    <source>
+						
+                        <italic>Infect Immun.</italic>
+					</source>
+                    <year>2005</year>;<volume>73</volume>(<issue>9</issue>):<fpage>6064</fpage>&#x2013;<lpage>74</lpage>.
+                    <pub-id pub-id-type="pmid">16113327</pub-id>
+                    <pub-id pub-id-type="doi">10.1128/IAI.73.9.6064-6074.2005</pub-id>
+                    <pub-id pub-id-type="pmcid">1231064</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-22">
+                <label>22</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Xu</surname>
+                            <given-names>P</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Alves</surname>
+                            <given-names>JM</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Kitten</surname>
+                            <given-names>T</given-names>
+                        </name>
+						
+                        <etal/>
+					</person-group>:
+                    <article-title>Genome of the opportunistic pathogen Streptococcus sanguinis.</article-title>
+                    <source>
+						
+                        <italic>J Bacteriol.</italic>
+					</source>
+                    <year>2007</year>;<volume>189</volume>(<issue>8</issue>):<fpage>3166</fpage>&#x2013;<lpage>75</lpage>.
+                    <pub-id pub-id-type="pmid">17277061</pub-id>
+                    <pub-id pub-id-type="doi">10.1128/JB.01808-06</pub-id>
+                    <pub-id pub-id-type="pmcid">1855836</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-23">
+                <label>23</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Hamada</surname>
+                            <given-names>S</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Slade</surname>
+                            <given-names>HD</given-names>
+                        </name>
+					</person-group>:
+                    <article-title>Biology, immunology, and cariogenicity of Streptococcus mutans.</article-title>
+                    <source>
+						
+                        <italic>Microbiol Rev.</italic>
+					</source>
+                    <year>1980</year>;<volume>44</volume>(<issue>2</issue>):<fpage>331</fpage>&#x2013;<lpage>84</lpage>.
+                    <pub-id pub-id-type="pmid">6446023</pub-id>
+                    <pub-id pub-id-type="pmcid">373181</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-24">
+                <label>24</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Loesche</surname>
+                            <given-names>WJ</given-names>
+                        </name>
+					</person-group>:
+                    <article-title>Role of Streptococcus mutans in human dental decay.</article-title>
+                    <source>
+						
+                        <italic>Microbiol Rev.</italic>
+					</source>
+                    <year>1986</year>;<volume>50</volume>(<issue>4</issue>):<fpage>353</fpage>&#x2013;<lpage>80</lpage>.
+                    <pub-id pub-id-type="pmid">3540569</pub-id>
+                    <pub-id pub-id-type="pmcid">373078</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-25">
+                <label>25</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Da Silva</surname>
+                            <given-names>AC</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Cruz Jdos</surname>
+                            <given-names>S</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Sampaio</surname>
+                            <given-names>F</given-names>
+                        </name>
+						
+                        <etal/>
+					</person-group>:
+                    <article-title>Detection of oral streptococci in dental biofilm from caries-active and caries-free children.</article-title>
+                    <source>
+						
+                        <italic>Braz J Microbiol.</italic>
+					</source>
+                    <year>2008</year>;<volume>39</volume>(<issue>4</issue>):<fpage>648</fpage>&#x2013;<lpage>51</lpage>.
+                    <pub-id pub-id-type="pmid">24031282</pub-id>
+                    <pub-id pub-id-type="doi">10.1590/S1517-83822008000400009</pub-id>
+                    <pub-id pub-id-type="pmcid">3768466</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-26">
+                <label>26</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Wescombe</surname>
+                            <given-names>PA</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Hale</surname>
+                            <given-names>JD</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Heng</surname>
+                            <given-names>NC</given-names>
+                        </name>
+						
+                        <etal/>
+					</person-group>:
+                    <article-title>Developing oral probiotics from Streptococcus salivarius.</article-title>
+                    <source>
+						
+                        <italic>Future Microbiol.</italic>
+					</source>
+                    <year>2012</year>;<volume>7</volume>(<issue>12</issue>):<fpage>1355</fpage>&#x2013;<lpage>71</lpage>.
+                    <pub-id pub-id-type="pmid">23231486</pub-id>
+                    <pub-id pub-id-type="doi">10.2217/fmb.12.113</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-27">
+                <label>27</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Kreth</surname>
+                            <given-names>J</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Merritt</surname>
+                            <given-names>J</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Shi</surname>
+                            <given-names>W</given-names>
+                        </name>
+						
+                        <etal/>
+					</person-group>:
+                    <article-title>Competition and coexistence between Streptococcus mutans and Streptococcus sanguinis in the dental biofilm.</article-title>
+                    <source>
+						
+                        <italic>J Bacteriol.</italic>
+					</source>
+                    <year>2005</year>;<volume>187</volume>(<issue>21</issue>):<fpage>7193</fpage>&#x2013;<lpage>203</lpage>.
+                    <pub-id pub-id-type="pmid">16237003</pub-id>
+                    <pub-id pub-id-type="doi">10.1128/JB.187.21.7193-7203.2005</pub-id>
+                    <pub-id pub-id-type="pmcid">1272965</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-28">
+                <label>28</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Ogawa</surname>
+                            <given-names>A</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Furukawa</surname>
+                            <given-names>S</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Fujita</surname>
+                            <given-names>S</given-names>
+                        </name>
+						
+                        <etal/>
+					</person-group>:
+                    <article-title>Inhibition of Streptococcus mutans biofilm formation by Streptococcus salivarius FruA.</article-title>
+                    <source>
+						
+                        <italic>Appl Environ Microbiol.</italic>
+					</source>
+                    <year>2011</year>;<volume>77</volume>(<issue>5</issue>):<fpage>1572</fpage>&#x2013;<lpage>80</lpage>.
+                    <pub-id pub-id-type="pmid">21239559</pub-id>
+                    <pub-id pub-id-type="doi">10.1128/AEM.02066-10</pub-id>
+                    <pub-id pub-id-type="pmcid">3067281</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-29">
+                <label>29</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Nakano</surname>
+                            <given-names>K</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Inaba</surname>
+                            <given-names>H</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Nomura</surname>
+                            <given-names>R</given-names>
+                        </name>
+						
+                        <etal/>
+					</person-group>:
+                    <article-title>Detection of cariogenic Streptococcus mutans in extirpated heart valve and atheromatous plaque specimens.</article-title>
+                    <source>
+						
+                        <italic>J Clin Microbiol.</italic>
+					</source>
+                    <year>2006</year>;<volume>44</volume>(<issue>9</issue>):<fpage>3313</fpage>&#x2013;<lpage>17</lpage>.
+                    <pub-id pub-id-type="pmid">16954266</pub-id>
+                    <pub-id pub-id-type="doi">10.1128/JCM.00377-06</pub-id>
+                    <pub-id pub-id-type="pmcid">1594668</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-30">
+                <label>30</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Megarbane</surname>
+                            <given-names>B</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Casetta</surname>
+                            <given-names>A</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Esvant</surname>
+                            <given-names>H</given-names>
+                        </name>
+						
+                        <etal/>
+					</person-group>:
+                    <article-title>Streptococcus salivarius acute meningitis with latent petromastoiditis.</article-title>
+                    <source>
+						
+                        <italic>Scand J Infect Dis.</italic>
+					</source>
+                    <year>2000</year>;<volume>32</volume>(<issue>3</issue>):<fpage>322</fpage>&#x2013;<lpage>3</lpage>.
+                    <pub-id pub-id-type="pmid">10879608</pub-id>
+                    <pub-id pub-id-type="doi">10.1080/00365540050166018</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-31">
+                <label>31</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+				
+                        <name>
+                            <surname>Rafailidis</surname>
+                            <given-names>PI</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Prapas</surname>
+                            <given-names>SN</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Kasiakou</surname>
+                            <given-names>SK</given-names>
+                        </name>
+				
+                        <etal/>
+			</person-group>:
+                    <article-title>Effusive-constrictive calcific pericarditis associated with Streptococcus salivarius. Case report and review of the literature.</article-title>
+                    <source>
+				
+                        <italic>Cardiol Rev.</italic>
+			</source>
+                    <year>2005</year>;<volume>13</volume>(<issue>3</issue>):<fpage>113</fpage>&#x2013;<lpage>7</lpage>.
+                    <pub-id pub-id-type="pmid">15831142</pub-id>
+                    <pub-id pub-id-type="doi">10.1097/01.crd.0000148843.65684.8f</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-32">
+                <label>32</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+				
+                        <name>
+                            <surname>Lee</surname>
+                            <given-names>TH</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Hsueh</surname>
+                            <given-names>PR</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Yeh</surname>
+                            <given-names>WC</given-names>
+                        </name>
+				
+                        <etal/>
+			</person-group>:
+                    <article-title>Low frequency of bacteremia after endoscopic mucosal resection.</article-title>
+                    <source>
+				
+                        <italic>Gastrointest Endosc.</italic>
+			</source>
+                    <year>2000</year>;<volume>52</volume>(<issue>2</issue>):<fpage>223</fpage>&#x2013;<lpage>5</lpage>.
+                    <pub-id pub-id-type="pmid">10922095</pub-id>
+                    <pub-id pub-id-type="doi">10.1067/mge.2000.107718</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-33">
+                <label>33</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+				
+                        <name>
+                            <surname>Corredoira</surname>
+                            <given-names>JC</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Alonso</surname>
+                            <given-names>MP</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Garcia</surname>
+                            <given-names>JF</given-names>
+                        </name>
+				
+                        <etal/>
+			</person-group>:
+                    <article-title>Clinical characteristics and significance of Streptococcus salivarius bacteremia and Streptococcus bovis bacteremia: a prospective 16-year study.</article-title>
+                    <source>
+				
+                        <italic>Eur J Clin Microbiol Infect Dis.</italic>
+			</source>
+                    <year>2005</year>;<volume>24</volume>(<issue>4</issue>):<fpage>250</fpage>&#x2013;<lpage>255</lpage>.
+                    <pub-id pub-id-type="pmid">15902530</pub-id>
+                    <pub-id pub-id-type="doi">10.1007/s10096-005-1314-x</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-34">
+                <label>34</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+				
+                        <name>
+                            <surname>Conte</surname>
+                            <given-names>A</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Chinello</surname>
+                            <given-names>P</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Civljak</surname>
+                            <given-names>R</given-names>
+                        </name>
+				
+                        <etal/>
+			</person-group>:
+                    <article-title>Streptococcus salivarius meningitis and sphenoid sinus mucocele. Case report and literature review.</article-title>
+                    <source>
+				
+                        <italic>J Infect.</italic>
+			</source>
+                    <year>2006</year>;<volume>52</volume>(<issue>1</issue>):<fpage>e27</fpage>&#x2013;<lpage>30</lpage>.
+                    <pub-id pub-id-type="pmid">15936084</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/j.jinf.2005.04.013</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-35">
+                <label>35</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+				
+                        <name>
+                            <surname>Yaniv</surname>
+                            <given-names>LG</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Potasman</surname>
+                            <given-names>I</given-names>
+                        </name>
+			</person-group>:
+                    <article-title>Iatrogenic meningitis: an increasing role for resistant viridans streptococci? Case report and review of the last 20 years.</article-title>
+                    <source>
+				
+                        <italic>Scand J Infect Dis.</italic>
+			</source>
+                    <year>2000</year>;<volume>32</volume>(<issue>6</issue>):<fpage>693</fpage>&#x2013;<lpage>6</lpage>.
+                    <pub-id pub-id-type="pmid">11200384</pub-id>
+                    <pub-id pub-id-type="doi">10.1080/003655400459658</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-36">
+                <label>36</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+				
+                        <name>
+                            <surname>Trautmann</surname>
+                            <given-names>M</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Lepper</surname>
+                            <given-names>PM</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Schmitz</surname>
+                            <given-names>FJ</given-names>
+                        </name>
+			</person-group>:
+                    <article-title>Three cases of bacterial meningitis after spinal and epidural anesthesia.</article-title>
+                    <source>
+				
+                        <italic>Eur J Clin Microbiol Infect Dis.</italic>
+			</source>
+                    <year>2002</year>;<volume>21</volume>:<fpage>43</fpage>&#x2013;<lpage>5</lpage>.
+                    <pub-id pub-id-type="pmid">11913500</pub-id>
+                    <pub-id pub-id-type="doi">10.1007/s10096-001-0643-7</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-37">
+                <label>37</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+				
+                        <name>
+                            <surname>Bouhemad</surname>
+                            <given-names>B</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Dounas</surname>
+                            <given-names>M</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Mercier</surname>
+                            <given-names>FJ</given-names>
+                        </name>
+				
+                        <etal/>
+			</person-group>:
+                    <article-title>Bacterial meningitis following combined spinal-epidural analgesia for labour.</article-title>
+                    <source>
+				
+                        <italic>Anaesthesia.</italic>
+			</source>
+                    <year>1998</year>;<volume>53</volume>:<fpage>292</fpage>&#x2013;<lpage>5</lpage>.
+                    <pub-id pub-id-type="pmid">9613275</pub-id>
+                    <pub-id pub-id-type="doi">10.1046/j.1365-2044.1998.00282.x</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-38">
+                <label>38</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+				
+                        <name>
+                            <surname>Veringa</surname>
+                            <given-names>E</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Van Belkum</surname>
+                            <given-names>A</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Schellekens</surname>
+                            <given-names>H</given-names>
+                        </name>
+			</person-group>:
+                    <article-title>Iatrogenic meningitis by Streptococcus salivarius following lumbar puncture.</article-title>
+                    <source>
+				
+                        <italic>J Hosp Infect.</italic>
+			</source>
+                    <year>1995</year>;<volume>29</volume>:<fpage>316</fpage>&#x2013;<lpage>8</lpage>.
+                    <pub-id pub-id-type="pmid">7658016</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/0195-6701(95)90283-X</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-39">
+                <label>39</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+				
+                        <name>
+                            <surname>Wisplinghoff</surname>
+                            <given-names>H</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Reinert</surname>
+                            <given-names>RR</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Cornely</surname>
+                            <given-names>O</given-names>
+                        </name>
+				
+                        <etal/>
+			</person-group>:
+                    <article-title>Molecular relationships and antimicrobial susceptibilities of viridans group streptococci isolated from blood of neutropenic cancer patients.</article-title>
+                    <source>
+				
+                        <italic>J Clin Microbiol.</italic>
+			</source>
+                    <year>1999</year>;<volume>37</volume>:<fpage>1876</fpage>&#x2013;<lpage>80</lpage>.
+                    <pub-id pub-id-type="pmid">10325340</pub-id>
+                    <pub-id pub-id-type="pmcid">84975</pub-id>
+                </mixed-citation>
+            </ref>
+        </ref-list>
+    </back>
+    <sub-article article-type="ref-report" id="report47334">
+        <front-stub>
+            <article-id pub-id-type="doi">10.5256/f1000research.19360.r47334</article-id>
+            <title-group>
+                <article-title>Reviewer response for version 1</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Srinandan</surname>
+                        <given-names>C S</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="r47334a1">1</xref>
+                    <role>Referee</role>
+                    <uri content-type="orcid">https://orcid.org/0000-0002-1703-2549</uri>
+                </contrib>
+                <aff id="r47334a1">
+                    <label>1</label>Biofilm Biology Lab, Centre for Research on Infectious Diseases, School of Chemical and Biotechnology, SASTRA Deemed University, Thanjavur, India</aff>
+            </contrib-group>
+            <author-notes>
+                <fn fn-type="conflict">
+                    <p>
+                        <bold>Competing interests: </bold>No competing interests were disclosed.</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="epub">
+                <day>15</day>
+                <month>5</month>
+                <year>2019</year>
+            </pub-date>
+            <permissions>
+                <copyright-statement>Copyright: &#x00a9; 2019 Srinandan CS</copyright-statement>
+                <copyright-year>2019</copyright-year>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                    <license-p>This is an open access peer review report distributed under the terms of the Creative Commons Attribution Licence, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+            </permissions>
+            <related-article ext-link-type="doi" id="relatedArticleReport47334" related-article-type="peer-reviewed-article" xlink:href="10.12688/f1000research.17707.1"/>
+            <custom-meta-group>
+                <custom-meta>
+                    <meta-name>recommendation</meta-name>
+                    <meta-value>approve-with-reservations</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </front-stub>
+        <body>
+            <p>This study by Tran 
+                <italic>et al</italic>., is important, but preliminary report that shows colloidal silver to be effective against three Streptococcus species. Following are some of the concerns I have regarding this manuscript. 
+                <list list-type="order">
+                    <list-item>
+                        <p>The authors state that &#x201c;the Ag-gel should be tested for the ability to block plaque formation in the mouth, through its use as a toothpaste&#x201d;. Let&#x2019;s consider the following: (a) Oral microbiome is very rich and its composition is important for health status of an individual and (b)&#x00a0;Literature says colloidal silver is toxic to the host cells. &#x00a0;</p>
+                    </list-item>
+                </list> Considering (a) and (b), using the Ag-gel as a toothpaste may not be a good idea as it is not specific towards the pathogens. Thus, I recommend the authors to measure the cost-benefit ratio and mention about the conditions or stages of oral disease at which it could possibly be used as a toothpaste. 
+                <list list-type="order">
+                    <list-item>
+                        <p>Why only one concentration of 0.5g of colloidal silver used for the studies?</p>
+                    </list-item>
+                    <list-item>
+                        <p>Please provide the details for the figures in the legends, like (i) what is the sample size, (ii) what do the error bars indicate, and (iii) which statistical test was performed on the data.</p>
+                    </list-item>
+                    <list-item>
+                        <p>I fail to understand the biological relevance of negative data of CFU in Fig. 1.</p>
+                    </list-item>
+                    <list-item>
+                        <p>What happens to biofilm formation at lower concentrations of silver?</p>
+                    </list-item>
+                    <list-item>
+                        <p>As the previous reviewers commented, eradication of biofilms should also be tested. Therefore, this manuscript should accompany the Minimum Biofilm Inhibitory Concentration (MBIC) and Minimum Biofilm Eradication Concentration (MBEC) of colloidal silver.</p>
+                    </list-item>
+                    <list-item>
+                        <p>Determination of interaction of colloidal silver with antibiotics is also an important test that has to be performed.</p>
+                    </list-item>
+                </list>
+            </p>
+            <p>Is the work clearly and accurately presented and does it cite the current literature?</p>
+            <p>Yes</p>
+            <p>If applicable, is the statistical analysis and its interpretation appropriate?</p>
+            <p>Partly</p>
+            <p>Are all the source data underlying the results available to ensure full reproducibility?</p>
+            <p>Yes</p>
+            <p>Is the study design appropriate and is the work technically sound?</p>
+            <p>No</p>
+            <p>Are the conclusions drawn adequately supported by the results?</p>
+            <p>No</p>
+            <p>Are sufficient details of methods and analysis provided to allow replication by others?</p>
+            <p>Yes</p>
+            <p>Reviewer Expertise:</p>
+            <p>Biofilms.</p>
+            <p>I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above.</p>
+        </body>
+    </sub-article>
+    <sub-article article-type="ref-report" id="report45453">
+        <front-stub>
+            <article-id pub-id-type="doi">10.5256/f1000research.19360.r45453</article-id>
+            <title-group>
+                <article-title>Reviewer response for version 1</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Kulkarni</surname>
+                        <given-names>Mohan</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="r45453a1">1</xref>
+                    <role>Referee</role>
+                </contrib>
+                <aff id="r45453a1">
+                    <label>1</label>Department of Chemistry, Biochemistry Division, Savitribai Phule Pune University, Pune, India</aff>
+            </contrib-group>
+            <author-notes>
+                <fn fn-type="conflict">
+                    <p>
+                        <bold>Competing interests: </bold>No competing interests were disclosed.</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="epub">
+                <day>16</day>
+                <month>4</month>
+                <year>2019</year>
+            </pub-date>
+            <permissions>
+                <copyright-statement>Copyright: &#x00a9; 2019 Kulkarni M</copyright-statement>
+                <copyright-year>2019</copyright-year>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                    <license-p>This is an open access peer review report distributed under the terms of the Creative Commons Attribution Licence, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+            </permissions>
+            <related-article ext-link-type="doi" id="relatedArticleReport45453" related-article-type="peer-reviewed-article" xlink:href="10.12688/f1000research.17707.1"/>
+            <custom-meta-group>
+                <custom-meta>
+                    <meta-name>recommendation</meta-name>
+                    <meta-value>approve</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </front-stub>
+        <body>
+            <p>Caries has been the one of the most prevalent dental conditions which needs effective treatment. Products currently in use such as mouthwashes recommended for oral hygiene are not very effective against dental biofilm formation.</p>
+            <p> </p>
+            <p> This study evaluates the efficacy of colloidal silver gel formulations in inhibiting bacterial biofilm formation by 
+                <italic>S. mutans, S. sanguis, and S. salivarius</italic> which cause plaque formation. The choice of colloidal silver over ionic silver in view of its lower toxicity is well justified and so also the choice of bacteria for evaluating the efficacy of colloidal silver.</p>
+            <p> </p>
+            <p> The effectiveness of colloidal silver has been demonstrated by quantifying colony forming units (CFU). Appropriate controls and statistical analyses have been provided to support the results. The results are further supported by scanning electron microscopy. The results show that no biofilms are formed in the presence of colloidal silver gel but do form in the control experiments carried out with placebo.&#x00a0;</p>
+            <p> </p>
+            <p> Since the objective of the work is to develop a treatment for the prevention of caries, it would be desirable to optimize the concentration of colloidal silver in the gel in future. In addition to prevention of biofilm formation if colloidal silver is shown to be useful in disrupting biofilms already formed, it would enhance the scope of treatment.</p>
+            <p> </p>
+            <p> I recommend the indexing of the paper &#x201c;Efficacy of a silver colloidal gel against selected oral bacteria in vitro&#x201d;.</p>
+            <p>Is the work clearly and accurately presented and does it cite the current literature?</p>
+            <p>Yes</p>
+            <p>If applicable, is the statistical analysis and its interpretation appropriate?</p>
+            <p>Yes</p>
+            <p>Are all the source data underlying the results available to ensure full reproducibility?</p>
+            <p>Yes</p>
+            <p>Is the study design appropriate and is the work technically sound?</p>
+            <p>Yes</p>
+            <p>Are the conclusions drawn adequately supported by the results?</p>
+            <p>Yes</p>
+            <p>Are sufficient details of methods and analysis provided to allow replication by others?</p>
+            <p>Yes</p>
+            <p>Reviewer Expertise:</p>
+            <p>Polymers, nanoparticles, drug delivery, patents.</p>
+            <p>I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard.</p>
+        </body>
+    </sub-article>
+    <sub-article article-type="ref-report" id="report45449">
+        <front-stub>
+            <article-id pub-id-type="doi">10.5256/f1000research.19360.r45449</article-id>
+            <title-group>
+                <article-title>Reviewer response for version 1</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Kothari</surname>
+                        <given-names>Vijay</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="r45449a1">1</xref>
+                    <role>Referee</role>
+                    <uri content-type="orcid">https://orcid.org/0000-0003-1035-7217</uri>
+                </contrib>
+                <aff id="r45449a1">
+                    <label>1</label>Institute of Science, Nirma University, Ahmedabad, India</aff>
+            </contrib-group>
+            <author-notes>
+                <fn fn-type="conflict">
+                    <p>
+                        <bold>Competing interests: </bold>No competing interests were disclosed.</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="epub">
+                <day>11</day>
+                <month>3</month>
+                <year>2019</year>
+            </pub-date>
+            <permissions>
+                <copyright-statement>Copyright: &#x00a9; 2019 Kothari V</copyright-statement>
+                <copyright-year>2019</copyright-year>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                    <license-p>This is an open access peer review report distributed under the terms of the Creative Commons Attribution Licence, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+            </permissions>
+            <related-article ext-link-type="doi" id="relatedArticleReport45449" related-article-type="peer-reviewed-article" xlink:href="10.12688/f1000research.17707.1"/>
+            <custom-meta-group>
+                <custom-meta>
+                    <meta-name>recommendation</meta-name>
+                    <meta-value>approve</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </front-stub>
+        <body>
+            <p>This study has evaluated antibacterial efficacy of a colloidal silver gel against three important oral bacteria. In context of the currently available dentifrice products not being full effective in preventing the widespread problem of dental caries, need and research for new more effective dentifrices is justified. Their idea of assaying the test gel not only against individual bacteria, but also against the mixed-species is a logical one, as that represents real-life situations a bit more closely. In the recent past, maintenance of good oral health has been shown to be important for good cardiovascular health, healthy pregnancy, etc.&#x00a0;</p>
+            <p> </p>
+            <p> They may consider re-framing the last sentence of the third paragraph in 'Introduction'. They may also check for correct placement of all references; For e.g. references 2-3 have been cited in first paragraph in an oral health context, but their titles seem to be more relevant to wound management.</p>
+            <p> </p>
+            <p> While, I do not have any reservations in recommending this article in its present form&#x00a0;for indexing, I suggest for following additional experiments for future studies by these authors: 
+                <list list-type="order">
+                    <list-item>
+                        <p>Effect of this gel on pre-formed biofilms of oral bacteria should be checked on two different parameters i.e. whether this gel can kill bacteria in biofilm, and whether it can eradicate the pre-formed biofilm with/without killing the bacteria in it.&#x00a0;</p>
+                    </list-item>
+                    <list-item>
+                        <p>Results of current study indicate their gel to possess a bactericidal action. They may consider extending the incubation till 48-72&#x00a0;hours after&#x00a0;transferring the gel-exposed bacteria onto fresh gel-free media, to confirm the true bactericidal effect, and absence of post-antibiotic effect (PAE).&#x00a0;</p>
+                    </list-item>
+                    <list-item>
+                        <p>They may consider determination of MIC, MBC, and time required to kill. The latter is important as typical dentifrice products like mouthwashes/toothpaste get few seconds/minutes to&#x00a0;exert their effect in the mouth.&#x00a0;</p>
+                    </list-item>
+                    <list-item>
+                        <p>It will be interesting to investigate whether at sub-inhibitory concentrations their product can reduce lactic acid production by the Streptococci, which is a major virulence factor involved in demineralization of teeth. Whether sub-inhibitory concentrations can inhibit quorum-sensing in these bacteria?</p>
+                    </list-item>
+                    <list-item>
+                        <p>In the current study, cellulose discs were used as surface for biofilm formation. In future studies, they may consider some material similar to teeth-substance (e.g. calcium) as the surface for biofilm formation.&#x00a0;</p>
+                    </list-item>
+                </list>
+            </p>
+            <p>Is the work clearly and accurately presented and does it cite the current literature?</p>
+            <p>Yes</p>
+            <p>If applicable, is the statistical analysis and its interpretation appropriate?</p>
+            <p>Yes</p>
+            <p>Are all the source data underlying the results available to ensure full reproducibility?</p>
+            <p>Yes</p>
+            <p>Is the study design appropriate and is the work technically sound?</p>
+            <p>Yes</p>
+            <p>Are the conclusions drawn adequately supported by the results?</p>
+            <p>Yes</p>
+            <p>Are sufficient details of methods and analysis provided to allow replication by others?</p>
+            <p>Yes</p>
+            <p>Reviewer Expertise:</p>
+            <p>Antimicrobial Resistance (AMR); Bacterial biofilms; Antimicrobials; Traditional Medicine; Bioacoustics; Plant extracts; Quorum Sensing</p>
+            <p>I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard.</p>
+        </body>
+    </sub-article>
+</article>

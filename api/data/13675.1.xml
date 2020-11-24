@@ -1,0 +1,3444 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.2 20190208//EN" "http://jats.nlm.nih.gov/publishing/1.2/JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="review">
+    <front>
+        <journal-meta>
+            <journal-id journal-id-type="pmc">F1000Research</journal-id>
+            <journal-title-group>
+                <journal-title>F1000Research</journal-title>
+            </journal-title-group>
+            <issn pub-type="epub">2046-1402</issn>
+            <publisher>
+                <publisher-name>F1000 Research Limited</publisher-name>
+                <publisher-loc>London, UK</publisher-loc>
+            </publisher>
+        </journal-meta>
+        <article-meta>
+            <article-id pub-id-type="doi">10.12688/f1000research.13675.1</article-id>
+            <article-categories>
+                <subj-group subj-group-type="heading">
+                    <subject>Review</subject>
+                </subj-group>
+                <subj-group>
+                    <subject>Articles</subject>
+                </subj-group>
+            </article-categories>
+            <title-group>
+                <article-title>Missing the egocentric spatial reference: a blank on the map</article-title>
+                <fn-group content-type="pub-status">
+                    <fn>
+                        <p>[version 1; peer review: 3 approved]</p>
+                    </fn>
+                </fn-group>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author" corresp="yes">
+                    <name>
+                        <surname>Miniaci</surname>
+                        <given-names>Maria Concetta</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Supervision</role>
+                    <role content-type="http://credit.casrai.org/">Validation</role>
+                    <role content-type="http://credit.casrai.org/">Visualization</role>
+                    <role content-type="http://credit.casrai.org/">Writing &#x2013; Original Draft Preparation</role>
+                    <uri content-type="orcid">https://orcid.org/0000-0003-3844-0581</uri>
+                    <xref ref-type="corresp" rid="c1">a</xref>
+                    <xref ref-type="aff" rid="a1">1</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no">
+                    <name>
+                        <surname>De Leonibus</surname>
+                        <given-names>Elvira</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Supervision</role>
+                    <role content-type="http://credit.casrai.org/">Validation</role>
+                    <role content-type="http://credit.casrai.org/">Visualization</role>
+                    <role content-type="http://credit.casrai.org/">Writing &#x2013; Original Draft Preparation</role>
+                    <xref ref-type="aff" rid="a2">2</xref>
+                    <xref ref-type="aff" rid="a3">3</xref>
+                </contrib>
+                <aff id="a1">
+                    <label>1</label>Department of Pharmacy , School of Medicine, University of Naples Federico II, Naples, Italy</aff>
+                <aff id="a2">
+                    <label>2</label>Institute of Genetics and Biophysics (IGB) , National Research Council, Naples, Italy</aff>
+                <aff id="a3">
+                    <label>3</label>Telethon Institute of Genetics and Medicine, Telethon Foundation, Pozzuoli, Italy</aff>
+            </contrib-group>
+            <author-notes>
+                <corresp id="c1">
+                    <label>a</label>
+                    <email xlink:href="mailto:maria.miniaci@unina.it">maria.miniaci@unina.it</email>
+                </corresp>
+                <fn fn-type="conflict">
+                    <p>No competing interests were disclosed.</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="epub">
+                <day>9</day>
+                <month>2</month>
+                <year>2018</year>
+            </pub-date>
+            <pub-date pub-type="collection">
+                <year>2018</year>
+            </pub-date>
+            <volume>7</volume>
+            <elocation-id>168</elocation-id>
+            <history>
+                <date date-type="accepted">
+                    <day>1</day>
+                    <month>2</month>
+                    <year>2018</year>
+                </date>
+            </history>
+            <permissions>
+                <copyright-statement>Copyright: &#x00a9; 2018 Miniaci MC and De Leonibus E</copyright-statement>
+                <copyright-year>2018</copyright-year>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                    <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution Licence, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+            </permissions>
+            <self-uri content-type="pdf" xlink:href="f1000research-7-14855.pdf"/>
+            <abstract>
+                <p>Egocentric (self-centered) and allocentric (viewpoint independent) representations of space are essential for spatial navigation and wayfinding. Deficits in spatial memory come with age-related cognitive decline, are marked in mild cognitive impairment (MCI) and Alzheimer&#x2019;s disease (AD), and are associated with cognitive deficits in autism. In most of these disorders, a change in the brain areas engaged in the spatial reference system processing has been documented. However, the spatial memory deficits observed during physiological and pathological aging are quite different. While patients with AD and MCI have a general spatial navigation impairment in both allocentric and egocentric strategies, healthy older adults are particularly limited in the allocentric navigation, but they can still count on egocentric navigation strategy to solve spatial tasks. Therefore, specific navigational tests should be considered for differential diagnosis between healthy and pathological aging conditions. Finally, more research is still needed to better understand the spatial abilities of autistic individuals.</p>
+            </abstract>
+            <kwd-group kwd-group-type="author">
+                <kwd>egocentric navigation</kwd>
+                <kwd>posterior parietal cortex</kwd>
+                <kwd>striatum</kwd>
+                <kwd>aging</kwd>
+                <kwd>Alzheimer&#x2019;s disease</kwd>
+                <kwd>autism.</kwd>
+            </kwd-group>
+            <funding-group>
+                <award-group id="fund-1">
+                    <funding-source>Bank of Italy grant</funding-source>
+                    <award-id>744460/13</award-id>
+                </award-group>
+                <funding-statement>This study was supported by Bank of Italy grant #744460/13. </funding-statement>
+                <funding-statement>
+                    <italic>The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</italic>
+                </funding-statement>
+            </funding-group>
+        </article-meta>
+    </front>
+    <body>
+        <sec sec-type="intro">
+            <title>Introduction</title>
+            <p>Successful navigation is a fundamental cognitive function that is crucial for survival. Humans, like other animals, must learn about the layout of their environments to return home, or move between known locations. The spatial reference frame used to locate positions and directions in a complex environment are commonly divided into two main systems: egocentric (subject-centered) and allocentric (object-centered)
+                <sup>
+                    <xref ref-type="bibr" rid="ref-1">1</xref>,
+                    <xref ref-type="bibr" rid="ref-2">2</xref>
+                </sup>. During navigation, information in both egocentric and allocentric reference frames can be integrated to provide a coherent representation of the environment and proper orientation.</p>
+            <p>Egocentric frames define spatial positions using the body, or a specific part of the body (head or trunk) as a point of reference (
+                <xref ref-type="fig" rid="f1">Figure 1</xref>)
+                <sup>
+                    <xref ref-type="bibr" rid="ref-3">3</xref>&#x2013;
+                    <xref ref-type="bibr" rid="ref-5">5</xref>
+                </sup>. Allocentric reference frame codes the position of the target relative to surrounding visual cues or landmarks and their spatial relationships, independently of the observer's current position
+                <sup>
+                    <xref ref-type="bibr" rid="ref-6">6</xref>
+                </sup>. Such information can be used to build a &#x201c;cognitive map&#x201d;, a sort of internal representation of the environment
+                <sup>
+                    <xref ref-type="bibr" rid="ref-7">7</xref>
+                </sup>.</p>
+            <fig fig-type="figure" id="f1" position="float">
+                <label>Figure 1. </label>
+                <caption>
+                    <title>To reach the goal (bridge on the river), the subject can reproduce a sequence of left-right body turns (egocentric strategy) or use environmental cues (allocentric strategy).</title>
+                </caption>
+                <graphic xlink:href="f1000research-7-14855-g0000.gif"/>
+            </fig>
+            <p>Typically, the egocentric strategy relies upon kinesthetic and vestibular sensory information as well as motor command efferent copies, and optokinetic &#xfb02;ow information as the subject moves past surrounding objects
+                <sup>
+                    <xref ref-type="bibr" rid="ref-8">8</xref>
+                </sup>. Egocentric learning ability has been demonstrated in paradigms in which animals must repeat a sequence of responses or movements toward a target, e.g., turning to the left, or reaching a fixed goal from a fixed starting point. Egocentric spatial orientation is likely to occur in the absence of external allothetic visual cues&#x2014;e.g., in total darkness or in water maze with high and opaque walls that do not allow the use of extramaze cues. However, learning occurs relatively slowly in the water maze in darkness
+                <sup>
+                    <xref ref-type="bibr" rid="ref-9">9</xref>,
+                    <xref ref-type="bibr" rid="ref-10">10</xref>
+                </sup>, due to cumulative errors of the vestibular system, which are not corrected by visual inputs
+                <sup>
+                    <xref ref-type="bibr" rid="ref-11">11</xref>
+                </sup>. Egocentric navigation is also associated with path integration, a strategy of spatial navigation that uses vestibular and proprioceptive cues generated during locomotion to keep track of position relative to a known starting point
+                <sup>
+                    <xref ref-type="bibr" rid="ref-12">12</xref>
+                </sup>. Path integration or dead reckoning is, for example, used by foraging animals, such as desert ants and honeybees, to search for food along novel routes extending hundreds of meters
+                <sup>
+                    <xref ref-type="bibr" rid="ref-13">13</xref>
+                </sup>. After reaching the site, those animals show an impressive level of accuracy at returning back to the nest using only the idiothetic cues generated by their movements. Environmental allothetic cues can be used to correct heading direction. Path integration can also be assessed in human subjects walking blindfolded to a previously seen target or asking them to estimate the distance and direction traveled while walking blindfolded
+                <sup>
+                    <xref ref-type="bibr" rid="ref-14">14</xref>
+                </sup>.</p>
+        </sec>
+        <sec>
+            <title>Neuronal basis of egocentric navigation</title>
+            <p>Behavioral and brain imaging studies indicate that egocentric and allocentric strategies are mediated by a different cognitive-neural system, with some degree of overlapping. Egocentric-based navigation relies mainly on the posterior parietal cortex (PPC; 
+                <xref ref-type="fig" rid="f2">Figure 2</xref>) whereas hippocampus and parahippocampal cortex are crucial for allocentric navigation
+                <sup>
+                    <xref ref-type="bibr" rid="ref-15">15</xref>,
+                    <xref ref-type="bibr" rid="ref-16">16</xref>
+                </sup>. The activity in the caudated nucleus has also been associated with egocentric tasks requiring a response strategy, such as following a well-learned route in a virtual city
+                <sup>
+                    <xref ref-type="bibr" rid="ref-17">17</xref>
+                </sup>.</p>
+            <fig fig-type="figure" id="f2" position="float">
+                <label>Figure 2. </label>
+                <caption>
+                    <title>Brain regions involved in egocentric spatial representation.</title>
+                </caption>
+                <graphic xlink:href="f1000research-7-14855-g0001.gif"/>
+            </fig>
+            <sec>
+                <title>Role of the posterior parietal cortex</title>
+                <p>The importance of PPC in egocentric navigation has been demonstrated by lesion studies in rodents and humans as well as by functional MRI (fMRI) studies in healthy subjects. Rogers and Kesner
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-18">18</xref>
+                    </sup> have found that rats with selective lesions of the right posterior parietal cortex were impaired in the acquisition of the egocentric version of the water maze task, in the absence of extramaze cues, but had no difficulty in learning the allocentric version of the task, when extramaze cues were available. Rats with PPC lesions are also strongly impaired in path integration-based navigation under conditions in which visual inputs are irrelevant
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-19">19</xref>
+                    </sup>. For example, they are unable to locate the escape platform in a water maze when tested in complete darkness or to return directly to the refuge after searching for a randomly located food reward on a circular arena surrounded by a curtain, suggesting that the PPC plays an important role in idiothetic processing during path integration. Furthermore, single-unit recording data have demonstrated that a substantial fraction of cells in PPC of rats responds selectively to head orientation or to locomotion such as forward motion to the left or right
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-20">20</xref>&#x2013;
+                        <xref ref-type="bibr" rid="ref-22">22</xref>
+                    </sup>.</p>
+                <p>The involvement of PPC in egocentric spatial processing has also been observed in humans as they navigated to goal destinations in the virtual simulation of London
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-23">23</xref>
+                    </sup>. Analysis of the fMRI data revealed that the activity in bilateral PPC was significantly correlated with the egocentric direction to the goal. Additional evidence in support of a role of PPC in egocentric based spatial navigation comes from patients with PPC damage following cerebral infarction or hemorrhage in the right hemisphere
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-24">24</xref>,
+                        <xref ref-type="bibr" rid="ref-25">25</xref>
+                    </sup>. Lesion of PPC can result in a contralateral neglect i.e. inattention to objects and space on the body opposite to the brain damage. Patients with neglect lose the ability to represent the location of objects (and landmarks) with respect to the self, though the landmarks are still recognizable. Indeed, they can get lost in their homes as they ignore left-hand turns or doorway. Neglect of representational space has been clearly described by Bisiach and Luzzatti
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-26">26</xref>
+                    </sup>. They asked patients with left-sided neglect to recall the layout of the Piazza del Duomo in Milan, a place very familiar to them. When imagining themselves facing the cathedral in the middle of the piazza, such patients neglected the left side of the piazza, recalling only the right side; however, when asked to view the piazza from the opposite end, they recalled the previously neglected buildings. An impairment of egocentric processing of remote spatial memory has also been observed in patients with focal lesion of PPC without clinical signs of neglect
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-25">25</xref>
+                    </sup>. In particular, when examined on mental navigation tasks in a very familiar environment (i.e., downtown Toronto), such patients were impaired on tasks that involved egocentric mental views of places such as describing an efficient route from one specific Toronto landmark to another. However, they showed preserved allocentric knowledge of the same environment, as they were able to indicate the location of landmarks on a map of Toronto or draw a map of the streets of Toronto.</p>
+                <p>Anatomical studies support the important role of PPC in processing egocentric spatial information
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-27">27</xref>
+                    </sup>. Indeed, PPC receives and integrates signals from cortical areas representing all main sensory modalities, such as vision, audition, proprioceptive, and vestibular. In addition, it is connected to cortical regions involved in goal-directed behavior such as the orbitofrontal, and medial prefrontal cortices and the striatum
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-28">28</xref>
+                    </sup>. The parietal cortex is also reciprocally connected with the hippocampal formation via the retrosplenial and the postrhinal cortex
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-29">29</xref>
+                    </sup>.</p>
+            </sec>
+            <sec>
+                <title>Role of the striatal complex</title>
+                <p>Potegal
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-30">30</xref>
+                    </sup> was the first to suggest that the striatal complex is involved in processing egocentric information; he based his hypothesis on the observation that patients with Huntington&#x2019;s disease, which are affected by neurodegeneration of striatal neurons, were impaired when using the egocentric frame of reference.</p>
+                <p>The striatal complex is part of the basal ganglia nuclei, which receive information from the whole cortical mantle (
+                    <xref ref-type="fig" rid="f2">Figure 2</xref>). It was initially thought that these nuclei were selectively involved in the movement control, but more recent evidence clearly indicates that the basal ganglia, and in particular the striatum, also have important cognitive functions, including learning and memory
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-31">31</xref>&#x2013;
+                        <xref ref-type="bibr" rid="ref-36">36</xref>
+                    </sup>. Neuroanatomical evidence suggests that the striatal complex can be further distinguished in at least three different sub-regions including the dorsolateral and the dorsomedial striatum, corresponding to the putamen and the caudate in non-human and human primates, respectively, and the nucleus accumbens, which is located in the ventral striatum
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-37">37</xref>
+                    </sup>. The role of these different components in spatial navigation seems to follow lateromedial and dorsoventral gradient. The dorsolateral striatum is involved in all forms of egocentric navigation strategies with little involvement in allocentric navigation
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-32">32</xref>,
+                        <xref ref-type="bibr" rid="ref-33">33</xref>,
+                        <xref ref-type="bibr" rid="ref-38">38</xref>&#x2013;
+                        <xref ref-type="bibr" rid="ref-43">43</xref>
+                    </sup>. These findings are in line with neuroanatomical evidence showing that this part of the striatal complex receives dense projections from the PPC and the dorsolateral prefrontal cortex, as well as from the vestibular system, which is crucial for egocentric spatial information processing
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-44">44</xref>&#x2013;
+                        <xref ref-type="bibr" rid="ref-46">46</xref>
+                    </sup>. Both the medial and the ventral striatum are involved in egocentric spatial processing. However, these brain regions seem to be recruited in egocentric spatial tasks only when complex visuospatial tasks require a flexible updating system, like locating the position of a displaced object based on its position related to the subject body axes
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-33">33</xref>
+                    </sup>. The medio-ventral striatum receives a direct input from the hippocampal formation
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-47">47</xref>,
+                        <xref ref-type="bibr" rid="ref-48">48</xref>
+                    </sup> and has been particularly implicated in allocentric spatial information processing
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-33">33</xref>,
+                        <xref ref-type="bibr" rid="ref-49">49</xref>
+                    </sup>.</p>
+                <p>The role of the dorsal striatum in egocentric spatial navigation has been attributed to its specific contribution to the formation of stimulus-response based habit learning
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-50">50</xref>
+                    </sup>; however, more recent evidence in rodents using one-trial learning tasks, such as the identification of a displaced object based on the subject position, suggests that habit learning and egocentric spatial information processing are two distinct functions involving the dorsal striatum
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-32">32</xref>,
+                        <xref ref-type="bibr" rid="ref-33">33</xref>
+                    </sup>. This dissociation has been confirmed using an outcome evaluation protocol; habit responses are, by definition, controlled by the releasing stimulus, and not by the outcome. For example, if the subject always takes the same route from home to work, it may happen that the subject continues to take the same route for days even after the goal has been changed (such as moving to another place). This situation has been modeled in rodent studies, applying an outcome devaluation protocol after a maze learning. Egocentric strategy is initially used to navigate in relatively constant environments in a flexible manner
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-35">35</xref>
+                    </sup>; with increasing practice, the egocentric responses become habitual and resistant to changes in the environment and in the outcome value. Indeed, animals continued to turn right (or left) after learning even if their starting position has been changed by 180&#x00b0; or the food they obtained when turning right induced malaise. Furthermore, in the same study it was shown that deactivation of the dorsomedial striatum and the dorsolateral striatum mimicked and abolished, respectively, the effects of practice in the shift from egocentric to habit learning
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-35">35</xref>
+                    </sup>.</p>
+            </sec>
+            <sec>
+                <title>Cerebellum and egocentric based motor sequence</title>
+                <p>Functional neuroimaging studies in humans have demonstrated that the cerebellum is activated during virtual navigation tasks that can be solved using either sequence-based strategy or place-based strategy
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-51">51</xref>
+                    </sup>. However, the two strategies appeared to involve different cerebellar lobules and cortical areas: place-based responses revealed the activation of the left cerebellar lobule VIIA Crus I, the right hippocampus and the medial parietal cortex, whereas for sequence-based response, right lobule VIIA Crus I, left hippocampus and medial prefrontal cortex medial were coactivated and functionally connected.</p>
+                <p>Experiments carried out in transgenic mouse model with selective inhibition of protein kinase C inhibitor (PKCI) in Purkinje cells, have brought new insights regarding the role of cerebellum in spatial navigation
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-52">52</xref>,
+                        <xref ref-type="bibr" rid="ref-53">53</xref>
+                    </sup>. L7-PKCI transgenic mice lack parallel fiber&#x2013;Purkinje cell long-term depression (LTD), which is considered the main neural correlate of cerebellar motor learning
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-54">54</xref>&#x2013;
+                        <xref ref-type="bibr" rid="ref-56">56</xref>
+                    </sup>. Interestingly, L7-PKCI mice exhibited disrupted hippocampal place cell properties when forced to use self-motion cues, such as navigation in total darkness. Consistently with their hippocampal place cell alteration, L7-PKCI mice were unable to navigate efficiently toward a goal in the dark, suggesting that the cerebellum may shape hippocampal activity during spatial navigation. The main hypothesis is that the cerebellum contributes to the formation of spatial representation by combining vestibular with proprioceptive inputs to generate appropriate information about body location in space
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-57">57</xref>&#x2013;
+                        <xref ref-type="bibr" rid="ref-59">59</xref>
+                    </sup>. The cerebellum appears to also be connected with the posterior parietal cortex, that encodes self-motion and acceleration
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-22">22</xref>
+                    </sup>. The interaction between PPC and cerebellar lobules has been shown in humans and monkeys and is believed to play an important role in planning and execution of navigation behavior.</p>
+            </sec>
+        </sec>
+        <sec>
+            <title>Egocentric navigation in childhood and aging</title>
+            <p>Studies on spatial abilities in childhood suggest that infants use mainly an egocentric reference system and that a gradual ability to use allocentric representations is acquired with age. Egocentric representation is considered a more elementary mean of representing the location of an object than an allocentric representation and, therefore, is already present early
+                <sup>
+                    <xref ref-type="bibr" rid="ref-60">60</xref>,
+                    <xref ref-type="bibr" rid="ref-61">61</xref>
+                </sup>. Acredolo and Evans
+                <sup>
+                    <xref ref-type="bibr" rid="ref-62">62</xref>
+                </sup> found that 6-month-old infants, trained to anticipate the appearance of a face at either their left or right and then turned around, continued to look in the same egocentric direction after they were rotated to the opposite side of the room. The correct use of allocentric representations develops progressively with increasing age. A further study carried out in children of 5, 7, and 10-year-olds has demonstrated that a high percentage of children spontaneously used the egocentric strategy on the virtual reality adaptation of the StarMaze task, reproducing the same sequence of body turns during the probe trials as during the training trials
+                <sup>
+                    <xref ref-type="bibr" rid="ref-63">63</xref>
+                </sup>. The allocentric strategy, based on landmark guidance, was spontaneously used to solve the task in a few percentage of children at 7 and 10 years, but not at 5 years of age. However, when the allocentric strategy was imposed, the 5- year-olds were able to use allocentric behavior but their performance was below that of the 10-year-olds.</p>
+            <p>The shift from egocentric to allocentric strategy preference with increasing age is consistent with the heterogeneity in developmental trajectories of subcortical and cortical structures; decrease of subcortical and increase of cortical gray matter volumes have been described after age 7
+                <sup>
+                    <xref ref-type="bibr" rid="ref-64">64</xref>
+                </sup>.</p>
+            <p>After 60 years of age, there is a clear decline in spatial navigation abilities
+                <sup>
+                    <xref ref-type="bibr" rid="ref-65">65</xref>
+                </sup>. Such decline is often related to functional changes of the posteromedial, the medial-temporal and the frontal areas
+                <sup>
+                    <xref ref-type="bibr" rid="ref-66">66</xref>,
+                    <xref ref-type="bibr" rid="ref-67">67</xref>
+                </sup>. Older adults present spatial navigation deficits particularly in allocentric navigation, being less effective in forming and using the cognitive maps when examined in both virtual and real-life versions of the human Morris maze
+                <sup>
+                    <xref ref-type="bibr" rid="ref-68">68</xref>,
+                    <xref ref-type="bibr" rid="ref-69">69</xref>
+                </sup>. On the other hand, the egocentric spatial navigation and learning is preserved in older age. The same results have been confirmed in studies testing older adults (71&#x2013;84 years old) in a real-space human analog of the Morris Water Maze
+                <sup>
+                    <xref ref-type="bibr" rid="ref-70">70</xref>
+                </sup>.</p>
+            <p>Behavioral studies on rodents have confirmed the effect of aging on the spatial task performance requiring the use of allocentric strategy
+                <sup>
+                    <xref ref-type="bibr" rid="ref-71">71</xref>
+                </sup>. For example, aged mice were impaired in the water maze task in which they must remember the location of a submerged platform in relation to a series of extra-maze or distal cues, with the position of the starting point changing from trial to trial
+                <sup>
+                    <xref ref-type="bibr" rid="ref-72">72</xref>
+                </sup>. However, the aged mice performed correctly the egocentric spatial task in a T-maze, remembering a sequence of movements (such as rotation to the left). These results suggest that aging can affect the allocentric and egocentric processing of spatial information in a different way.</p>
+            <p>These findings are in line with an increased sensitivity of brain regions of the medial temporal lobe, including the hippocampus, to the insult of aging and associated neurodegenerative disorders such as AD.</p>
+        </sec>
+        <sec>
+            <title>Egocentric spatial deficits in developmental disorders: the case of autism</title>
+            <p>Based on neuropsychological literature showing that the use egocentric develops before allocentric spatial strategies
+                <sup>
+                    <xref ref-type="bibr" rid="ref-73">73</xref>
+                </sup>, altered egocentric spatial ability can be considered an early sign of neuro- and psychiatric developmental disorders. This issue is generally little explored. However, some studies have addressed egocentric spatial information processing in Autism spectrum disorder (ASD). ASD is a multifactorial neurodevelopmental disorder that can also be secondary to genetic syndromes, including DiGeorge syndrome, Optiz syndrome or Fragile X syndrome
+                <sup>
+                    <xref ref-type="bibr" rid="ref-74">74</xref>
+                </sup>. ASD manifests with impaired eye contact and communication skills, as well as impaired social interaction
+                <sup>
+                    <xref ref-type="bibr" rid="ref-75">75</xref>
+                </sup>. Furthermore, children with autism often present stereotyped behavior and self-injury. Visuo-spatial abilities in subjects with autism have been investigated. Although in one study, no impairment was observed
+                <sup>
+                    <xref ref-type="bibr" rid="ref-76">76</xref>
+                </sup>, more recent studies suggested that autistic adults show impaired performance in egocentric spatial tasks, when they have to use their body as reference frame
+                <sup>
+                    <xref ref-type="bibr" rid="ref-77">77</xref>,
+                    <xref ref-type="bibr" rid="ref-78">78</xref>
+                </sup>.</p>
+            <p>These deficits have never been directly associated to altered brain activation patterns. Interestingly, structural alteration of subcortical regions has been widely identified in autistic children. For example, the largest brain morphometric study in ASD to date shows that autism is associated with smaller subcortical volumes of the pallidum and putamen. Cerebellar cell loss and atrophy has also revealed in ASD children
+                <sup>
+                    <xref ref-type="bibr" rid="ref-79">79</xref>&#x2013;
+                    <xref ref-type="bibr" rid="ref-83">83</xref>
+                </sup>.</p>
+            <p>Impaired subcortical functions in animal models of autism have been mainly associated to social behavior impairment, with little attention to the possible effects of spatial information processing. Behavioral investigation of MID1-null mouse model of Opitz G/BBB syndrome (OS), a genetic disorder characterized by mental retardation and brain abnormalities such as hypoplasia of the anterior cerebellar vermis, has demonstrated that these mice can promptly learn to locate the food in a T-maze if the position of the food remains constant relatively to extra-maze cues (allocentric strategy), but they are impaired if the position of the food is anchored to the animal position in the maze (egocentric strategy)
+                <sup>
+                    <xref ref-type="bibr" rid="ref-84">84</xref>
+                </sup>. Impairment of egocentric spatial information processing has been also observed in children with Williams syndrome (WS), a neurodevelopmental disorder resulting from a hemizygous microdeletion of ~25 genes on chromosome 7q11.23
+                <sup>
+                    <xref ref-type="bibr" rid="ref-73">73</xref>,
+                    <xref ref-type="bibr" rid="ref-85">85</xref>
+                </sup>.</p>
+            <p>Egocentric spatial abilities impairment correlates with altered social performance in ASD. Therefore, understanding the nature and the neuronal correlates of egocentric spatial abilities in ASD might be relevant to shed light on the nature of other cognitive and social deficits characterizing ASD, as evidenced by studies linking spatial and social cognitive abilities in ASD
+                <sup>
+                    <xref ref-type="bibr" rid="ref-86">86</xref>,
+                    <xref ref-type="bibr" rid="ref-87">87</xref>
+                </sup>.</p>
+        </sec>
+        <sec>
+            <title>Egocentric impairments deficits in Alzheimer's disease</title>
+            <p>Alzheimer's disease (AD) is a neurodegenerative disorder characterized by the accumulation of amyloid plaques and neurofibrillary tangle accompanied by neuronal loss
+                <sup>
+                    <xref ref-type="bibr" rid="ref-88">88</xref>
+                </sup>. In the early phase of the disease, most patients show cognitive impairments, such as memory deficits, language impairment, poor judgment and decision making
+                <sup>
+                    <xref ref-type="bibr" rid="ref-89">89</xref>&#x2013;
+                    <xref ref-type="bibr" rid="ref-91">91</xref>
+                </sup>. As the disease progresses, reasoning, visual-spatial skills, and sensory processing become increasingly affected. The cognitive impairment in patients with AD is closely associated with the progressive degeneration of medial temporal lobe, including hippocampal formation and entorhinal cortex, frontal and parietal cortex and the basal forebrain
+                <sup>
+                    <xref ref-type="bibr" rid="ref-92">92</xref>,
+                    <xref ref-type="bibr" rid="ref-93">93</xref>
+                </sup>. Spatial navigation deficits, such as becoming disoriented or feeling lost in familiar places, represent the first sign of AD, and have, therefore, an important clinical utility for the early detection of AD
+                <sup>
+                    <xref ref-type="bibr" rid="ref-94">94</xref>,
+                    <xref ref-type="bibr" rid="ref-95">95</xref>
+                </sup>. Several studies in recent years have focused on spatial deficits in patients with amnestic Mild Cognitive Impairment (aMCI), which is considered an intermediate stage between the expected cognitive deficit of normal aging and the serious decline of dementia. Patients with amnestic MCI, especially those with the hippocampal type of amnestic syndrome, are at very high risk of AD. The conversion rate from MCI to dementia range is about 10% per year; in contrast to conversion rate from healthy elderly subjects to dementia which is about 1&#x2013;2 percent per year
+                <sup>
+                    <xref ref-type="bibr" rid="ref-96">96</xref>
+                </sup>. Interestingly, MCI patients are impaired in both allocentric and egocentric navigation, as documented by a series of study on virtual as well as real navigation. In one of the first studies, Hort and collaborators
+                <sup>
+                    <xref ref-type="bibr" rid="ref-97">97</xref>
+                </sup> tested a group of AD and aMCI patients on a goal-directed navigation task within a circular arena. The goal was invisible and could be identified either by its position relative to the starting position (egocentric subtest) or relative to cues on the wall (allocentric subtest). Each subtest began with an overhead view of the arena on a computer monitor. Both AD and aMCI were similarly impaired in all types of experiments, suggesting that spatial navigation impairment is not limited to AD, but begins to decline earlier in MCI. To understand the neural mechanisms behind spatial navigation of AD, Weniger and collaborators
+                <sup>
+                    <xref ref-type="bibr" rid="ref-98">98</xref>
+                </sup> examined a group of patients with aMCI on two virtual reality tasks, a virtual park containing several landmarks (allocentric memory) and a landmark-free virtual maze (egocentric memory) while undergoing an fMRI scan. They showed that aMCI patients were significantly impaired on both virtual reality tests, getting more frequently lost than controls and being unable to find a navigation strategy to learn the maze. Importantly, the allocentric and egocentric memory of aMCI patients were associated with size reduction of hippocampus, precuneus, and right-sided parietal cortex. These results have been recently confirmed by Boccia 
+                <italic>et al.</italic>
+                <sup>
+                    <xref ref-type="bibr" rid="ref-99">99</xref>
+                </sup>. In their studies, patients with aMCI were challenged on an intensive learning paradigm, during which participants were shown two paths using either video clips or maps of a real city. The video clips were used to encourage participants to develop an egocentric representation of the city, whereas the maps were used to encourage them to develop an allocentric representation. After learning, they were asked to retrieve each of these paths, using an allocentric or egocentric frame of reference, while undergoing fMRI scan. Behavioral results indicated that aMCI showed a reduction in the rate of learning on the allocentric task. In addition, patients with aMCI showed a selective impairment in retrieving topographical memory using an egocentric perspective. Imaging data suggest that this general decline was correlated with hypoactivation of the brain areas generally involved in spatial navigation, e.g. medial temporal lobe structures, angular gyrus, and orbitofrontal cortex.</p>
+            <p>Furthermore, there is a strong evidence that patients with mild AD and aMCI are also impaired on path integration task, in which they are required to return to the starting point following an enclosed triangle pathway with a mask over their eyes
+                <sup>
+                    <xref ref-type="bibr" rid="ref-100">100</xref>
+                </sup>. Such deficit appeared to be correlated to a reduced size of hippocampus, entorhinal and parietal cortices.</p>
+            <p>These findings suggest that neuropsychological screening designed to assess navigational deficit may represent an important tool for detecting the prodromal symptoms of aMCI and early stage of AD, and therefore, allow appropriate diagnosis and intervention.</p>
+        </sec>
+        <sec sec-type="conclusions">
+            <title>Conclusions</title>
+            <p>Many interesting points emerge from spatial navigation studies presented in this review. First of all, it appears that, unlike allocentric, the egocentric spatial strategy is quite preserved under physiological aging. But there are conditions such as AD in which egocentric ability is also impaired and this determines devastating effects on spatial navigation so that individual get lost even in a familiar environment. Secondly, the egocentric spatial deficits in brain disorders such as AD are often correlated with a reduced size of brain areas involved in egocentric information processing. Overall, these findings suggest that neuropsychological screening designed to assess navigational deficit may represent an important approach for detecting neurological and psychiatric disease progression, thus allowing an appropriate intervention.</p>
+        </sec>
+    </body>
+    <back>
+        <ref-list>
+            <ref id="ref-1">
+                <label>1</label>
+                <mixed-citation publication-type="book">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>O&#x2019;Keefe</surname>
+                            <given-names>J</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Nadel</surname>
+                            <given-names>L</given-names>
+                        </name>
+</person-group>:
+                    <article-title>The Hippocampus as a Cognitive Map</article-title>.<year>1978</year>; Oxford University Press.
+                    <ext-link ext-link-type="uri" xlink:href="http://www.caam.rice.edu/~cox/neuro/HCMComplete.pdf">Reference Source</ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-2">
+                <label>2</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Burgess</surname>
+                            <given-names>N</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Maguire</surname>
+                            <given-names>EA</given-names>
+                        </name>
+
+                        <name>
+                            <surname>O'Keefe</surname>
+                            <given-names>J</given-names>
+                        </name>
+</person-group>:
+                    <article-title>The human hippocampus and spatial and episodic memory.</article-title>
+                    <source>
+
+                        <italic>Neuron.</italic>
+</source>
+                    <year>2002</year>;<volume>35</volume>(<issue>4</issue>):<fpage>625</fpage>&#x2013;<lpage>641</lpage>.
+                    <pub-id pub-id-type="pmid">12194864</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/S0896-6273(02)00830-9</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-3">
+                <label>3</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Nadel</surname>
+                            <given-names>L</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Hardt</surname>
+                            <given-names>O</given-names>
+                        </name>
+</person-group>:
+                    <article-title>The spatial brain.</article-title>
+                    <source>
+
+                        <italic>Neuropsychology.</italic>
+</source>
+                    <year>2004</year>;<volume>18</volume>(<issue>3</issue>):<fpage>473</fpage>&#x2013;<lpage>476</lpage>.
+                    <pub-id pub-id-type="pmid">15291725</pub-id>
+                    <pub-id pub-id-type="doi">10.1037/0894-4105.18.3.473</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-4">
+                <label>4</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Burgess</surname>
+                            <given-names>N</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Spatial memory: how egocentric and allocentric combine.</article-title>
+                    <source>
+
+                        <italic>Trends Cogn Sci.</italic>
+</source>
+                    <year>2006</year>;<volume>10</volume>(<issue>12</issue>):<fpage>551</fpage>&#x2013;<lpage>557</lpage>.
+                    <pub-id pub-id-type="pmid">17071127</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/j.tics.2006.10.005</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-5">
+                <label>5</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Igl&#x00f3;i</surname>
+                            <given-names>K</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Zaoui</surname>
+                            <given-names>M</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Berthoz</surname>
+                            <given-names>A</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Sequential egocentric strategy is acquired as early as allocentric strategy: Parallel acquisition of these two navigation strategies.</article-title>
+                    <source>
+
+                        <italic>Hippocampus.</italic>
+</source>
+                    <year>2009</year>;<volume>19</volume>(<issue>12</issue>):<fpage>1199</fpage>&#x2013;<lpage>1211</lpage>.
+                    <pub-id pub-id-type="pmid">19360853</pub-id>
+                    <pub-id pub-id-type="doi">10.1002/hipo.20595</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-6">
+                <label>6</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Miniaci</surname>
+                            <given-names>MC</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Lippiello</surname>
+                            <given-names>P</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Monda</surname>
+                            <given-names>M</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Role of hippocampus in polymodal-cue guided tasks in rats.</article-title>
+                    <source>
+
+                        <italic>Brain Res.</italic>
+</source>
+                    <year>2016</year>;<volume>1646</volume>:<fpage>426</fpage>&#x2013;<lpage>432</lpage>.
+                    <pub-id pub-id-type="pmid">27342815</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/j.brainres.2016.06.030</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-7">
+                <label>7</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>O&#x2019;Keefe</surname>
+                            <given-names>J</given-names>
+                        </name>
+</person-group>:
+                    <article-title>An allocentric spatial model for the hippocampal cognitive map.</article-title>
+                    <source>
+
+                        <italic>Hippocampus.</italic>
+</source>
+                    <year>1991</year>;<volume>1</volume>(<issue>3</issue>):<fpage>230</fpage>&#x2013;<lpage>235</lpage>.
+                    <pub-id pub-id-type="pmid">1669295</pub-id>
+                    <pub-id pub-id-type="doi">10.1002/hipo.450010303</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-8">
+                <label>8</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Arleo</surname>
+                            <given-names>A</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Rondi-Reig</surname>
+                            <given-names>L</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Multimodal sensory integration and concurrent navigation strategies for spatial cognition in real and artificial organisms.</article-title>
+                    <source>
+
+                        <italic>J Integr Neurosci.</italic>
+</source>
+                    <year>2007</year>;<volume>6</volume>(<issue>3</issue>):<fpage>327</fpage>&#x2013;<lpage>66</lpage>.
+                    <pub-id pub-id-type="pmid">17933016</pub-id>
+                    <pub-id pub-id-type="doi">10.1142/S0219635207001593</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-9">
+                <label>9</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Save</surname>
+                            <given-names>E</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Moghaddam</surname>
+                            <given-names>M</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Effects of lesions of the associative parietal cortex on the acquisition and use of spatial memory in egocentric and allocentric navigation tasks in the rat.</article-title>
+                    <source>
+
+                        <italic>Behav Neurosci.</italic>
+</source>
+                    <year>1996</year>;<volume>110</volume>(<issue>1</issue>):<fpage>74</fpage>&#x2013;<lpage>85</lpage>.
+                    <pub-id pub-id-type="pmid">8652075</pub-id>
+                    <pub-id pub-id-type="doi">10.1037/0735-7044.110.1.74</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-10">
+                <label>10</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Miniaci</surname>
+                            <given-names>MC</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Scotto</surname>
+                            <given-names>P</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Bures</surname>
+                            <given-names>J</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Place navigation in rats guided by a vestibular and kinesthetic orienting gradient.</article-title>
+                    <source>
+
+                        <italic>Behav Neuroscience.</italic>
+</source>
+                    <year>1999</year>;<volume>113</volume>(<issue>6</issue>):<fpage>1115</fpage>&#x2013;<lpage>1126</lpage>.
+                    <pub-id pub-id-type="pmid">10636293</pub-id>
+                    <pub-id pub-id-type="doi">10.1037/0735-7044.113.6.1115</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-11">
+                <label>11</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Barlow</surname>
+                            <given-names>JS</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Inertial navigation as a basis for animal navigation.</article-title>
+                    <source>
+
+                        <italic>J Theor Biol.</italic>
+</source>
+                    <year>1964</year>;<volume>6</volume>(<issue>1</issue>):<fpage>76</fpage>&#x2013;<lpage>117</lpage>.
+                    <pub-id pub-id-type="pmid">5875179</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/0022-5193(64)90067-0</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-12">
+                <label>12</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>McNaughton</surname>
+                            <given-names>BL</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Chen</surname>
+                            <given-names>LL</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Markus</surname>
+                            <given-names>EJ</given-names>
+                        </name>
+</person-group>:
+                    <article-title>&#x201c;Dead reckoning,&#x201d; landmark learning, and the sense of direction: a neurophysiological and computational hypothesis.</article-title>
+                    <source>
+
+                        <italic>J Cogn Neurosci.</italic>
+</source>
+                    <year>1991</year>;<volume>3</volume>(<issue>2</issue>):<fpage>190</fpage>&#x2013;<lpage>205</lpage>.
+                    <pub-id pub-id-type="pmid">23972093</pub-id>
+                    <pub-id pub-id-type="doi">10.1162/jocn.1991.3.2.190</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-13">
+                <label>13</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>M&#x00fc;ller</surname>
+                            <given-names>M</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Wehner</surname>
+                            <given-names>R</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Path integration in desert ants, 
+                        <italic>Cataglyphis fortis</italic>.</article-title>
+                    <source>
+
+                        <italic>Proc Natl Acad Sci USA.</italic>
+</source>
+                    <year>1988</year>;<volume>85</volume>(<issue>14</issue>):<fpage>5287</fpage>&#x2013;<lpage>5290</lpage>.
+                    <pub-id pub-id-type="pmid">16593958</pub-id>
+                    <pub-id pub-id-type="doi">10.1073/pnas.85.14.5287</pub-id>
+                    <pub-id pub-id-type="pmcid">281735</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-14">
+                <label>14</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Loomis</surname>
+                            <given-names>JM</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Klatzky</surname>
+                            <given-names>RL</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Golledge</surname>
+                            <given-names>RG</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Navigating without vision: basic and applied research.</article-title>
+                    <source>
+
+                        <italic>Optom Vis Sci.</italic>
+</source>
+                    <year>2001</year>;<volume>78</volume>(<issue>5</issue>):<fpage>282</fpage>&#x2013;<lpage>289</lpage>.
+                    <pub-id pub-id-type="pmid">11384005</pub-id>
+                    <pub-id pub-id-type="doi">10.1097/00006324-200105000-00011</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-15">
+                <label>15</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Byrne</surname>
+                            <given-names>P</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Becker</surname>
+                            <given-names>S</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Burgess</surname>
+                            <given-names>N</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Remembering the past and imagining the future: a neural model of spatial memory and imagery.</article-title>
+                    <source>
+
+                        <italic>Psychol Rev.</italic>
+</source>
+                    <year>2007</year>;<volume>114</volume>(<issue>2</issue>):<fpage>340</fpage>&#x2013;<lpage>375</lpage>.
+                    <pub-id pub-id-type="pmid">17500630</pub-id>
+                    <pub-id pub-id-type="doi">10.1037/0033-295X.114.2.340</pub-id>
+                    <pub-id pub-id-type="pmcid">2678675</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-16">
+                <label>16</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>O&#x2019;Keefe</surname>
+                            <given-names>J</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Dostrovsky</surname>
+                            <given-names>J</given-names>
+                        </name>
+</person-group>:
+                    <article-title>The hippocampus as a spatial map. Preliminary evidence from unit activity in the freely-moving rat.</article-title>
+                    <source>
+
+                        <italic>Brain Res.</italic>
+</source>
+                    <year>1971</year>;<volume>34</volume>(<issue>1</issue>):<fpage>171</fpage>&#x2013;<lpage>175</lpage>.
+                    <pub-id pub-id-type="pmid">5124915</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/0006-8993(71)90358-1</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-17">
+                <label>17</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Hartley</surname>
+                            <given-names>T</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Maguire</surname>
+                            <given-names>EA</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Spiers</surname>
+                            <given-names>HJ</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>The well-worn route and the path less traveled: distinct neural bases of route following and wayfinding in humans.</article-title>
+                    <source>
+
+                        <italic>Neuron.</italic>
+</source>
+                    <year>2003</year>;<volume>37</volume>(<issue>5</issue>):<fpage>877</fpage>&#x2013;<lpage>888</lpage>.
+                    <pub-id pub-id-type="pmid">12628177</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/S0896-6273(03)00095-3</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-18">
+                <label>18</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Rogers</surname>
+                            <given-names>JL</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Kesner</surname>
+                            <given-names>RP</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Lesions of the dorsal hippocampus or parietal cortex differentially affect spatial information processing.</article-title>
+                    <source>
+
+                        <italic>Behav Neurosci.</italic>
+</source>
+                    <year>2006</year>;<volume>120</volume>(<issue>4</issue>):<fpage>852</fpage>&#x2013;<lpage>860</lpage>.
+                    <pub-id pub-id-type="pmid">16893291</pub-id>
+                    <pub-id pub-id-type="doi">10.1037/0735-7044.120.4.852</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-19">
+                <label>19</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Parron</surname>
+                            <given-names>C</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Save</surname>
+                            <given-names>E</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Evidence for entorhinal and parietal cortices involvement in path integration in the rat.</article-title>
+                    <source>
+
+                        <italic>Exp Brain Res.</italic>
+</source>
+                    <year>2004</year>;<volume>159</volume>(<issue>3</issue>):<fpage>349</fpage>&#x2013;<lpage>359</lpage>.
+                    <pub-id pub-id-type="pmid">15526193</pub-id>
+                    <pub-id pub-id-type="doi">10.1007/s00221-004-1960-8</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-20">
+                <label>20</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Chen</surname>
+                            <given-names>LL</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Lin</surname>
+                            <given-names>LH</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Green</surname>
+                            <given-names>EJ</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Head-direction cells in the rat posterior cortex. I. Anatomical distribution and behavioral modulation.</article-title>
+                    <source>
+
+                        <italic>Exp Brain Res.</italic>
+</source>
+                    <year>1994</year>;<volume>101</volume>(<issue>1</issue>):<fpage>8</fpage>&#x2013;<lpage>23</lpage>.
+                    <pub-id pub-id-type="pmid">7843305</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-21">
+                <label>21</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Nitz</surname>
+                            <given-names>DA</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Tracking route progression in the posterior parietal cortex.</article-title>
+                    <source>
+
+                        <italic>Neuron.</italic>
+</source>
+                    <year>2006</year>;<volume>49</volume>(<issue>5</issue>):<fpage>747</fpage>&#x2013;<lpage>756</lpage>.
+                    <pub-id pub-id-type="pmid">16504949</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/j.neuron.2006.01.037</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-22">
+                <label>22</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Whitlock</surname>
+                            <given-names>JR</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Pfuhl</surname>
+                            <given-names>G</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Dagslott</surname>
+                            <given-names>N</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Functional split between parietal and entorhinal cortices in the rat.</article-title>
+                    <source>
+
+                        <italic>Neuron.</italic>
+</source>
+                    <year>2012</year>;<volume>73</volume>(<issue>4</issue>):<fpage>789</fpage>&#x2013;<lpage>802</lpage>.
+                    <pub-id pub-id-type="pmid">22365551</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/j.neuron.2011.12.028</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-23">
+                <label>23</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Spiers</surname>
+                            <given-names>HJ</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Maguire</surname>
+                            <given-names>EA</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Thoughts, behaviour, and brain dynamics during navigation in the real world.</article-title>
+                    <source>
+
+                        <italic>Neuroimage.</italic>
+</source>
+                    <year>2006</year>;<volume>31</volume>(<issue>4</issue>):<fpage>1826</fpage>&#x2013;<lpage>1840</lpage>.
+                    <pub-id pub-id-type="pmid">16584892</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/j.neuroimage.2006.01.037</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-24">
+                <label>24</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Wilson</surname>
+                            <given-names>BA</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Berry</surname>
+                            <given-names>E</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Gracey</surname>
+                            <given-names>F</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Egocentric disorientation following bilateral parietal lobe damage.</article-title>
+                    <source>
+
+                        <italic>Cortex.</italic>
+</source>
+                    <year>2005</year>;<volume>41</volume>(<issue>4</issue>):<fpage>547</fpage>&#x2013;<lpage>554</lpage>.
+                    <pub-id pub-id-type="pmid">16042030</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/S0010-9452(08)70194-1</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-25">
+                <label>25</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Ciaramelli</surname>
+                            <given-names>E</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Rosenbaum</surname>
+                            <given-names>RS</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Solcz</surname>
+                            <given-names>S</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Mental 
+                        <italic>space</italic> travel: damage to posterior parietal cortex prevents egocentric navigation and reexperiencing of remote spatial memories.</article-title>
+                    <source>
+
+                        <italic>J Exp Psychol Learn Mem Cogn.</italic>
+</source>
+                    <year>2010</year>;<volume>36</volume>(<issue>3</issue>):<fpage>619</fpage>&#x2013;<lpage>634</lpage>.
+                    <pub-id pub-id-type="pmid">20438261</pub-id>
+                    <pub-id pub-id-type="doi">10.1037/a0019181</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-26">
+                <label>26</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Bisiach</surname>
+                            <given-names>E</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Luzzatti</surname>
+                            <given-names>C</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Unilateral neglect of representational space.</article-title>
+                    <source>
+
+                        <italic>Cortex.</italic>
+</source>
+                    <year>1978</year>;<volume>14</volume>(<issue>1</issue>):<fpage>129</fpage>&#x2013;<lpage>133</lpage>.
+                    <pub-id pub-id-type="pmid">16295118</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/S0010-9452(78)80016-1</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-27">
+                <label>27</label>
+                <mixed-citation publication-type="book">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Ungerleider</surname>
+                            <given-names>LG</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Mishkin</surname>
+                            <given-names>M</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Two cortical visual systems</article-title>. In: Ingle DJ, Goodale MA, Mansfield RJW (Eds.),
+                    <italic>Analysis of Visual Behavior</italic>. MIT press, Cambridge, MA;<year>1982</year>.
+                    <ext-link ext-link-type="uri" xlink:href="http://cognitrn.psych.indiana.edu/busey/temp/illusoryconju%20refs/ungerleider_mishkin1982.pdf">Reference Source</ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-28">
+                <label>28</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Kolb</surname>
+                            <given-names>B</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Walkey</surname>
+                            <given-names>J</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Behavioural and anatomical studies of the posterior parietal cortex in the rat.</article-title>
+                    <source>
+
+                        <italic>Behav Brain Res.</italic>
+</source>
+                    <year>1987</year>;<volume>23</volume>(<issue>2</issue>):<fpage>127</fpage>&#x2013;<lpage>145</lpage>.
+                    <pub-id pub-id-type="pmid">3566907</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/0166-4328(87)90050-7</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-29">
+                <label>29</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Burwell</surname>
+                            <given-names>RD</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Amaral</surname>
+                            <given-names>DG</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Cortical afferents of the perirhinal, postrhinal, and entorhinal cortices of the rat.</article-title>
+                    <source>
+
+                        <italic>J Comp Neurol.</italic>
+</source>
+                    <year>1998</year>;<volume>398</volume>(<issue>2</issue>):<fpage>179</fpage>&#x2013;<lpage>205</lpage>.
+                    <pub-id pub-id-type="pmid">9700566</pub-id>
+                    <pub-id pub-id-type="doi">10.1002/(SICI)1096-9861(19980824)398:2&lt;179::AID-CNE3&gt;3.0.CO;2-Y</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-30">
+                <label>30</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Potegal</surname>
+                            <given-names>M</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Role of the caudate nucleus in spatial orientation of rats.</article-title>
+                    <source>
+
+                        <italic>J Comp Physiol Psychol.</italic>
+</source>
+                    <year>1969</year>;<volume>69</volume>(<issue>4</issue>):<fpage>756</fpage>&#x2013;<lpage>764</lpage>.
+                    <pub-id pub-id-type="pmid">5359150</pub-id>
+                    <pub-id pub-id-type="doi">10.1037/h0028168</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-31">
+                <label>31</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Cools</surname>
+                            <given-names>R</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Gibbs</surname>
+                            <given-names>SE</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Miyakawa</surname>
+                            <given-names>A</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Working memory capacity predicts dopamine synthesis capacity in the human striatum.</article-title>
+                    <source>
+
+                        <italic>J Neurosci.</italic>
+</source>
+                    <year>2008</year>;<volume>28</volume>(<issue>5</issue>):<fpage>1208</fpage>&#x2013;<lpage>1212</lpage>.
+                    <pub-id pub-id-type="pmid">18234898</pub-id>
+                    <pub-id pub-id-type="doi">10.1523/JNEUROSCI.4475-07.2008</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-32">
+                <label>32</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>De Leonibus</surname>
+                            <given-names>E</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Costantini</surname>
+                            <given-names>VJ</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Castellano</surname>
+                            <given-names>C</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Distinct roles of the different ionotropic glutamate receptors within the nucleus accumbens in passive-avoidance learning and memory in mice.</article-title>
+                    <source>
+
+                        <italic>Eur J Neurosci.</italic>
+</source>
+                    <year>2003</year>;<volume>18</volume>(<issue>8</issue>):<fpage>2365</fpage>&#x2013;<lpage>2373</lpage>.
+                    <pub-id pub-id-type="pmid">14622199</pub-id>
+                    <pub-id pub-id-type="doi">10.1046/j.1460-9568.2003.02939.x</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-33">
+                <label>33</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>De Leonibus</surname>
+                            <given-names>E</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Lafenetre</surname>
+                            <given-names>P</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Oliverio</surname>
+                            <given-names>A</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Pharmacological evidence of the role of dorsal striatum in spatial memory consolidation in mice.</article-title>
+                    <source>
+
+                        <italic>Behav Neurosci.</italic>
+</source>
+                    <year>2003</year>;<volume>117</volume>(<issue>4</issue>):<fpage>685</fpage>&#x2013;<lpage>694</lpage>.
+                    <pub-id pub-id-type="pmid">12931954</pub-id>
+                    <pub-id pub-id-type="doi">10.1037/0735-7044.117.4.685</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-34">
+                <label>34</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>De Leonibus</surname>
+                            <given-names>E</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Pascucci</surname>
+                            <given-names>T</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Lopez</surname>
+                            <given-names>S</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Spatial deficits in a mouse model of Parkinson disease.</article-title>
+                    <source>
+
+                        <italic>Psychopharmacology (Berl).</italic>
+</source>
+                    <year>2007</year>;<volume>194</volume>(<issue>4</issue>):<fpage>517</fpage>&#x2013;<lpage>525</lpage>.
+                    <pub-id pub-id-type="pmid">17619858</pub-id>
+                    <pub-id pub-id-type="doi">10.1007/s00213-007-0862-4</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-35">
+                <label>35</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>De Leonibus</surname>
+                            <given-names>E</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Costantini</surname>
+                            <given-names>VJ</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Massaro</surname>
+                            <given-names>A</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Cognitive and neural determinants of response strategy in the dual-solution plus-maze task.</article-title>
+                    <source>
+
+                        <italic>Learn Mem.</italic>
+</source>
+                    <year>2011</year>;<volume>18</volume>(<issue>4</issue>):<fpage>241</fpage>&#x2013;<lpage>244</lpage>.
+                    <pub-id pub-id-type="pmid">21436396</pub-id>
+                    <pub-id pub-id-type="doi">10.1101/lm.2074311</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-36">
+                <label>36</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Giordano</surname>
+                            <given-names>N</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Iemolo</surname>
+                            <given-names>A</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Mancini</surname>
+                            <given-names>M</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Motor learning and metaplasticity in striatal neurons: relevance for Parkinson's disease.</article-title>
+                    <source>
+
+                        <italic>Brain.</italic>
+</source>
+                    <year>2018</year>;<volume>141</volume>(<issue>2</issue>):<fpage>505</fpage>&#x2013;<lpage>520</lpage>.
+                    <pub-id pub-id-type="pmid">29281030</pub-id>
+                    <pub-id pub-id-type="doi">10.1093/brain/awx351</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-37">
+                <label>37</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Parent</surname>
+                            <given-names>A</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Hazrati</surname>
+                            <given-names>LN</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Functional anatomy of the basal ganglia. II. The place of subthalamic nucleus and external pallidum in basal ganglia circuitry.</article-title>
+                    <source>
+
+                        <italic>Brain Res Brain Res Rev.</italic>
+</source>
+                    <year>1995</year>;<volume>20</volume>(<issue>1</issue>):<fpage>128</fpage>&#x2013;<lpage>54</lpage>.
+                    <pub-id pub-id-type="pmid">7711765</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/0165-0173(94)00008-D</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-38">
+                <label>38</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Devan</surname>
+                            <given-names>BD</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Goad</surname>
+                            <given-names>EH</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Petri</surname>
+                            <given-names>HL</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Dissociation of hippocampal and striatal contributions to spatial navigation in the water maze.</article-title>
+                    <source>
+
+                        <italic>Neurobiol Learn Mem.</italic>
+</source>
+                    <year>1996</year>;<volume>66</volume>(<issue>3</issue>):<fpage>305</fpage>&#x2013;<lpage>23</lpage>.
+                    <pub-id pub-id-type="pmid">8946424</pub-id>
+                    <pub-id pub-id-type="doi">10.1006/nlme.1996.0072</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-39">
+                <label>39</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Devan</surname>
+                            <given-names>BD</given-names>
+                        </name>
+
+                        <name>
+                            <surname>White</surname>
+                            <given-names>NM</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Parallel information processing in the dorsal striatum: relation to hippocampal function.</article-title>
+                    <source>
+
+                        <italic>J Neurosci.</italic>
+</source>
+                    <year>1999</year>;<volume>19</volume>(<issue>7</issue>):<fpage>2789</fpage>&#x2013;<lpage>98</lpage>.
+                    <pub-id pub-id-type="pmid">10087090</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-40">
+                <label>40</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Colombo</surname>
+                            <given-names>PJ</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Davis</surname>
+                            <given-names>HP</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Volpe</surname>
+                            <given-names>BT</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Allocentric spatial and tactile memory impairments in rats with dorsal caudate lesions are affected by preoperative behavioral training.</article-title>
+                    <source>
+
+                        <italic>Behav Neurosci.</italic>
+</source>
+                    <year>1989</year>;<volume>103</volume>(<issue>6</issue>):<fpage>1242</fpage>&#x2013;<lpage>50</lpage>.
+                    <pub-id pub-id-type="pmid">2610917</pub-id>
+                    <pub-id pub-id-type="doi">10.1037//0735-7044.103.6.1242</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-41">
+                <label>41</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Cook</surname>
+                            <given-names>D</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Kesner</surname>
+                            <given-names>RP</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Caudate nucleus and memory for egocentric localization.</article-title>
+                    <source>
+
+                        <italic>Behav Neural Biol.</italic>
+</source>
+                    <year>1988</year>;<volume>49</volume>(<issue>3</issue>):<fpage>332</fpage>&#x2013;<lpage>43</lpage>.
+                    <pub-id pub-id-type="pmid">3408445</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/S0163-1047(88)90338-X</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-42">
+                <label>42</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>DeCoteau</surname>
+                            <given-names>WE</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Kesner</surname>
+                            <given-names>RP</given-names>
+                        </name>
+</person-group>:
+                    <article-title>A double dissociation between the rat hippocampus and medial caudoputamen in processing two forms of knowledge.</article-title>
+                    <source>
+
+                        <italic>Behav Neurosci.</italic>
+</source>
+                    <year>2000</year>;<volume>114</volume>(<issue>6</issue>):<fpage>1096</fpage>&#x2013;<lpage>108</lpage>.
+                    <pub-id pub-id-type="pmid">11142642</pub-id>
+                    <pub-id pub-id-type="doi">10.1037/0735-7044.114.6.1096</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-43">
+                <label>43</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Whishaw</surname>
+                            <given-names>IQ</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Mittleman</surname>
+                            <given-names>G</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Bunch</surname>
+                            <given-names>ST</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Impairments in the acquisition, retention and selection of spatial navigation strategies after medial caudate-putamen lesions in rats.</article-title>
+                    <source>
+
+                        <italic>Behav Brain Res.</italic>
+</source>
+                    <year>1987</year>;<volume>24</volume>(<issue>2</issue>):<fpage>125</fpage>&#x2013;<lpage>38</lpage>.
+                    <pub-id pub-id-type="pmid">3593524</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/0166-4328(87)90250-6</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-44">
+                <label>44</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Jones</surname>
+                            <given-names>EG</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Leavitt</surname>
+                            <given-names>RY</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Retrograde axonal transport and the demonstration of non-specific projections to the cerebral cortex and striatum from thalamic intralaminar nuclei in the rat, cat and monkey.</article-title>
+                    <source>
+
+                        <italic>J Comp Neurol.</italic>
+</source>
+                    <year>1974</year>;<volume>154</volume>(<issue>4</issue>):<fpage>349</fpage>&#x2013;<lpage>377</lpage>.
+                    <pub-id pub-id-type="pmid">4132969</pub-id>
+                    <pub-id pub-id-type="doi">10.1002/cne.901540402</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-45">
+                <label>45</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Magnin</surname>
+                            <given-names>M</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Kennedy</surname>
+                            <given-names>H</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Anatomical evidence of a third ascending vestibular pathway involving the ventral lateral geniculate nucleus and the intralaminar nuclei of the cat.</article-title>
+                    <source>
+
+                        <italic>Brain Res.</italic>
+</source>
+                    <year>1979</year>;<volume>171</volume>(<issue>3</issue>):<fpage>523</fpage>&#x2013;<lpage>529</lpage>.
+                    <pub-id pub-id-type="pmid">314320</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/0006-8993(79)91056-4</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-46">
+                <label>46</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Potegal</surname>
+                            <given-names>M</given-names>
+                        </name>
+</person-group>:
+                    <article-title>A note on spatial-motor deficits in patients with Huntington&#x2019;s disease: a test of a hypothesis.</article-title>
+                    <source>
+
+                        <italic>Neuropsychologia.</italic>
+</source>
+                    <year>1971</year>;<volume>9</volume>(<issue>2</issue>):<fpage>233</fpage>&#x2013;<lpage>235</lpage>.
+                    <pub-id pub-id-type="pmid">4260385</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/0028-3932(71)90047-9</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-47">
+                <label>47</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Brog</surname>
+                            <given-names>JS</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Salyapongse</surname>
+                            <given-names>A</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Deutch</surname>
+                            <given-names>AY</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>The patterns of afferent innervation of the core and shell in the &#x201c;accumbens&#x201d; part of the rat ventral striatum: immunohistochemical detection of retrogradely transported fluoro-gold.</article-title>
+                    <source>
+
+                        <italic>J Comp Neurol.</italic>
+</source>
+                    <year>1993</year>;<volume>338</volume>(<issue>2</issue>):<fpage>255</fpage>&#x2013;<lpage>278</lpage>.
+                    <pub-id pub-id-type="pmid">8308171</pub-id>
+                    <pub-id pub-id-type="doi">10.1002/cne.903380209</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-48">
+                <label>48</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Kelley</surname>
+                            <given-names>AE</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Domesick</surname>
+                            <given-names>VB</given-names>
+                        </name>
+</person-group>:
+                    <article-title>The distribution of the projection from the hippocampal formation to the nucleus accumbens in the rat: an anterograde- and retrograde-horseradish peroxidase study.</article-title>
+                    <source>
+
+                        <italic>Neuroscience.</italic>
+</source>
+                    <year>1982</year>;<volume>7</volume>(<issue>10</issue>):<fpage>2321</fpage>&#x2013;<lpage>2335</lpage>.
+                    <pub-id pub-id-type="pmid">6817161</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/0306-4522(82)90198-1</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-49">
+                <label>49</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Sargolini</surname>
+                            <given-names>F</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Florian</surname>
+                            <given-names>C</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Oliverio</surname>
+                            <given-names>A</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Differential involvement of NMDA and AMPA receptors within the nucleus accumbens in consolidation of information necessary for place navigation and guidance strategy of mice.</article-title>
+                    <source>
+
+                        <italic>Learn Mem.</italic>
+</source>
+                    <year>2003</year>;<volume>10</volume>(<issue>4</issue>):<fpage>285</fpage>&#x2013;<lpage>292</lpage>.
+                    <pub-id pub-id-type="pmid">12888547</pub-id>
+                    <pub-id pub-id-type="doi">10.1101/lm.54003</pub-id>
+                    <pub-id pub-id-type="pmcid">202319</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-50">
+                <label>50</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Packard</surname>
+                            <given-names>MG</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Exhumed from thought: basal ganglia and response learning in the plus-maze.</article-title>
+                    <source>
+
+                        <italic>Behav Brain Res.</italic>
+</source>
+                    <year>2009</year>;<volume>199</volume>(<issue>1</issue>):<fpage>24</fpage>&#x2013;<lpage>31</lpage>.
+                    <pub-id pub-id-type="pmid">19133296</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/j.bbr.2008.12.013</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-51">
+                <label>51</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Igl&#x00f3;i</surname>
+                            <given-names>K</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Doeller</surname>
+                            <given-names>CF</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Paradis</surname>
+                            <given-names>AL</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Interaction between hippocampus and cerebellum Crus I in sequence-based but not place-based navigation.</article-title>
+                    <source>
+
+                        <italic>Cereb Cortex.</italic>
+</source>
+                    <year>2015</year>;<volume>25</volume>(<issue>11</issue>):<fpage>4146</fpage>&#x2013;<lpage>4154</lpage>.
+                    <pub-id pub-id-type="pmid">24947462</pub-id>
+                    <pub-id pub-id-type="doi">10.1093/cercor/bhu132</pub-id>
+                    <pub-id pub-id-type="pmcid">4886832</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-52">
+                <label>52</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Rochefort</surname>
+                            <given-names>C</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Arabo</surname>
+                            <given-names>A</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Andr&#x00e9;</surname>
+                            <given-names>M</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Cerebellum shapes hippocampal spatial code.</article-title>
+                    <source>
+
+                        <italic>Science.</italic>
+</source>
+                    <year>2011</year>;<volume>334</volume>(<issue>6054</issue>):<fpage>385</fpage>&#x2013;<lpage>389</lpage>.
+                    <pub-id pub-id-type="pmid">22021859</pub-id>
+                    <pub-id pub-id-type="doi">10.1126/science.1207403</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-53">
+                <label>53</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Rochefort</surname>
+                            <given-names>C</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Lefort</surname>
+                            <given-names>JM</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Rondi-Reig</surname>
+                            <given-names>L</given-names>
+                        </name>
+</person-group>:
+                    <article-title>The cerebellum: a new key structure in the navigation system.</article-title>
+                    <source>
+
+                        <italic>Front Neural Circuits.</italic>
+</source>
+                    <year>2013</year>;<volume>7</volume>:<fpage>35</fpage>.
+                    <pub-id pub-id-type="pmid">23493515</pub-id>
+                    <pub-id pub-id-type="doi">10.3389/fncir.2013.00035</pub-id>
+                    <pub-id pub-id-type="pmcid">3595517</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-54">
+                <label>54</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Ito</surname>
+                            <given-names>M</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Long-term depression.</article-title>
+                    <source>
+
+                        <italic>Annu Rev Neurosci.</italic>
+</source>
+                    <year>1989</year>;<volume>12</volume>:<fpage>85</fpage>&#x2013;<lpage>102</lpage>.
+                    <pub-id pub-id-type="pmid">2648961</pub-id>
+                    <pub-id pub-id-type="doi">10.1146/annurev.ne.12.030189.000505</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-55">
+                <label>55</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Hoxha</surname>
+                            <given-names>E</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Lippiello</surname>
+                            <given-names>P</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Scelfo</surname>
+                            <given-names>B</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Maturation, Refinement, and Serotonergic Modulation of Cerebellar Cortical Circuits in Normal Development and in Murine Models of Autism.</article-title>
+                    <source>
+
+                        <italic>Neural Plast.</italic>
+</source>
+                    <year>2017</year>;<volume>2017</volume>: 6595740.
+                    <pub-id pub-id-type="pmid">28894610</pub-id>
+                    <pub-id pub-id-type="doi">10.1155/2017/6595740</pub-id>
+                    <pub-id pub-id-type="pmcid">5574313</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-56">
+                <label>56</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Hoxha</surname>
+                            <given-names>E</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Tempia</surname>
+                            <given-names>F</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Lippiello</surname>
+                            <given-names>P</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Modulation, Plasticity and Pathophysiology of the Parallel Fiber-Purkinje Cell Synapse.</article-title>
+                    <source>
+
+                        <italic>Front Synaptic Neurosci.</italic>
+</source>
+                    <year>2016</year>;<volume>8</volume>:<fpage>35</fpage>.
+                    <pub-id pub-id-type="pmid">27857688</pub-id>
+                    <pub-id pub-id-type="doi">10.3389/fnsyn.2016.00035</pub-id>
+                    <pub-id pub-id-type="pmcid">5093118</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-57">
+                <label>57</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Angelaki</surname>
+                            <given-names>DE</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Yakusheva</surname>
+                            <given-names>TA</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Green</surname>
+                            <given-names>AM</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Computation of egomotion in the macaque cerebellar vermis.</article-title>
+                    <source>
+
+                        <italic>Cerebellum.</italic>
+</source>
+                    <year>2010</year>;<volume>9</volume>(<issue>2</issue>):<fpage>174</fpage>&#x2013;<lpage>182</lpage>.
+                    <pub-id pub-id-type="pmid">20012388</pub-id>
+                    <pub-id pub-id-type="doi">10.1007/s12311-009-0147-z</pub-id>
+                    <pub-id pub-id-type="pmcid">3640361</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-58">
+                <label>58</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Petrosini</surname>
+                            <given-names>L</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Leggio</surname>
+                            <given-names>MG</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Molinari</surname>
+                            <given-names>M</given-names>
+                        </name>
+</person-group>:
+                    <article-title>The cerebellum in the spatial problem solving: a co-star or a guest star?</article-title>
+                    <source>
+
+                        <italic>Prog Neurobiol.</italic>
+</source>
+                    <year>1998</year>;<volume>56</volume>(<issue>2</issue>):<fpage>191</fpage>&#x2013;<lpage>210</lpage>.
+                    <pub-id pub-id-type="pmid">9760701</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/S0301-0082(98)00036-7</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-59">
+                <label>59</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Yakusheva</surname>
+                            <given-names>TA</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Shaikh</surname>
+                            <given-names>AG</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Green</surname>
+                            <given-names>AM</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Purkinje cells in posterior cerebellar vermis encode motion in an inertial reference frame.</article-title>
+                    <source>
+
+                        <italic>Neuron.</italic>
+</source>
+                    <year>2007</year>;<volume>54</volume>(<issue>6</issue>):<fpage>973</fpage>&#x2013;<lpage>985</lpage>.
+                    <pub-id pub-id-type="pmid">17582336</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/j.neuron.2007.06.003</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-60">
+                <label>60</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Acredolo</surname>
+                            <given-names>LP</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Behavioral approaches to spatial orientation in infancy.</article-title>
+                    <source>
+
+                        <italic>Ann N Y Acad Sci.</italic>
+</source>
+                    <year>1990</year>;<volume>608</volume>:<fpage>596</fpage>&#x2013;<lpage>607</lpage>; discussion 607-12.
+                    <pub-id pub-id-type="pmid">2075963</pub-id>
+                    <pub-id pub-id-type="doi">10.1111/j.1749-6632.1990.tb48911.x</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-61">
+                <label>61</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Campos</surname>
+                            <given-names>JJ</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Anderson</surname>
+                            <given-names>DI</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Barbu-Roth</surname>
+                            <given-names>MA</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Travel broadens the mind.</article-title>
+                    <source>
+
+                        <italic>Infancy.</italic>
+</source>
+                    <year>2000</year>;<volume>1</volume>(<issue>2</issue>):<fpage>149</fpage>&#x2013;<lpage>219</lpage>.
+                    <pub-id pub-id-type="doi">10.1207/S15327078IN0102_1</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-62">
+                <label>62</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Acredolo</surname>
+                            <given-names>LP</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Evans</surname>
+                            <given-names>D</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Developmental changes in the effects of landmarks on infant spatial behavior.</article-title>
+                    <source>
+
+                        <italic>Dev Psychol.</italic>
+</source>
+                    <year>1980</year>;<volume>16</volume>(<issue>4</issue>):<fpage>312</fpage>&#x2013;<lpage>318</lpage>.
+                    <pub-id pub-id-type="doi">10.1037/0012-1649.16.4.312</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-63">
+                <label>63</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Bullens</surname>
+                            <given-names>J</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Nardini</surname>
+                            <given-names>M</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Doeller</surname>
+                            <given-names>CF</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>The role of landmarks and boundaries in the development of spatial memory.</article-title>
+                    <source>
+
+                        <italic>Dev Sci.</italic>
+</source>
+                    <year>2010</year>;<volume>13</volume>(<issue>1</issue>):<fpage>170</fpage>&#x2013;<lpage>180</lpage>.
+                    <pub-id pub-id-type="pmid">20121873</pub-id>
+                    <pub-id pub-id-type="doi">10.1111/j.1467-7687.2009.00870.x</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-64">
+                <label>64</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Wierenga</surname>
+                            <given-names>LM</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Langen</surname>
+                            <given-names>M</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Oranje</surname>
+                            <given-names>B</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Unique developmental trajectories of cortical thickness and surface area.</article-title>
+                    <source>
+
+                        <italic>Neuroimage.</italic>
+</source>
+                    <year>2014</year>;<volume>87</volume>:<fpage>120</fpage>&#x2013;<lpage>126</lpage>.
+                    <pub-id pub-id-type="pmid">24246495</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/j.neuroimage.2013.11.010</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-65">
+                <label>65</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Barrash</surname>
+                            <given-names>J</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Age-related decline in route learning ability.</article-title>
+                    <source>
+
+                        <italic>Dev Neuropsychol.</italic>
+</source>
+                    <year>1994</year>;<volume>10</volume>(<issue>3</issue>):<fpage>189</fpage>&#x2013;<lpage>201</lpage>.
+                    <pub-id pub-id-type="doi">10.1080/87565649409540578</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-66">
+                <label>66</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Lithfous</surname>
+                            <given-names>S</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Dufour</surname>
+                            <given-names>A</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Despr&#x00e9;s</surname>
+                            <given-names>O</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Spatial navigation in normal aging and the prodromal stage of Alzheimer&#x2019;s disease: insights from imaging and behavioral studies.</article-title>
+                    <source>
+
+                        <italic>Ageing Res Rev.</italic>
+</source>
+                    <year>2013</year>;<volume>12</volume>(<issue>1</issue>):<fpage>201</fpage>&#x2013;<lpage>213</lpage>.
+                    <pub-id pub-id-type="pmid">22771718</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/j.arr.2012.04.007</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-67">
+                <label>67</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Moffat</surname>
+                            <given-names>SD</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Aging and spatial navigation: what do we know and where do we go?</article-title>
+                    <source>
+
+                        <italic>Neuropsychology Rev.</italic>
+</source>
+                    <year>2009</year>;<volume>19</volume>(<issue>4</issue>):<fpage>478</fpage>&#x2013;<lpage>489</lpage>.
+                    <pub-id pub-id-type="pmid">19936933</pub-id>
+                    <pub-id pub-id-type="doi">10.1007/s11065-009-9120-3</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-68">
+                <label>68</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Newman</surname>
+                            <given-names>MC</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Kaszniak</surname>
+                            <given-names>AW</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Spatial memory and aging: performance on a human analog of the Morris water maze.</article-title>
+                    <source>
+
+                        <italic>Aging Neuropsy Cog.</italic>
+</source>
+                    <year>2000</year>;<volume>7</volume>(<issue>2</issue>):<fpage>86</fpage>&#x2013;<lpage>93</lpage>.
+                    <pub-id pub-id-type="doi">10.1076/1382-5585(200006)7:2;1-U;FT086</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-69">
+                <label>69</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Iaria</surname>
+                            <given-names>G</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Palermo</surname>
+                            <given-names>L</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Committeri</surname>
+                            <given-names>G</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Age differences in the formation and use of cognitive maps.</article-title>
+                    <source>
+
+                        <italic>Behav Brain Res.</italic>
+</source>
+                    <year>2009</year>;<volume>196</volume>(<issue>2</issue>):<fpage>187</fpage>&#x2013;<lpage>191</lpage>.
+                    <pub-id pub-id-type="pmid">18817815</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/j.bbr.2008.08.040</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-70">
+                <label>70</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Gazova</surname>
+                            <given-names>I</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Lacz&#x00f3;</surname>
+                            <given-names>J</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Rubinova</surname>
+                            <given-names>E</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Spatial navigation in young versus older adults.</article-title>
+                    <source>
+
+                        <italic>Front Aging Neurosci.</italic>
+</source>
+                    <year>2013</year>;<volume>5</volume>: 94.
+                    <pub-id pub-id-type="pmid">24391585</pub-id>
+                    <pub-id pub-id-type="doi">10.3389/fnagi.2013.00094</pub-id>
+                    <pub-id pub-id-type="pmcid">3867661</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-71">
+                <label>71</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Gallagher</surname>
+                            <given-names>M</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Pelleymounter</surname>
+                            <given-names>MA</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Spatial learning deficits in old rats: a model for memory decline in the aged.</article-title>
+                    <source>
+
+                        <italic>Neurobiol Aging.</italic>
+</source>
+                    <year>1988</year>;<volume>9</volume>(<issue>5&#x2013;6</issue>):<fpage>549</fpage>&#x2013;<lpage>556</lpage>.
+                    <pub-id pub-id-type="pmid">3062465</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/S0197-4580(88)80112-X</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-72">
+                <label>72</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Begega</surname>
+                            <given-names>A</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Cienfuegos</surname>
+                            <given-names>S</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Rubio</surname>
+                            <given-names>S</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Effects of ageing on allocentric and egocentric spatial strategies in the Wistar rat.</article-title>
+                    <source>
+
+                        <italic>Behav Processes.</italic>
+</source>
+                    <year>2001</year>;<volume>53</volume>(<issue>1&#x2013;2</issue>):<fpage>75</fpage>&#x2013;<lpage>85</lpage>.
+                    <pub-id pub-id-type="pmid">11254994</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/S0376-6357(00)00150-9</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-73">
+                <label>73</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Broadbent</surname>
+                            <given-names>HJ</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Farran</surname>
+                            <given-names>EK</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Tolmie</surname>
+                            <given-names>A</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Egocentric and allocentric navigation strategies in Williams syndrome and typical development.</article-title>
+                    <source>
+
+                        <italic>Dev Sci.</italic>
+</source>
+                    <year>2014</year>;<volume>17</volume>(<issue>6</issue>):<fpage>920</fpage>&#x2013;<lpage>934</lpage>.
+                    <pub-id pub-id-type="pmid">24702907</pub-id>
+                    <pub-id pub-id-type="doi">10.1111/desc.12176</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-74">
+                <label>74</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Miles</surname>
+                            <given-names>JH</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Autism spectrum disorders--a genetics review.</article-title>
+                    <source>
+
+                        <italic>Genet Med.</italic>
+</source>
+                    <year>2011</year>;<volume>13</volume>(<issue>4</issue>):<fpage>278</fpage>&#x2013;<lpage>94</lpage>.
+                    <pub-id pub-id-type="pmid">21358411</pub-id>
+                    <pub-id pub-id-type="doi">10.1097/GIM.0b013e3181ff67ba</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-75">
+                <label>75</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Rajendran</surname>
+                            <given-names>G</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Mitchell</surname>
+                            <given-names>P</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Cognitive theories of autism.</article-title>
+                    <source>
+
+                        <italic>Dev Rev.</italic>
+</source>
+                    <year>2007</year>;<volume>27</volume>(<issue>2</issue>):<fpage>224</fpage>&#x2013;<lpage>260</lpage>.
+                    <pub-id pub-id-type="doi">10.1016/j.dr.2007.02.001</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-76">
+                <label>76</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Giovannini</surname>
+                            <given-names>L</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Jacomuzzi</surname>
+                            <given-names>AC</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Bruno</surname>
+                            <given-names>N</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Distance perception in autism and typical development.</article-title>
+                    <source>
+
+                        <italic>Perception.</italic>
+</source>
+                    <year>2009</year>;<volume>38</volume>(<issue>3</issue>):<fpage>429</fpage>&#x2013;<lpage>41</lpage>.
+                    <pub-id pub-id-type="pmid">19485136</pub-id>
+                    <pub-id pub-id-type="doi">10.1068/p6266</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-77">
+                <label>77</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Conson</surname>
+                            <given-names>M</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Mazzarella</surname>
+                            <given-names>E</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Esposito</surname>
+                            <given-names>D</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>&#x201c;Put Myself Into Your Place&#x201d;: Embodied Simulation and Perspective Taking in Autism Spectrum Disorders.</article-title>
+                    <source>
+
+                        <italic>Autism Res.</italic>
+</source>
+                    <year>2015</year>;<volume>8</volume>(<issue>4</issue>):<fpage>454</fpage>&#x2013;<lpage>66</lpage>.
+                    <pub-id pub-id-type="pmid">25663550</pub-id>
+                    <pub-id pub-id-type="doi">10.1002/aur.1460</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-78">
+                <label>78</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Hamilton</surname>
+                            <given-names>AF</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Brindley</surname>
+                            <given-names>R</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Frith</surname>
+                            <given-names>U</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Visual perspective taking impairment in children with autistic spectrum disorder.</article-title>
+                    <source>
+
+                        <italic>Cognition.</italic>
+</source>
+                    <year>2009</year>;<volume>113</volume>(<issue>1</issue>):<fpage>37</fpage>&#x2013;<lpage>44</lpage>.
+                    <pub-id pub-id-type="pmid">19682673</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/j.cognition.2009.07.007</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-79">
+                <label>79</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Allen</surname>
+                            <given-names>G</given-names>
+                        </name>
+</person-group>:
+                    <article-title>The cerebellum in autism.</article-title>
+                    <source>
+
+                        <italic>Clin Neuropsychiatry.</italic>
+</source>
+                    <year>2005</year>;<volume>2</volume>(<issue>6</issue>):<fpage>321</fpage>&#x2013;<lpage>337</lpage>.
+                    <ext-link ext-link-type="uri" xlink:href="http://www.clinicalneuropsychiatry.org/pdf/01_Allen_(bassa_risol).pdf">Reference Source</ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-80">
+                <label>80</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Bailey</surname>
+                            <given-names>A</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Palferman</surname>
+                            <given-names>S</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Heavey</surname>
+                            <given-names>L</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Autism: the phenotype in relatives.</article-title>
+                    <source>
+
+                        <italic>J Autim Dev Disord.</italic>
+</source>
+                    <year>1998</year>;<volume>28</volume>(<issue>5</issue>):<fpage>369</fpage>&#x2013;<lpage>92</lpage>.
+                    <pub-id pub-id-type="pmid">9813774</pub-id>
+                    <pub-id pub-id-type="doi">10.1023/A:1026048320785</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-81">
+                <label>81</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Fatemi</surname>
+                            <given-names>SH</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Halt</surname>
+                            <given-names>AR</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Realmuto</surname>
+                            <given-names>G</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Purkinje cell size is reduced in cerebellum of patients with Autism.</article-title>
+                    <source>
+
+                        <italic>Cell Mol Neurobiol.</italic>
+</source>
+                    <year>2002</year>;<volume>22</volume>(<issue>2</issue>):<fpage>171</fpage>&#x2013;<lpage>175</lpage>.
+                    <pub-id pub-id-type="pmid">12363198</pub-id>
+                    <pub-id pub-id-type="doi">10.1023/A:1019861721160</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-82">
+                <label>82</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Palmen</surname>
+                            <given-names>SJ</given-names>
+                        </name>
+
+                        <name>
+                            <surname>van Engeland</surname>
+                            <given-names>H</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Hof</surname>
+                            <given-names>PR</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Neuropathological findings in autism.</article-title>
+                    <source>
+
+                        <italic>Brain.</italic>
+</source>
+                    <year>2004</year>;<volume>127</volume>(<issue>Pt 12</issue>):<fpage>2572</fpage>&#x2013;<lpage>83</lpage>.
+                    <pub-id pub-id-type="pmid">15329353</pub-id>
+                    <pub-id pub-id-type="doi">10.1093/brain/awh287</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-83">
+                <label>83</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Silvestri</surname>
+                            <given-names>L</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Paciscopi</surname>
+                            <given-names>M</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Soda</surname>
+                            <given-names>P</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Quantitative neuroanatomy of all Purkinje cells with light sheet microscopy and high-throughput image analysis.</article-title>
+                    <source>
+
+                        <italic>Front Neuroanat.</italic>
+</source>
+                    <year>2015</year>;<volume>9</volume>:<fpage>68</fpage>.
+                    <pub-id pub-id-type="pmid">26074783</pub-id>
+                    <pub-id pub-id-type="doi">10.3389/fnana.2015.00068</pub-id>
+                    <pub-id pub-id-type="pmcid">4445386</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-84">
+                <label>84</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Lancioni</surname>
+                            <given-names>A</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Pizzo</surname>
+                            <given-names>M</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Fontanella</surname>
+                            <given-names>B</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Lack of 
+                        <italic>Mid1</italic>, the mouse ortholog of the Opitz syndrome gene, causes abnormal development of the anterior cerebellar vermis.</article-title>
+                    <source>
+
+                        <italic>J Neurosci.</italic>
+</source>
+                    <year>2010</year>;<volume>30</volume>(<issue>8</issue>):<fpage>2880</fpage>&#x2013;<lpage>7</lpage>.
+                    <pub-id pub-id-type="pmid">20181585</pub-id>
+                    <pub-id pub-id-type="doi">10.1523/JNEUROSCI.4196-09.2010</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-85">
+                <label>85</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Hillier</surname>
+                            <given-names>LW</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Fulton</surname>
+                            <given-names>RS</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Fulton</surname>
+                            <given-names>LA</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>The DNA sequence of human chromosome 7.</article-title>
+                    <source>
+
+                        <italic>Nature.</italic>
+</source>
+                    <year>2003</year>;<volume>424</volume>(<issue>6945</issue>):<fpage>157</fpage>&#x2013;<lpage>164</lpage>.
+                    <pub-id pub-id-type="pmid">12853948</pub-id>
+                    <pub-id pub-id-type="doi">10.1038/nature01782</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-86">
+                <label>86</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Clements-Stephens</surname>
+                            <given-names>AM</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Vasiljevic</surname>
+                            <given-names>K</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Murray</surname>
+                            <given-names>AJ</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>The role of potential agents in making spatial perspective taking social.</article-title>
+                    <source>
+
+                        <italic>Front Hum Neurosci.</italic>
+</source>
+                    <year>2013</year>;<volume>7</volume>: 497.
+                    <pub-id pub-id-type="pmid">24046735</pub-id>
+                    <pub-id pub-id-type="doi">10.3389/fnhum.2013.00497</pub-id>
+                    <pub-id pub-id-type="pmcid">3763481</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-87">
+                <label>87</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Surtees</surname>
+                            <given-names>A</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Apperley</surname>
+                            <given-names>I</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Samson</surname>
+                            <given-names>D</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Similarities and differences in visual and spatial perspective-taking processes.</article-title>
+                    <source>
+
+                        <italic>Cognition.</italic>
+</source>
+                    <year>2013</year>;<volume>129</volume>(<issue>2</issue>):<fpage>26</fpage>&#x2013;<lpage>438</lpage>.
+                    <pub-id pub-id-type="pmid">23999408</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/j.cognition.2013.06.008</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-88">
+                <label>88</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Selkoe</surname>
+                            <given-names>DJ</given-names>
+                        </name>
+</person-group>:
+                    <article-title>The cell biology of  beta-amyloid precursor protein and presenilin in Alzheimer&#x2019;s disease.</article-title>
+                    <source>
+
+                        <italic>Trends Cell Biol.</italic>
+</source>
+                    <year>1998</year>;<volume>8</volume>(<issue>11</issue>):<fpage>447</fpage>&#x2013;<lpage>453</lpage>.
+                    <pub-id pub-id-type="pmid">9854312</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/S0962-8924(98)01363-4</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-89">
+                <label>89</label>
+                <mixed-citation publication-type="book">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Morris</surname>
+                            <given-names>RG</given-names>
+                        </name>
+</person-group>:
+                    <article-title>The Cognitive Neuropsychology of Alzheimer-Type Dementia</article-title>. New York: Oxford University Press,<year>1996</year>.
+                    <ext-link ext-link-type="uri" xlink:href="https://lib.ugent.be/en/catalog/rug01:000392687">Reference Source</ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-90">
+                <label>90</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Tarawneh</surname>
+                            <given-names>R</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Holtzman</surname>
+                            <given-names>DM</given-names>
+                        </name>
+</person-group>:
+                    <article-title>The clinical problem of symptomatic Alzheimer disease and mild cognitive impairment.</article-title>
+                    <source>
+
+                        <italic>Cold Spring Harb Perspect Med.</italic>
+</source>
+                    <year>2012</year>;<volume>2</volume>(<issue>5</issue>):<fpage>a006148</fpage>.
+                    <pub-id pub-id-type="pmid">22553492</pub-id>
+                    <pub-id pub-id-type="doi">10.1101/cshperspect.a006148</pub-id>
+                    <pub-id pub-id-type="pmcid">3331682</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-91">
+                <label>91</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Baudic</surname>
+                            <given-names>S</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Barba</surname>
+                            <given-names>GD</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Thibaudet</surname>
+                            <given-names>MC</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Executive function deficits in early Alzheimer&#x2019;s disease and their relations with episodic memory.</article-title>
+                    <source>
+
+                        <italic>Arch Clin Neuropsychol.</italic>
+</source>
+                    <year>2006</year>;<volume>21</volume>(<issue>1</issue>):<fpage>15</fpage>&#x2013;<lpage>21</lpage>.
+                    <pub-id pub-id-type="pmid">16125364</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/j.acn.2005.07.002</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-92">
+                <label>92</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Scahill</surname>
+                            <given-names>RI</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Schott</surname>
+                            <given-names>JM</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Stevens</surname>
+                            <given-names>JM</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Mapping the evolution of regional atrophy in Alzheimer&#x2019;s disease: unbiased analysis of fluid-registered serial MRI.</article-title>
+                    <source>
+
+                        <italic>Proc Natl Acad Sci U S A.</italic>
+</source>
+                    <year>2002</year>;<volume>99</volume>(<issue>7</issue>):<fpage>4703</fpage>&#x2013;<lpage>4707</lpage>.
+                    <pub-id pub-id-type="pmid">11930016</pub-id>
+                    <pub-id pub-id-type="doi">10.1073/pnas.052587399</pub-id>
+                    <pub-id pub-id-type="pmcid">123711</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-93">
+                <label>93</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Braak</surname>
+                            <given-names>H</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Braak</surname>
+                            <given-names>E</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Neuropathological stageing of Alzheimer-related changes.</article-title>
+                    <source>
+
+                        <italic>Acta Neuropathol.</italic>
+</source>
+                    <year>1991</year>;<volume>82</volume>(<issue>4</issue>):<fpage>239</fpage>&#x2013;<lpage>259</lpage>.
+                    <pub-id pub-id-type="pmid">1759558</pub-id>
+                    <pub-id pub-id-type="doi">10.1007/BF00308809</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-94">
+                <label>94</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Vl&#x010d;ek</surname>
+                            <given-names>K</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Lacz&#x00f3;</surname>
+                            <given-names>J</given-names>
+                        </name>
+</person-group>:
+                    <article-title>Neural correlates of spatial navigation changes in mild cognitive impairment and Alzheimer&#x2019;s disease.</article-title>
+                    <source>
+
+                        <italic>Front Behav Neurosci.</italic>
+</source>
+                    <year>2014</year>;<volume>8</volume>:<fpage>89</fpage>.
+                    <pub-id pub-id-type="pmid">24672452</pub-id>
+                    <pub-id pub-id-type="doi">10.3389/fnbeh.2014.00089</pub-id>
+                    <pub-id pub-id-type="pmcid">3955968</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-95">
+                <label>95</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Gazova</surname>
+                            <given-names>I</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Vlcek</surname>
+                            <given-names>K</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Lacz&#x00f3;</surname>
+                            <given-names>J</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Spatial navigation-a unique window into physiological and pathological aging.</article-title>
+                    <source>
+
+                        <italic>Front Aging Neurosci.</italic>
+</source>
+                    <year>2012</year>;<volume>4</volume>: 16.
+                    <pub-id pub-id-type="pmid">22737124</pub-id>
+                    <pub-id pub-id-type="doi">10.3389/fnagi.2012.00016</pub-id>
+                    <pub-id pub-id-type="pmcid">3380196</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-96">
+                <label>96</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Petersen</surname>
+                            <given-names>RC</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Smith</surname>
+                            <given-names>GE</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Waring</surname>
+                            <given-names>SC</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Mild cognitive impairment: Clinical characterization and outcome.</article-title>
+                    <source>
+
+                        <italic>Arch Neurol.</italic>
+</source>
+                    <year>1999</year>;<volume>56</volume>(<issue>3</issue>):<fpage>303</fpage>&#x2013;<lpage>308</lpage>.
+                    <pub-id pub-id-type="pmid">10190820</pub-id>
+                    <pub-id pub-id-type="doi">10.1001/archneur.56.3.303</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-97">
+                <label>97</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Hort</surname>
+                            <given-names>J</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Lacz&#x00f3;</surname>
+                            <given-names>J</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Vyhn&#x00e1;lek</surname>
+                            <given-names>M</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Spatial navigation deficit in amnestic mild cognitive impairment.</article-title>
+                    <source>
+
+                        <italic>Proc Natl Acad Sci U S A.</italic>
+</source>
+                    <year>2007</year>;<volume>104</volume>(<issue>10</issue>):<fpage>4042</fpage>&#x2013;<lpage>4047</lpage>.
+                    <pub-id pub-id-type="pmid">17360474</pub-id>
+                    <pub-id pub-id-type="doi">10.1073/pnas.0611314104</pub-id>
+                    <pub-id pub-id-type="pmcid">1820705</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-98">
+                <label>98</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Weniger</surname>
+                            <given-names>G</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Ruhleder</surname>
+                            <given-names>M</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Lange</surname>
+                            <given-names>C</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Egocentric and allocentric memory as assessed by virtual reality in individuals with amnestic mild cognitive impairment.</article-title>
+                    <source>
+
+                        <italic>Neuropsychologia.</italic>
+</source>
+                    <year>2011</year>;<volume>49</volume>(<issue>3</issue>):<fpage>518</fpage>&#x2013;<lpage>527</lpage>.
+                    <pub-id pub-id-type="pmid">21185847</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/j.neuropsychologia.2010.12.031</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-99">
+                <label>99</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Boccia</surname>
+                            <given-names>M</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Silveri</surname>
+                            <given-names>MC</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Sabatini</surname>
+                            <given-names>U</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Neural Underpinnings of the Decline of Topographical Memory in Mild Cognitive Impairment.</article-title>
+                    <source>
+
+                        <italic>Am J Alzheimers Dis Other Demen.</italic>
+</source>
+                    <year>2016</year>;<volume>31</volume>(<issue>8</issue>):<fpage>618</fpage>&#x2013;<lpage>30</lpage>.
+                    <pub-id pub-id-type="pmid">27307142</pub-id>
+                    <pub-id pub-id-type="doi">10.1177/1533317516654757</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-100">
+                <label>100</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+
+                        <name>
+                            <surname>Mokrisova</surname>
+                            <given-names>I</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Laczo</surname>
+                            <given-names>J</given-names>
+                        </name>
+
+                        <name>
+                            <surname>Andel</surname>
+                            <given-names>R</given-names>
+                        </name>
+
+                        <etal/>
+</person-group>:
+                    <article-title>Real-space path integration is impaired in Alzheimer's disease and mild cognitive impairment.</article-title>
+                    <source>
+
+                        <italic>Behav Brain Res.</italic>
+</source>
+                    <year>2016</year>;<volume>307</volume>:<fpage>150</fpage>&#x2013;<lpage>158</lpage>.
+                    <pub-id pub-id-type="pmid">27038766</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/j.bbr.2016.03.052</pub-id>
+                </mixed-citation>
+            </ref>
+        </ref-list>
+    </back>
+    <sub-article article-type="ref-report" id="report30709">
+        <front-stub>
+            <article-id pub-id-type="doi">10.5256/f1000research.14855.r30709</article-id>
+            <title-group>
+                <article-title>Reviewer response for version 1</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Middei</surname>
+                        <given-names>Silvia</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="r30709a1">1</xref>
+                    <role>Referee</role>
+                </contrib>
+                <aff id="r30709a1">
+                    <label>1</label>Department of Experimental Neurology, Santa Lucia Foundation, Rome, Italy</aff>
+            </contrib-group>
+            <author-notes>
+                <fn fn-type="conflict">
+                    <p>
+                        <bold>Competing interests: </bold>No competing interests were disclosed.</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="epub">
+                <day>5</day>
+                <month>3</month>
+                <year>2018</year>
+            </pub-date>
+            <permissions>
+                <copyright-statement>Copyright: &#x00a9; 2018 Middei S</copyright-statement>
+                <copyright-year>2018</copyright-year>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                    <license-p>This is an open access peer review report distributed under the terms of the Creative Commons Attribution Licence, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+            </permissions>
+            <related-article ext-link-type="doi" id="relatedArticleReport30709" related-article-type="peer-reviewed-article" xlink:href="10.12688/f1000research.13675.1"/>
+            <custom-meta-group>
+                <custom-meta>
+                    <meta-name>recommendation</meta-name>
+                    <meta-value>approve</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </front-stub>
+        <body>
+            <p>This is an interesting review paper on spatial reference abilities under physiological and pathological conditions. The manuscript is well written and&#x00a0;clear,&#x00a0;also it draws relevant, though in some instances not novel, conclusions. I fully support the publication of this paper, and I only have a couple of minor comments. First, I agree with the authors about the possibility to use spatial tasks for a pre-clinical screening of people at risk for AD. For this reason, I would suggest to also&#x00a0;include in the discussion the (few) available studies that investigated the relationship between spatial navigation deficits and markers of AD, including for instance CSF levels of Abeta (see studies from Head and collaborators) or amyloid PET scan. Second, the sentence 
+                <italic>'egocentric develops before allocentric spatial strategies' </italic>(and hence) 'altered 
+                <italic>egocentric abilities... can be considered an early sign</italic>' looks a bit confounding to me. If so, one would expect that deficits in allocentric spatial strategies may emerge after the ones in egocentric ones in ASD, which is not the case in the studies reported here. The general view of the paragraph is correct, then I would only suggest to re-phrase the first sentence.</p>
+            <p>Is the review written in accessible language?</p>
+            <p>Yes</p>
+            <p>Are all factual statements correct and adequately supported by citations?</p>
+            <p>Yes</p>
+            <p>Are the conclusions drawn appropriate in the context of the current research literature?</p>
+            <p>Yes</p>
+            <p>Is the topic of the review discussed comprehensively in the context of the current literature?</p>
+            <p>Yes</p>
+            <p>Reviewer Expertise:</p>
+            <p>Neuroscience, Alzheimer disease</p>
+            <p>I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard.</p>
+        </body>
+        <back>
+            <ref-list>
+                <title>References</title>
+                <ref id="rep-ref-30709-1">
+                    <label>1</label>
+                    <mixed-citation publication-type="journal">
+                        <person-group person-group-type="author"/>:
+                        <article-title>Spatial Navigation in Preclinical Alzheimer&#x2019;s Disease</article-title>.
+                        <source>
+                            <italic>Journal of Alzheimer's Disease</italic>
+                        </source>.<year>2016</year>;<volume>52</volume>(<issue>1</issue>) :
+                        <elocation-id>10.3233/JAD-150855</elocation-id>
+                        <fpage>77</fpage>-<lpage>90</lpage>
+                        <pub-id pub-id-type="doi">10.3233/JAD-150855</pub-id>
+                    </mixed-citation>
+                </ref>
+            </ref-list>
+        </back>
+    </sub-article>
+    <sub-article article-type="ref-report" id="report31042">
+        <front-stub>
+            <article-id pub-id-type="doi">10.5256/f1000research.14855.r31042</article-id>
+            <title-group>
+                <article-title>Reviewer response for version 1</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Chieffi</surname>
+                        <given-names>Sergio</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="r31042a1">1</xref>
+                    <role>Referee</role>
+                </contrib>
+                <aff id="r31042a1">
+                    <label>1</label>Department of Experimental Medicine, &#x00a0;University of Campania Luigi Vanvitelli&#x00a0;, Naples, Italy</aff>
+            </contrib-group>
+            <author-notes>
+                <fn fn-type="conflict">
+                    <p>
+                        <bold>Competing interests: </bold>No competing interests were disclosed.</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="epub">
+                <day>5</day>
+                <month>3</month>
+                <year>2018</year>
+            </pub-date>
+            <permissions>
+                <copyright-statement>Copyright: &#x00a9; 2018 Chieffi S</copyright-statement>
+                <copyright-year>2018</copyright-year>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                    <license-p>This is an open access peer review report distributed under the terms of the Creative Commons Attribution Licence, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+            </permissions>
+            <related-article ext-link-type="doi" id="relatedArticleReport31042" related-article-type="peer-reviewed-article" xlink:href="10.12688/f1000research.13675.1"/>
+            <custom-meta-group>
+                <custom-meta>
+                    <meta-name>recommendation</meta-name>
+                    <meta-value>approve</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </front-stub>
+        <body>
+            <p>In this review, Miniaci and De Leonibus present a concise and balanced overview of the egocentric-based spatial navigation. In the first part, the authors focus on the brain areas mainly involved in egocentric information processing, such as the posterior parietal cortex and the striatum. Then, they review a series of studies showing that the egocentric spatial abilities are impaired in developmental disorders like autism, as well as under pathological aging conditions, such as those of Alzheimer's disease.</p>
+            <p> </p>
+            <p> The authors provide a critical view of the summarized literature leaving also some important questions open. For example, they realize how little attention has been paid to the study of spatial processing in autism and associated brain activation patterns. Indeed, understanding the nature and the neuronal correlates of spatial processing in autism can shed light on the nature of cognitive and social deficits that characterize the autism spectrum disorder. In addition, neuropsychological screening designed to assess navigational deficit may represent an important tool for detecting the prodromal symptoms of amnestic mild cognitive impairment and early stage of Alzheimer&#x2019;s disease. Overall, the paper is well written and the figures are clearly presented.</p>
+            <p> </p>
+            <p> My recommendation to the authors is to improve the conclusions about the relevance of the egocentric spatial processing and its relationship with cognitive disorders.</p>
+            <p>Is the review written in accessible language?</p>
+            <p>Yes</p>
+            <p>Are all factual statements correct and adequately supported by citations?</p>
+            <p>Yes</p>
+            <p>Are the conclusions drawn appropriate in the context of the current research literature?</p>
+            <p>Yes</p>
+            <p>Is the topic of the review discussed comprehensively in the context of the current literature?</p>
+            <p>Yes</p>
+            <p>Reviewer Expertise:</p>
+            <p>NA</p>
+            <p>I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard.</p>
+        </body>
+    </sub-article>
+    <sub-article article-type="ref-report" id="report30711">
+        <front-stub>
+            <article-id pub-id-type="doi">10.5256/f1000research.14855.r30711</article-id>
+            <title-group>
+                <article-title>Reviewer response for version 1</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Puthanveettil</surname>
+                        <given-names>Sathyanarayanan V.</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="r30711a1">1</xref>
+                    <role>Referee</role>
+                </contrib>
+                <aff id="r30711a1">
+                    <label>1</label>Department of Neuroscience, Scripps Research Institute, Jupiter, FL, USA</aff>
+            </contrib-group>
+            <author-notes>
+                <fn fn-type="conflict">
+                    <p>
+                        <bold>Competing interests: </bold>No competing interests were disclosed.</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="epub">
+                <day>26</day>
+                <month>2</month>
+                <year>2018</year>
+            </pub-date>
+            <permissions>
+                <copyright-statement>Copyright: &#x00a9; 2018 Puthanveettil SV</copyright-statement>
+                <copyright-year>2018</copyright-year>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                    <license-p>This is an open access peer review report distributed under the terms of the Creative Commons Attribution Licence, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+            </permissions>
+            <related-article ext-link-type="doi" id="relatedArticleReport30711" related-article-type="peer-reviewed-article" xlink:href="10.12688/f1000research.13675.1"/>
+            <custom-meta-group>
+                <custom-meta>
+                    <meta-name>recommendation</meta-name>
+                    <meta-value>approve</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </front-stub>
+        <body>
+            <p>This is a beautifully written article by Miniaci and De Leonibus. Importantly this article is timely because more and more people are reported to have dementia and that both industry and academic research is struggling to produce therapeutics to cure dementia or for efficient long-term management of dementia. In this review article, Miniaci&#x00a0;and De Leonibus discuss forms of spatial representations (allocentric and egocentric) in the brain and how these representations are altered in normal aging as well as in autism and Alzheimer's disease. The review is well written and images included are highly useful to the readers.&#x00a0;</p>
+            <p> </p>
+            <p> Few suggestions: 
+                <list list-type="order">
+                    <list-item>
+                        <p>Revise the abstract so that it reads smoothly.</p>
+                    </list-item>
+                    <list-item>
+                        <p>If the cartoons drawn (including brain images) are modified versions of previous images, earlier work should be cited directly in the figure legend. If it is adapted from a database, authors need to include links to the image.</p>
+                    </list-item>
+                    <list-item>
+                        <p>It is not clear how the authors are trying to distinguish the egocentric/allocentric spatial deficits in mCI versus Alzheimer's disease.</p>
+                    </list-item>
+                    <list-item>
+                        <p>Conclusion section should also need comments on spatial deficits in ASD and comparison with AD.</p>
+                    </list-item>
+                </list>
+            </p>
+            <p>Is the review written in accessible language?</p>
+            <p>Yes</p>
+            <p>Are all factual statements correct and adequately supported by citations?</p>
+            <p>Yes</p>
+            <p>Are the conclusions drawn appropriate in the context of the current research literature?</p>
+            <p>Yes</p>
+            <p>Is the topic of the review discussed comprehensively in the context of the current literature?</p>
+            <p>Yes</p>
+            <p>Reviewer Expertise:</p>
+            <p>NA</p>
+            <p>I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard.</p>
+        </body>
+    </sub-article>
+</article>

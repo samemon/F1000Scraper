@@ -19,8 +19,12 @@ import datetime
 # importing module to wget
 import urllib.request
 import requests
-# importing mmodule to parse xml
+# importing module to parse xml
 import lxml.etree as ET
+# importing module for directory creation
+import os
+# importing module for packaging
+import sys
 
 
 def convert_date_to_ms(d):
@@ -172,15 +176,39 @@ def download(date_from, date_to, output_directory,
 	for p in tree.xpath("//results//doi"):
 		dois.append(p.text.strip())
 
-	print(len(dois))
+	
 	# now we get all dois from all pages
 	get_all_dois(url, dois, number_of_pages)
-	print(len(dois))
+	
+	# now that we have all dois, let get their xmls/pdfs
+	base = 'https://f1000research.com/extapi/article/'
+	if(output_format == "xml"):
+		base = base + 'xml?doi='
+	elif(output_format == "pdf"):
+		base = base + 'pdf?doi='
+	else:
+		raise("Format not supposed")
+
+	# lets check if the output directory exists else create
+	if not os.path.exists(output_directory):
+		os.makedirs(output_directory)
+
+   	# reading and writing xml
+	for doi in dois[:10]:
+		doi_query = base + doi
+		print(doi)
+		print(doi_query)
+		opener = urllib.request.build_opener()
+		url_open = opener.open(doi_query)
+		xml = open(output_directory+"/"+doi.split("/f1000research.")[1]+\
+				".xml", "w+")
+		xml.write(url_open.read().decode('utf-8'))
+		xml.close()
 
 	return
 
 # Testing date conversion to ms
-download("1-1-2018","1-1-2020", "","")
+download("1-1-2018","1-1-2020", "/Users/samemon/desktop/nyuad/F1000Scraper/api/data","xml")
 
 
 

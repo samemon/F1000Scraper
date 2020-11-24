@@ -1,0 +1,2251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.2 20190208//EN" "http://jats.nlm.nih.gov/publishing/1.2/JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="software-tool">
+    <front>
+        <journal-meta>
+            <journal-id journal-id-type="pmc">F1000Research</journal-id>
+            <journal-title-group>
+                <journal-title>F1000Research</journal-title>
+            </journal-title-group>
+            <issn pub-type="epub">2046-1402</issn>
+            <publisher>
+                <publisher-name>F1000 Research Limited</publisher-name>
+                <publisher-loc>London, UK</publisher-loc>
+            </publisher>
+        </journal-meta>
+        <article-meta>
+            <article-id pub-id-type="doi">10.12688/f1000research.15168.1</article-id>
+            <article-categories>
+                <subj-group subj-group-type="heading">
+                    <subject>Software Tool Article</subject>
+                </subj-group>
+                <subj-group>
+                    <subject>Articles</subject>
+                </subj-group>
+            </article-categories>
+            <title-group>
+                <article-title>Oncoyeasti: a web-based application to translate data obtained from 
+                    <italic>Saccharomyces cerevisiae</italic> high-throughput drug screens into cancer therapeutics</article-title>
+                <fn-group content-type="pub-status">
+                    <fn>
+                        <p>[version 1; peer review: 1 approved with reservations, 2 not approved]</p>
+                    </fn>
+                </fn-group>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author" corresp="no" equal-contrib="yes">
+                    <name>
+                        <surname>Gupta</surname>
+                        <given-names>Ruby</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Writing &#x2013; Original Draft Preparation</role>
+                    <xref ref-type="aff" rid="a1">1</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no" equal-contrib="yes">
+                    <name>
+                        <surname>Cayenne</surname>
+                        <given-names>Samir</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Data Curation</role>
+                    <xref ref-type="aff" rid="a2">2</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no" equal-contrib="yes">
+                    <name>
+                        <surname>Dyavaiah</surname>
+                        <given-names>Madhu</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Project Administration</role>
+                    <xref ref-type="aff" rid="a3">3</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no" equal-contrib="yes">
+                    <name>
+                        <surname>Srinivas</surname>
+                        <given-names>Pragnya</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Data Curation</role>
+                    <xref ref-type="aff" rid="a4">4</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no" equal-contrib="yes">
+                    <name>
+                        <surname>Otohinoyi</surname>
+                        <given-names>David</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Software</role>
+                    <xref ref-type="aff" rid="a5">5</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no" equal-contrib="yes">
+                    <name>
+                        <surname>Talukdar</surname>
+                        <given-names>Debjyoti</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Software</role>
+                    <xref ref-type="aff" rid="a5">5</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no" equal-contrib="yes">
+                    <name>
+                        <surname>Halari</surname>
+                        <given-names>Moheem</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Writing &#x2013; Review &amp; Editing</role>
+                    <xref ref-type="aff" rid="a5">5</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no" equal-contrib="yes">
+                    <name>
+                        <surname>Halari</surname>
+                        <given-names>Chidambra</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Writing &#x2013; Review &amp; Editing</role>
+                    <xref ref-type="aff" rid="a5">5</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no" equal-contrib="yes">
+                    <name>
+                        <surname>Ramani</surname>
+                        <given-names>Ashok</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Resources</role>
+                    <role content-type="http://credit.casrai.org/">Writing &#x2013; Review &amp; Editing</role>
+                    <xref ref-type="aff" rid="a6">6</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no">
+                    <name>
+                        <surname>Yusuf</surname>
+                        <given-names>Joshua</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Resources</role>
+                    <xref ref-type="aff" rid="a5">5</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no">
+                    <name>
+                        <surname>Chahal</surname>
+                        <given-names>Khushdeep</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Resources</role>
+                    <xref ref-type="aff" rid="a7">7</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no">
+                    <name>
+                        <surname>Kaur</surname>
+                        <given-names>Rupinder</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Resources</role>
+                    <xref ref-type="aff" rid="a7">7</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no">
+                    <name>
+                        <surname>Patel</surname>
+                        <given-names>Ankit</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Writing &#x2013; Review &amp; Editing</role>
+                    <uri content-type="orcid">https://orcid.org/0000-0001-9631-065X</uri>
+                    <xref ref-type="aff" rid="a8">8</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no">
+                    <name>
+                        <surname>Patel</surname>
+                        <given-names>Avaniben</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Writing &#x2013; Review &amp; Editing</role>
+                    <uri content-type="orcid">https://orcid.org/0000-0001-9631-065X</uri>
+                    <xref ref-type="aff" rid="a8">8</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no">
+                    <name>
+                        <surname>Rajput</surname>
+                        <given-names>Ravindrasingh</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Writing &#x2013; Review &amp; Editing</role>
+                    <xref ref-type="aff" rid="a8">8</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no">
+                    <name>
+                        <surname>Siddaiah</surname>
+                        <given-names>Harish</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Formal Analysis</role>
+                    <xref ref-type="aff" rid="a9">9</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes" equal-contrib="yes">
+                    <name>
+                        <surname>Patil</surname>
+                        <given-names>Shilpadevi</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Supervision</role>
+                    <xref ref-type="corresp" rid="c1">a</xref>
+                    <xref ref-type="aff" rid="a9">9</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes" equal-contrib="yes">
+                    <name>
+                        <surname>Patil</surname>
+                        <given-names>Ashish</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Conceptualization</role>
+                    <xref ref-type="corresp" rid="c2">b</xref>
+                    <xref ref-type="aff" rid="a1">1</xref>
+                    <xref ref-type="aff" rid="a10">10</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no" equal-contrib="yes">
+                    <name>
+                        <surname>Anand</surname>
+                        <given-names>Nikhilesh</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Investigation</role>
+                    <role content-type="http://credit.casrai.org/">Supervision</role>
+                    <uri content-type="orcid">https://orcid.org/0000-0002-2986-3550</uri>
+                    <xref ref-type="aff" rid="a5">5</xref>
+                </contrib>
+                <aff id="a1">
+                    <label>1</label>Providence Hospital, Washington, D.C., USA</aff>
+                <aff id="a2">
+                    <label>2</label>Clear Springs High School, League City, Texas, USA</aff>
+                <aff id="a3">
+                    <label>3</label>Pondicherry University, Puducherry, India</aff>
+                <aff id="a4">
+                    <label>4</label>Narayana College, Bangalore, India</aff>
+                <aff id="a5">
+                    <label>5</label>All Saints University School of Medicine, Roseau, Dominica</aff>
+                <aff id="a6">
+                    <label>6</label>American University of Antigua, Coolidge, Antigua and Barbuda</aff>
+                <aff id="a7">
+                    <label>7</label>School of Medicine, University of Alabama, Huntsville, Alabama, USA</aff>
+                <aff id="a8">
+                    <label>8</label>Spartan Health Sciences University, Vieux Fort, Saint Lucia</aff>
+                <aff id="a9">
+                    <label>9</label>Department of Anesthesiology, LSU Health Sciences Center Shreveport, Shreveport, Louisiana, USA</aff>
+                <aff id="a10">
+                    <label>10</label>Department of Pathology and Translational Pathobiology, Louisiana State University Health Sciences Center, Shreveport, LA, USA</aff>
+            </contrib-group>
+            <author-notes>
+                <corresp id="c1">
+                    <label>a</label>
+                    <email xlink:href="mailto:spati1@lsuhsc.edu">spati1@lsuhsc.edu</email>
+                </corresp>
+                <corresp id="c2">
+                    <label>b</label>
+                    <email xlink:href="mailto:aravin@lsuhsc.edu">aravin@lsuhsc.edu</email>
+                </corresp>
+                <fn fn-type="conflict">
+                    <p>No competing interests were disclosed.</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="epub">
+                <day>18</day>
+                <month>6</month>
+                <year>2018</year>
+            </pub-date>
+            <pub-date pub-type="collection">
+                <year>2018</year>
+            </pub-date>
+            <volume>7</volume>
+            <elocation-id>757</elocation-id>
+            <history>
+                <date date-type="accepted">
+                    <day>8</day>
+                    <month>6</month>
+                    <year>2018</year>
+                </date>
+            </history>
+            <permissions>
+                <copyright-statement>Copyright: &#x00a9; 2018 Gupta R et al.</copyright-statement>
+                <copyright-year>2018</copyright-year>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                    <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution Licence, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+            </permissions>
+            <self-uri content-type="pdf" xlink:href="f1000research-7-16523.pdf"/>
+            <abstract>
+                <p>The budding yeast (
+                    <italic>Saccharomyces cerevisiae</italic>) gene deletion library consists of a collection of more than 6,000 gene-deletion mutants and is useful for high-throughput screening of anti-cancer drugs. Because of the shorter doubling time and the significant homology
+                    <italic> </italic>the budding yeast &#x00a0;&#x00a0;shares with human cells, using a high-throughput chemical screen of budding yeast gene deletion library, one can rapidly identify various genetic targets of anti-cancer drugs. But analyzing the data derived from a yeast library screen to identify corresponding human homologs and their status in various cancers is a cumbersome process. We have developed a web-based app, 
+                    <ext-link ext-link-type="uri" xlink:href="http://www.oncoyeasti.org">Oncoyeasti</ext-link>, which enables the researcher to automatically identify the corresponding human homologs of 
+                    <italic>S. cerevisiae</italic> and the status of these homologs genes in tumor samples from The Cancer Genome Atlas Database and cell line samples from the Cancer Cell Line Encyclopedia. This would enable the scientists to identify the tumors and choose cell lines to work on and thus serve as an indispensable tool to translate their research into human cancers.</p>
+            </abstract>
+            <kwd-group kwd-group-type="author">
+                <kwd>saccharomyces cerevisiae</kwd>
+                <kwd>Cancer</kwd>
+                <kwd>drug screening</kwd>
+                <kwd>toxicity screen</kwd>
+                <kwd>human homologs</kwd>
+                <kwd>cancer cell lines</kwd>
+                <kwd>TCGA</kwd>
+                <kwd>CCLE</kwd>
+                <kwd>translational research</kwd>
+            </kwd-group>
+            <funding-group>
+                <funding-statement>The author(s) declared that no grants were involved in supporting this work.</funding-statement>
+            </funding-group>
+        </article-meta>
+    </front>
+    <body>
+        <sec sec-type="intro">
+            <title>Introduction</title>
+            <p>Cancer chemotherapies, the backbone of cancer, treatment have multiple shortcomings including significant toxicities, narrow therapeutic indexes, and the emergence of resistance. Now, a better understanding of cancer pathogenesis and genomics has given rise to new treatment options in terms of targeted therapies
+                <sup>
+                    <xref ref-type="bibr" rid="ref-1">1</xref>,
+                    <xref ref-type="bibr" rid="ref-2">2</xref>
+                </sup>. Targeted approaches aim to modulate the molecular pathways that are crucial for tumor growth and maintenance, without causing significant systemic toxicities. This leads to the selective killing of cancer cells with more precision without affecting normal cells, thus generating fewer side effects
+                <sup>
+                    <xref ref-type="bibr" rid="ref-2">2</xref>
+                </sup>. For example, imatinib is commonly used for the treatment of the chronic myeloid leukemia (CML), targeting fusion protein BCR-ABL, and in the treatment of gastrointestinal stromal tumors (GIST) that harbor cKIT and PDGFRA mutations
+                <sup>
+                    <xref ref-type="bibr" rid="ref-3">3</xref>&#x2013;
+                    <xref ref-type="bibr" rid="ref-5">5</xref>
+                </sup>. In addition, there are case reports that have documented the regression of cutaneous squamous cell cancer in patients with CML treated with imatinib
+                <sup>
+                    <xref ref-type="bibr" rid="ref-6">6</xref>
+                </sup>. Another example is rituximab, one of the earliest targeted therapies which are antibodies against cell surface marker CD20 used in patients with leukemia and lymphoma
+                <sup>
+                    <xref ref-type="bibr" rid="ref-7">7</xref>,
+                    <xref ref-type="bibr" rid="ref-8">8</xref>
+                </sup>.</p>
+            <p>Although this type of molecular profiling led to tailored therapy for cancer patients, it did not take a long time to discover that it has its own shortcomings. It was found that although these therapeutic agents produce dramatic effects in most patients, some did not respond at all and others showed only a partial response to the treatment
+                <sup>
+                    <xref ref-type="bibr" rid="ref-1">1</xref>,
+                    <xref ref-type="bibr" rid="ref-9">9</xref>,
+                    <xref ref-type="bibr" rid="ref-10">10</xref>
+                </sup>. One of the mechanisms attributed to the development of resistance is intra-tumor heterogeneity
+                <sup>
+                    <xref ref-type="bibr" rid="ref-9">9</xref>&#x2013;
+                    <xref ref-type="bibr" rid="ref-11">11</xref>
+                </sup>.</p>
+            <sec>
+                <title>Intra-tumor heterogeneity</title>
+                <p>Diversity within cells of a single neoplastic lesion is called intra-tumor heterogeneity. This is due to genome instability attributed by the pool of endogenous and exogenous mutations in a given microenvironmental context (selection pressure), which is known to alter the evolutionary trajectory of a tumor leading to clonal and subclonal expansions of cancer cells. This ultimately results in a genetically diversified tumor
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-12">12</xref>&#x2013;
+                        <xref ref-type="bibr" rid="ref-14">14</xref>
+                    </sup>. For example, in a study of a patient with malignant melanoma who initially responded to the targeted BRAF inhibitor vemurafenib, but later progressed and developed five metastatic lesions, it was found that resistance to vemurafenib was developed via several different, independent mechanisms. BRAFV600E amplification was found in three resistant metastases, which likely occurred as independent events
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-15">15</xref>,
+                        <xref ref-type="bibr" rid="ref-16">16</xref>
+                    </sup>. The fourth drug-resistant metastatic lesion harbored an aberrant form of BRAF, whereas, in yet another metastasis, a new activating in-frame insertion in MEK was identified, thus highlighting the extent of inter- and intra-tumoral heterogeneity and its impact on clinical outcomes
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-17">17</xref>
+                    </sup>.</p>
+                <p>Studies have shown that intra-tumoral heterogeneity is the key mechanism underlying tumor progression and the frequent lack of therapeutic responses
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-17">17</xref>
+                    </sup>. Intra-tumor variability has not only posed a significant challenge in predicting the behavior of the neoplasm, but has also resulted in the emergence of neoplastic clone&#x2019;s resistance to a given therapy
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-12">12</xref>,
+                        <xref ref-type="bibr" rid="ref-17">17</xref>
+                    </sup>. It is critical to explore novel methodologies to gain a better insight into the biological and therapeutic impact of intra-tumor genetic heterogeneity for the improvement of existing therapies in cancer management.</p>
+            </sec>
+            <sec>
+                <title>Inter-tumoral heterogeneity</title>
+                <p>Studies have shown that two tumors that are histologically similar may behave and respond differently to the same treatment due to being genetically different&#x2014;a phenomenon that can now be explained by the concept of inter-tumor heterogeneity
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-18">18</xref>
+                    </sup>. Recent studies that sequenced the genomes of breast and colorectal cancers have shown us that the tumor evolution is a complicated multi-step process caused by a combination of series of mutations intermixed in a vast genomic landscape, confirming tumor heterogeneity
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-19">19</xref>,
+                        <xref ref-type="bibr" rid="ref-20">20</xref>
+                    </sup>. Inter-tumor heterogeneity has significant clinical implications. For example, among patients with colon cancer there has been an attempt to classify the disease with respect to genetic defects. For example, activating mutations of the 
+                    <italic>BRAF</italic> oncogene are associated with microsatellite instability and mutations in TP53 or 
+                    <italic>KRAS</italic> are associated with chromosomal instability
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-21">21</xref>
+                    </sup>. This understanding of inter-tumor heterogeneity in colorectal cancers has significant clinical implications, not only for predicting the prognosis of the patient but also for tailoring the targeted therapy to be used for individual tumor type. Approximately 60% of colon cancer patients have 
+                    <italic>KRAS</italic> wild-type mutations and are being treated with EGFR inhibitors, but only 30% benefit from the treatment. Non-response to EGFR inhibitors in the remaining 30% of patients has been attributed to other genetic biomarkers, such as 
+                    <italic>BRAF</italic> mutations (8&#x2013;10%), 
+                    <italic>PTEN</italic> null mutations (10&#x2013;15%) and 
+                    <italic>PI3KC</italic> mutations (10&#x2013;12%)
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-18">18</xref>,
+                        <xref ref-type="bibr" rid="ref-19">19</xref>
+                    </sup>. It has been proposed that these patients with different genetic profiles may benefit from therapies targeted towards individual biomarker thus reminding us the clinical and therapeutic implications of inter-tumoral heterogeneity
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-15">15</xref>,
+                        <xref ref-type="bibr" rid="ref-16">16</xref>,
+                        <xref ref-type="bibr" rid="ref-18">18</xref>
+                    </sup>.</p>
+                <p>
+                    <ext-link ext-link-type="uri" xlink:href="https://cancergenome.nih.gov/">The Cancer Genome Atlas</ext-link> (TCGA) is an ever-expanding catalog of genetic mutations identified in tumors in different patients that are responsible for causing cancer. So far it has cataloged and characterized genomic changes including copy number variations, mutations, and RNA expression in around 33 cancer types in more than 45,000 patients, including for 10 rare cancers
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-22">22</xref>,
+                        <xref ref-type="bibr" rid="ref-23">23</xref>
+                    </sup>. TCGA Data Portal enables the researcher to download copy number variations, mutations and mRNA expression profiles of all the genes in a particular type of tumor
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-24">24</xref>,
+                        <xref ref-type="bibr" rid="ref-25">25</xref>
+                    </sup>. However, if the researcher is interested in studying a particular type of genetic alteration across a set of different cancer types and across a set of patients then they will have to use interactive exploratory tools like the 
+                    <ext-link ext-link-type="uri" xlink:href="http://www.cbioportal.org/">cBio Portal</ext-link> to perform data analysis across TCGA Database
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-26">26</xref>
+                    </sup>.</p>
+                <p>TCGA also contains the dataset from the 
+                    <ext-link ext-link-type="uri" xlink:href="https://portals.broadinstitute.org/ccle">Cancer Cell Line Encyclopedia</ext-link> (CCLE) project, which provides information concerning DNA copy number variation, mRNA expression profile and, mutational data of genes in more than 1000 cancer cell lines, providing an indispensable tool for scientists conducting pharmacogenomics and pharmaco-therapeutics studies in oncology. The CCLE has been successfully used in the genetic prediction of genomic profile-based drug responses in the preclinical setting and its incorporation into cancer clinical trial design has helped in the emergence of &#x201c;personalized&#x201d; therapeutic regimens
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-27">27</xref>
+                    </sup>.</p>
+                <p>Using the cBioPortal to interactively explore cancer genomics datasets, the researcher can access data from more than 45,000 tumor samples from cancer studies in TCGA database. This enables the scientists to choose cancer cell lines and type of tumor models to pursue their research of targeted cancer therapy
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-26">26</xref>
+                    </sup>.</p>
+            </sec>
+            <sec>
+                <title>Model organism</title>
+                <p>The principal objective of cancer genomics research has been to identify alterations in gene expression, provide information on mutations and copy number variations, the sequences of cancer genes and data on the mutational processes that occur are functioning in tumors, and to develop genetic profile-based targeted therapies against these tumors during cancer evolution. One of the challenges in doing so is finding a method wherein genetic studies can be performed conveniently and rapidly
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-28">28</xref>
+                    </sup>. Many practical and ethical obstacles severely limit the scope of experiments using human cells in genetic studies. One of the biggest limitations is that the human cell lines are diploid and take a longer time to divide than yeast or bacterial cells, making it difficult to perform manipulation of genes in them. In addition, the human cell lines take a long time to divide, thus limiting the ability to use human cell lines in high-throughput screening of drugs and gene manipulation studies in humans. To overcome this limitation, model organisms have been used, in which most of the fundamental biological mechanisms and pathways that control development and survival have been evolutionarily conserved between species. These organisms were found to have genes that have structural and functional homology with human genes
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-29">29</xref>
+                    </sup>.</p>
+                <p>Budding yeast (
+                    <italic>Saccharomyces cerevisiae</italic>) is one of the model organism used to analyze phenomena that involves important basic eukaryotic cell functions, such as metabolism, regulation of the cell cycle, membrane targeting and dynamics, protein folding, and DNA repair. The 
+                    <italic>S. cerevisiae</italic> genome was first fully sequenced in 1996, which opened the gateway to various researchers as it provided a treasure of information on genome organization and evolution
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-30">30</xref>
+                    </sup>.</p>
+                <p>Now, 
+                    <italic>S. cerevisiae</italic> has also been considered a principal model organism for conducting research owing to the ease with which gene manipulation can be done, short doubling time harbored by these cells in and significant genotypic and phenotypic homology shared with human cells. In addition, the complete mapping of the yeast genome and creation of the yeast gene deletion collection (
+                    <ext-link ext-link-type="uri" xlink:href="http://www-sequence.stanford.edu/group/yeast_deletion_project/project_desc.html">library of deletion mutants lacking all non-essential genes</ext-link>) has resulted in a shift in research focus from individual genes to a more global view of genetic networks. This has resulted in the development of high-throughput screens to identify multiple genetic targets of a drug using the 
+                    <italic>S. cerevisiae</italic> gene deletion library (
+                    <xref ref-type="fig" rid="f1">Figure 1</xref>)
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-31">31</xref>
+                    </sup>. Data from these screens helps researchers to identify novel drug candidates</p>
+                <fig fig-type="figure" id="f1" position="float">
+                    <label>Figure 1. </label>
+                    <caption>
+                        <title>The mutant clones are plated on a yeast extract peptone dextrose (YPD) agar plate containing the cancer drug of interest and incubated for 2 to 3 days at 30&#x00b0;C.</title>
+                        <p>The clones with gene deletions that lead to drug sensitivity will not grow or grow slowly compared to the wild-type or non-sensitive clones after 3 days of incubation and will not form colonies. The YPD-agar plates are scanned to identify genes deletion leading to sensitivity for a given anti-cancer drug tested.</p>
+                    </caption>
+                    <graphic xlink:href="f1000research-7-16523-g0000.gif"/>
+                </fig>
+                <p>High-throughput screening using the yeast gene deletion library enables researchers to study small molecules in chemical libraries that induce a phenotype in the clones that are engineered to reflect specific genetic changes in human cancers or obtain essential information for further drug design
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-31">31</xref>,
+                        <xref ref-type="bibr" rid="ref-32">32</xref>
+                    </sup>. This eukaryotic microorganism shares a number of fundamental cellular and molecular properties with human cells. This homology has been useful in the study of gene structure and function in 
+                    <italic>S. cerevisiae</italic> and the findings have been applied to human biology
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-30">30</xref>,
+                        <xref ref-type="bibr" rid="ref-33">33</xref>
+                    </sup>. Although the entire genetic concentration in a yeast packs into 16 chromosomes, containing only 10% of the DNA of human chromosomes, the packaging of the genetic material in this micro-organism is much more compressed and dense than the human genome, making it fit for use in studies related to human biology
+                    <sup>
+                        <xref ref-type="bibr" rid="ref-34">34</xref>
+                    </sup>.	</p>
+                <p>Once a researcher identifies the sensitive 
+                    <italic>S. cerevisiae</italic> target genes from the high-throughput drug screen, bioinformatics tools can be used to identify corresponding human homologs and then browse through TCGA using gateways like cBioPortal to identify the status of these homologs in different tumors and cancer cell lines. This process is time-consuming and there is an increased chance of human errors, especially when a researcher gets a list of many genes from the screen.</p>
+                <p>In our study, we have developed a web-based application, Oncoyeasti, that matches genes 
+                    <italic>S. cerevisiae</italic> genes with corresponding human homologs and browses through the TCGA and cBioPortal database to show the status of these matched human homolog genes in various cancers. Our web app not only saves time and resources the researcher needs to commit in order to analyze the data obtained from the drug screen, it also reduces chances of human errors because the entire data-analysis is streamlined.</p>
+            </sec>
+        </sec>
+        <sec sec-type="methods">
+            <title>Methods</title>
+            <sec>
+                <title>Core functionality and architecture</title>
+                <p>The main objective of Oncoyeasti is to enable the oncologist to use 
+                    <italic>S. cerevisiae</italic> as a screening tool to rapidly identify genetic targets of anti-cancer drugs and to establish the status of the human homologs of the identified targets in the tumor database of TCGA. It is a cumbersome task to translate the results obtained from a 
+                    <italic>S. cerevisiae</italic> high-throughput drug screen into application-oriented cancer research into cancerous tumors and cancerous cell lines, especially when the drug screen results in the identification of multiple genetic targets. We have developed Oncoyeasti to serve as a platform that analyzes the data obtained from the yeast screen, to identify the corresponding human homologs and status of these homologs in different cancers and cancer cell lines data deposited in TCGA (
+                    <xref ref-type="fig" rid="f2">Figure 2</xref>). Oncoyeasti has been programmed to browse TCGA database by automatically using the interactive data exploration and visualization.</p>
+                <fig fig-type="figure" id="f2" position="float">
+                    <label>Figure 2. </label>
+                    <caption>
+                        <title>Flow chart describing the algorithm of Oncoyeasti.</title>
+                        <p>Once the researcher input the 
+                            <italic>Saccharomyces cerevisiae</italic> genes, Oncoyeasti matches the 
+                            <italic>S. cerevisiae</italic> genes with the corresponding human homologs and generates a link for those homologs to the corresponding cBioPortal webpage describing the status of these homologs in tumors sequence data in The Cancer Genome Atlas (TCGA) database and cancer cell line genomic alteration data in the Cancer Cell Line Encyclopedia (CCLE) database.</p>
+                    </caption>
+                    <graphic xlink:href="f1000research-7-16523-g0001.gif"/>
+                </fig>
+                <p>cBioPortal provides a visual output of the status of human homologs of 
+                    <italic>S. cerevisiae</italic> genes in various cancers. At the time of writing, the TCGA database had a genetic profile of more than 45,000 tumor samples and more than a 1000 cancer cell lines. The sample size is expected to continuously increase with time by updating the database with the sequencing of newer tumors.</p>
+            </sec>
+        </sec>
+        <sec>
+            <title>System implementation</title>
+            <p>In order to have a platform that provides scientist the human humologs of yeast genes for easy anticancer drug screening, we used the server-side scripting language PHP for web development platform along with MYSQL interface for matching the input 
+                <italic>S. cerevisae</italic> genes with the corresponding human homologs. The URL for the cross cancer summary of the matched human homologs in tumors present in TCGA database, and navigated using cBioPortal interface, was generated using the MSQL interface. Using the MSQL interface and cBioPortal the URL for the status of the matched human homologs in the tumor cell lines data present in the CCLE was generated. We used a simple approach to build the algorithm for the search program which has the capability to analyze up to 100 
+                <italic>S. cerevisiae</italic> genes at once. The algorithm functions as follows. First, it takes the input in form of 
+                <italic>S. cerevisiae</italic> standard or systematic gene names and starts searching the human homologs dataset for a possible match by comparing the input text with 
+                <italic>S. cerevisiae</italic> standard and systematic gene names. Once the matched human homologs are identified, the cBioPortal URL for the status of the corresponding homolog in various cancer datasets is automatically generated. Using this technique, we are able to display multiple search results for corresponding human homolog gene data stored in the database table along with URL links to the cBioPortal/TCGA database. The design of the web based application 
+                <ext-link ext-link-type="uri" xlink:href="http://www.oncoyeasti.org/">Oncoyeasti</ext-link> is unique in terms of identification of human homologue 
+                <italic>S. cerevisiae</italic> genes. It uses feature rich, fast JQuery API which works across multitude of browsers. The project features improved page start-up performance with modified properties and methods which can load JavaScript events and data from the server and return the matched element. Apart from that, the w3 container class uses bootstrap grid system that allows us to organize the data in grid system where classes can be combined in a more responsive, flexible and dynamic layouts.</p>
+            <p>Oncoyeasti is implemented in 
+                <ext-link ext-link-type="uri" xlink:href="https://www.bluehost.com/">Bluehost</ext-link>, a highly versatile and reliable web hosting company. Their platform can efficiently support large volumes of traffic at remarkable speed. As a result, the time lapse from the dataset search of Oncoyeasti database to the automatic retrieval of corresponding links from the cBioPortal/TCGA database is estimated to be 761 milliseconds, depending on the internet service provider.</p>
+            <sec>
+                <title>Operating systems and browsers</title>
+                <p>The usability of oncoyeasti is observed to have efficient function among old and new operating system and browsers. Oncoyeasti has a minimal requirement of Internet Explorer 9, Firefox v60, Safari (all versions), Opera v51, Chrome v66, iOS (all versions), and Android (all versions).</p>
+            </sec>
+        </sec>
+        <sec>
+            <title>Use cases</title>
+            <sec>
+                <title>Data presentation and visualization</title>
+                <p>Once you visit the portal (
+                    <ext-link ext-link-type="uri" xlink:href="http://www.oncoyeasti.org/">http://www.oncoyeasti.org/</ext-link>), you will be prompted to enter 
+                    <italic>S. cerevisiae</italic> gene names (
+                    <xref ref-type="fig" rid="f3">Figure 3</xref>). You can enter up to 100 gene names, with 1 gene per line. The gene names can be either in standard or systematic gene name format. For example, the 
+                    <italic>RAD9</italic> gene has the standard name 
+                    <italic>RAD9</italic> and systematic name YDR217C, you can either enter 
+                    <italic>RAD9</italic> or YDR217C and click submit.</p>
+                <fig fig-type="figure" id="f3" position="float">
+                    <label>Figure 3. </label>
+                    <caption>
+                        <title>On visiting Oncoyeasti.org the researchers can input up to 100 
+                            <italic>Saccharomyces cerevisiae</italic> genes in standard gene name or systematic gene name format.</title>
+                        <p>In this case, 
+                            <italic>RAD9</italic> is the input.</p>
+                    </caption>
+                    <graphic xlink:href="f1000research-7-16523-g0002.gif"/>
+                </fig>
+                <p>Once you click submit, Oncoyeasti will process your entry and match your 
+                    <italic>S. cerevisiae</italic> gene entry with the corresponding human homolog. In the case of 
+                    <italic>RAD9</italic> it is 
+                    <italic>TP53BP1</italic> (
+                    <xref ref-type="fig" rid="f4">Figure 4</xref>). It will also automatically generate a link to  
+                    <ext-link ext-link-type="uri" xlink:href="http://www.cbioportal.org/">http://www.cbioportal.org/</ext-link> that will provide information of the status of 
+                    <italic>TP53BP1</italic> in more than 45,000 tumor samples, in the TCGA database. This link is provided under the section cross cancer summary of the human homolog in tumors present in TCGA database. In addition, generate a link to check for the status of the 
+                    <italic>TP53BP1</italic> in the cancer cell lines sequence data present in the CCLE database.</p>
+                <fig fig-type="figure" id="f4" position="float">
+                    <label>Figure 4. </label>
+                    <caption>
+                        <title>Oncoyeasti identifies the human homolog of the corresponding 
+                            <italic>Saccharomyces cerevisiae</italic> genes, and generates a link to the cBioPortal visualization portal to browse the status of the corresponding human homologs in tumor samples from The Cancer Genome Atlas (TCGA) Database and Cancer Cell Lines Encyclopedia (CCLE).</title>
+                    </caption>
+                    <graphic xlink:href="f1000research-7-16523-g0003.gif"/>
+                </fig>
+                <p>In order to check the status of 
+                    <italic>TP53BP1</italic> in TCGA database, one needs to click on the Cross Cancer Summary Tab. Upon clicking on the corresponding cross cancer summary tab for 
+                    <italic>RAD9</italic>, we will reach the cBioPortal page visually depicting the cross-cancer alteration summary for 
+                    <italic>TP53BP1</italic> in tumor profiles present in 147 different cancer studies (
+                    <xref ref-type="fig" rid="f5">Figure 5</xref>). The visual depiction of the data is in a histogram form, showing a percentage of various types of chromosomal instabilities likes homozygous deletion indicated by blue, homozygous amplification indicated by red and mutations indicated by green.</p>
+                <fig fig-type="figure" id="f5" position="float">
+                    <label>Figure 5. </label>
+                    <caption>
+                        <title>Oncoyeasti generates a link to cross cancer summary for corresponding human homolog gene (in this case, 
+                            <italic>TP53BP1</italic> for 
+                            <italic>RAD9</italic>).</title>
+                        <p>The link directs the researcher to the cBioPortal page for the cross cancer summary of the corresponding human homolog (
+                            <italic>TP53BP1</italic> in this case), where in one gets a histogram depicting cross-cancer alteration summary for 
+                            <italic>TP53BP1</italic> in approximately 147 studies in The Cancer Genome Atlas database. Image obtained from cBioPortal
+                            <sup>
+                                <xref ref-type="bibr" rid="ref-26">26</xref>,
+                                <xref ref-type="bibr" rid="ref-35">35</xref>
+                            </sup>.</p>
+                    </caption>
+                    <graphic xlink:href="f1000research-7-16523-g0004.gif"/>
+                </fig>
+                <p>You can click on the histogram bars for the respective cancer study to get an &#x201c;oncoprint&#x201d;, which is the visualization of distinct genomic alterations in different patients in a given study, such as copy number alterations, somatic mutations, and mRNA expression. Individual genes are represented as rows, and individual cases or patients are represented as columns. For example, if we click on the uterine corpus endometrial carcinoma (provisional TCGA database of 242 samples), we will be directed to the oncoprint of 
+                    <italic>TP53BP1</italic> gene status in 242 uterine corpus endometrial carcinoma samples (
+                    <xref ref-type="fig" rid="f6">Figure 6</xref>). The tumors with homozygous amplification of the given gene in an oncoprint (
+                    <italic>TP53BP1</italic> in this case) is indicated by the red bar and homozygous deletion is indicated by the blue bar.</p>
+                <fig fig-type="figure" id="f6" position="float">
+                    <label>Figure 6. </label>
+                    <caption>
+                        <title>To look at the genetic alterations of tumors in an individual study, in this case (alterations of 
+                            <italic>TP53BP1</italic> in uterine corpus endometrial carcinoma), one clicks on Uterine Corpus Endometrial Carcinoma Bar in 
+                            <xref ref-type="fig" rid="f5">Figure 5</xref> and it cBioPortal directs us to on oncoprint, which is a graphical visualization of genetic alterations for a gene of interest in different individuals.</title>
+                        <p>In an oncoprint, each tumor is indicated by a bar. Red color indicates homozygous amplification for the given gene and blue color indicates homozygous deletion for the gene of interest. Image obtained from cBioPortal
+                            <sup>
+                                <xref ref-type="bibr" rid="ref-26">26</xref>,
+                                <xref ref-type="bibr" rid="ref-35">35</xref>
+                            </sup>.</p>
+                    </caption>
+                    <graphic xlink:href="f1000research-7-16523-g0005.gif"/>
+                </fig>
+            </sec>
+            <sec>
+                <title>Data export from cBioPortal</title>
+                <p>One can download the copy number alterations by clicking on the download tab and export it into an excel form to perform a copy number analysis for the gene. Once exported into the excel, -2 indicates homozygous deletion, -1 heterozygous deletion, 0 is diploid, 1 indicates a heterozygous amplification and 2 a homozygous amplification</p>
+                <p>Similarly, if the researcher wants to pick a cancer cell line, depending on the yeast phenotypic screen data, he can click link generated by Oncoyeasti under the CCLE column. The link will direct the researcher to cbioportal CCLE section and provide him with an oncoprint for the gene of interest (
+                    <italic>TP53BP1</italic>, a 
+                    <italic>RAD9</italic> homolog in this case). This will enable the researcher to visualize the copy number alterations of the gene of interest in more than 1000 different types of cancer cell lines, perform copy number alteration analysis in excel as described previously and thus select appropriate cancer cells lines depending on their 
+                    <italic>S. cerevisiae</italic> genetic screen results.</p>
+            </sec>
+        </sec>
+        <sec sec-type="discussion">
+            <title>Discussion</title>
+            <p>
+
+                <italic>S. cerevisiae</italic> is one of the most widely used eukaryotic model organisms
+                <sup>
+                    <xref ref-type="bibr" rid="ref-36">36</xref>
+                </sup>. It has been used to study biological processes including cell cycle, gene regulation, signal transduction, cell cycle, apoptosis, aging and neurodegenerative disorders
+                <sup>
+                    <xref ref-type="bibr" rid="ref-29">29</xref>,
+                    <xref ref-type="bibr" rid="ref-36">36</xref>
+                </sup>. Up to 30% of genes implicated in human disease may have orthologs in the yeast
+                <sup>
+                    <xref ref-type="bibr" rid="ref-37">37</xref>
+                </sup>. Out of an estimated 2,271 known disease-associated genes in humans, 526 (~23%) have a close ortholog in the yeast genome. Similarities in the gene sequence and function have made this organism useful in elucidating biological pathways in humans. Yeast genomic methodologies have been applied in drug development studies including drug target identification, identification of targeted genes and pathways of therapeutic drugs
+                <sup>
+                    <xref ref-type="bibr" rid="ref-38">38</xref>
+                </sup>. The genomic methodologies include use of deletion mutants for drug-target identification, cDNA microarray analysis of drug-target action, complete synthetic screens, fitness profiling using barcoded mutants and analysis of cellular responses to external stimuli were developed in yeast
+                <sup>
+                    <xref ref-type="bibr" rid="ref-38">38</xref>,
+                    <xref ref-type="bibr" rid="ref-39">39</xref>
+                </sup>. In addition, individual pathways such as cell cycle regulators and histone deacetylase inhibitors have been used in the identification of new anticancer drug targets
+                <sup>
+                    <xref ref-type="bibr" rid="ref-39">39</xref>
+                </sup>. From all these yeast genomic technologies, a list of genes that respond to a given drug will be available. For example, yeast gene deletion library screening to a particular drug, we get a list of genes whose deletion resulted in cell sensitivity or resistant to a particular drug
+                <sup>
+                    <xref ref-type="bibr" rid="ref-40">40</xref>
+                </sup>. In other yeast technologies, such as cDNA microarray analysis of drug-target action and fitness profiling using barcoded mutants, experiments also resulted in a list of genes up-regulated or down-regulated in response to the drug
+                <sup>
+                    <xref ref-type="bibr" rid="ref-41">41</xref>
+                </sup>. The ultimate aim of the yeast model in either drug discovery or the study of pathways is to apply to humans and thus finding the drug responsive yeast genes in a human would be difficult for a large number of genes. Therefore, Oncoyeasti, a web-based application represents a useful tool for researchers who are using yeast phenotypic or genotypic screens to rapidly identify genetic targets of anticancer drugs. It enables them to identify the corresponding human homologs of the 
+                <italic>S. cerevisiae</italic> genes of interest and automatically generates a link to cBioPortal to visualize the genetic alterations of the corresponding homologs in more than 45,000 different tumor sample datasets present in the TCGA database. As shown in 
+                <xref ref-type="fig" rid="f4">Figure 4</xref>, Oncoyeasti identifies the sequential human homolog (
+                <italic>TP53BP1</italic>) of the corresponding 
+                <italic>S. cerevisiae</italic> gene 
+                <italic>RAD9</italic> and the corresponding human homologs in tumor samples of TCGA database and cancer cell lines. In addition, Oncoyeasti generates a corresponding link to cBioPortal showing histogram depicting cross-cancer alteration summary of 
+                <italic>TP53BP1</italic> in 147 studies in TCGA and CCLE (
+                <xref ref-type="fig" rid="f5">Figure 5</xref>). By clicking on the bar of CCLE dataset in the histogram, researchers can navigate CCLE datasets to identify the genetic alterations of their genes in interest (
+                <italic>TP53BP1</italic> in this case) in the cancer cell lines datasets present in the CCLE database. Thus it can serve as a useful tool for the researchers to predict different cancerous tumors; the data derived from the yeast screen can be used and serve as a framework to select tumors or cancer subtypes in which their research would be useful. It also serves as a tool for researchers to select appropriate cancer cell lines for their further studies and thus translate their research from budding yeast to humans.</p>
+            <p>Oncoyeasti identifies human target genes and the tumors in which these genes are perturbed based on a sequential homology with 
+                <italic>S. cerevisiae</italic>. But homolog variants identified using sequential homology from a model organism like 
+                <italic>S. cerevisiae</italic> are assumed to be well tolerated in humans, but in certain cases may not perform the same function in humans and vice versa, in functional complementation studies
+                <sup>
+                    <xref ref-type="bibr" rid="ref-42">42</xref>
+                </sup>. Hamza 
+                <italic>et al.</italic> showed that approximately 60% of 
+                <italic>S. cerevisiae</italic> null mutant clones can be rescued by functional complementation by corresponding human homolog genes, indicating that utility of the cross-species platform to screen and identify targets based on sequential homology
+                <sup>
+                    <xref ref-type="bibr" rid="ref-43">43</xref>
+                </sup>. Since 60% of budding yeast homologs show functional complementation, the human cancer cell lines with genetic targets homologous to the yeast mutants identified in the chemical screen should behave similarly to the corresponding yeast mutants identified in the high-throughput chemical screen (the chemical used in this case may be a potential therapeutic drug). Hence Oncoyeasti, when used in synchrony with yeast gene deletion drug screen can serve as an indispensable tool for scientists to rapidly identify target tumors and cancer cell lines that are sensitive or resistant to a given drug and translate yeast research into human therapeutics.</p>
+        </sec>
+        <sec sec-type="conclusion">
+            <title>Conclusion</title>
+            <p>The ultimate aim of understanding cancer biology using model organisms is to apply this knowledge to human cancer and cell lines of interest for drug discovery. Oncoyeasti serves as a useful tool for scientists who are working with the yeast model to understand cancer gene functions, pathways and drug discovery.</p>
+        </sec>
+        <sec>
+            <title>Data availability</title>
+            <p>All data underlying the results are available as part of the article and source code, and no additional source data are required.</p>
+        </sec>
+        <sec>
+            <title>Software availability</title>
+            <p>
+
+                <bold>Oncoyeasti available from:</bold> 
+                <ext-link ext-link-type="uri" xlink:href="http://www.oncoyeasti.org/">http://www.oncoyeasti.org/</ext-link>
+            </p>
+            <p>
+
+                <bold>Source code available from:</bold> 
+                <ext-link ext-link-type="uri" xlink:href="https://github.com/oncoadmn/oncoyeasti.org">https://github.com/oncoadmn/oncoyeasti.org</ext-link>.</p>
+            <p>
+
+                <bold>Archived source code as at time of publication:</bold> 
+                <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5281/zenodo.1257717">https://doi.org/10.5281/zenodo.1257717</ext-link>
+                <sup>
+                    <xref ref-type="bibr" rid="ref-35">35</xref>
+                </sup>.</p>
+            <p>
+
+                <bold>License:</bold> 
+                <ext-link ext-link-type="uri" xlink:href="https://opensource.org/licenses/MIT">MIT License</ext-link>.</p>
+        </sec>
+    </body>
+    <back>
+        <ack>
+            <title>Acknowledgements</title>
+            <p>Special thanks to Dr. Stacia R. Engel from the 
+                <italic>Saccharomyces</italic> Genome Database (Department of Genetics, Stanford University) for providing us curated human homolog gene list of 
+                <italic>Saccharomyces cerevisiae</italic>.</p>
+        </ack>
+        <ref-list>
+            <ref id="ref-1">
+                <label>1</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Aparicio</surname>
+                            <given-names>S</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Caldas</surname>
+                            <given-names>C</given-names>
+                        </name>
+					</person-group>:
+                    <article-title>The implications of clonal genome evolution for cancer medicine.</article-title>
+                    <source>
+						
+                        <italic>N Engl J Med.</italic>
+					</source>
+                    <year>2013</year>;<volume>368</volume>(<issue>9</issue>):<fpage>842</fpage>&#x2013;<lpage>51</lpage>.
+                    <pub-id pub-id-type="pmid">23445095</pub-id>
+                    <pub-id pub-id-type="doi">10.1056/NEJMra1204892</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-2">
+                <label>2</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Saijo</surname>
+                            <given-names>N</given-names>
+                        </name>
+					</person-group>:
+                    <article-title>Progress in cancer chemotherapy with special stress on molecular-targeted therapy.</article-title>
+                    <source>
+						
+                        <italic>Jpn J Clin Oncol.</italic>
+					</source>
+                    <year>2010</year>;<volume>40</volume>(<issue>9</issue>):<fpage>855</fpage>&#x2013;<lpage>62</lpage>.
+                    <pub-id pub-id-type="pmid">20651047</pub-id>
+                    <pub-id pub-id-type="doi">10.1093/jjco/hyq035</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-3">
+                <label>3</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Din</surname>
+                            <given-names>OS</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Woll</surname>
+                            <given-names>PJ</given-names>
+                        </name>
+					</person-group>:
+                    <article-title>Treatment of gastrointestinal stromal tumor: focus on imatinib mesylate.</article-title>
+                    <source>
+						
+                        <italic>Ther Clin Risk Manag.</italic>
+					</source>
+                    <year>2008</year>;<volume>4</volume>(<issue>1</issue>):<fpage>149</fpage>&#x2013;<lpage>62</lpage>.
+                    <pub-id pub-id-type="pmid">18728705</pub-id>
+                    <pub-id pub-id-type="doi">10.2147/TCRM.S1526</pub-id>
+                    <pub-id pub-id-type="pmcid">2503651</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-4">
+                <label>4</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Maleddu</surname>
+                            <given-names>A</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Pantaleo</surname>
+                            <given-names>MA</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Nannini</surname>
+                            <given-names>M</given-names>
+                        </name>
+						
+                        <etal/>
+					</person-group>:
+                    <article-title>The role of mutational analysis of KIT and PDGFRA in gastrointestinal stromal tumors in a clinical setting.</article-title>
+                    <source>
+						
+                        <italic>J Transl Med.</italic>
+					</source>
+                    <year>2011</year>;<volume>9</volume>:<fpage>75</fpage>.
+                    <pub-id pub-id-type="pmid">21605429</pub-id>
+                    <pub-id pub-id-type="doi">10.1186/1479-5876-9-75</pub-id>
+                    <pub-id pub-id-type="pmcid">3224648</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-5">
+                <label>5</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Hochhaus</surname>
+                            <given-names>A</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Larson</surname>
+                            <given-names>RA</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Guilhot</surname>
+                            <given-names>F</given-names>
+                        </name>
+						
+                        <etal/>
+					</person-group>:
+                    <article-title>Long-Term Outcomes of Imatinib Treatment for Chronic Myeloid Leukemia.</article-title>
+                    <source>
+						
+                        <italic>N Engl J Med.</italic>
+					</source>
+                    <year>2017</year>;<volume>376</volume>(<issue>10</issue>):<fpage>917</fpage>&#x2013;<lpage>927</lpage>.
+                    <pub-id pub-id-type="pmid">28273028</pub-id>
+                    <pub-id pub-id-type="doi">10.1056/NEJMoa1609324</pub-id>
+                    <pub-id pub-id-type="pmcid">5901965</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-6">
+                <label>6</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Kawakami</surname>
+                            <given-names>Y</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Nakamura</surname>
+                            <given-names>K</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Nishibu</surname>
+                            <given-names>A</given-names>
+                        </name>
+						
+                        <etal/>
+					</person-group>:
+                    <article-title>Regression of cutaneous squamous cell carcinoma in a patient with chronic myeloid leukaemia on imatinib mesylate treatment.</article-title>
+                    <source>
+						
+                        <italic>Acta Derm Venereol.</italic>
+					</source>
+                    <year>2008</year>;<volume>88</volume>(<issue>2</issue>):<fpage>185</fpage>&#x2013;<lpage>6</lpage>.
+                    <pub-id pub-id-type="pmid">18311459</pub-id>
+                    <pub-id pub-id-type="doi">10.2340/00015555-0368</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-7">
+                <label>7</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Maury</surname>
+                            <given-names>S</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Chevret</surname>
+                            <given-names>S</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Thomas</surname>
+                            <given-names>X</given-names>
+                        </name>
+						
+                        <etal/>
+					</person-group>:
+                    <article-title>Rituximab in B-Lineage Adult Acute Lymphoblastic Leukemia.</article-title>
+                    <source>
+						
+                        <italic>N Engl J Med.</italic>
+					</source>
+                    <year>2016</year>;<volume>375</volume>(<issue>11</issue>):<fpage>1044</fpage>&#x2013;<lpage>53</lpage>.
+                    <pub-id pub-id-type="pmid">27626518</pub-id>
+                    <pub-id pub-id-type="doi">10.1056/NEJMoa1605085</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-8">
+                <label>8</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Cheson</surname>
+                            <given-names>BD</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Leonard</surname>
+                            <given-names>JP</given-names>
+                        </name>
+					</person-group>:
+                    <article-title>Monoclonal antibody therapy for B-cell non-Hodgkin's lymphoma.</article-title>
+                    <source>
+						
+                        <italic>N Engl J Med.</italic>
+					</source>
+                    <year>2008</year>;<volume>359</volume>(<issue>6</issue>):<fpage>613</fpage>&#x2013;<lpage>26</lpage>.
+                    <pub-id pub-id-type="pmid">18687642</pub-id>
+                    <pub-id pub-id-type="doi">10.1056/NEJMra0708875</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-9">
+                <label>9</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Rivera</surname>
+                            <given-names>G</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Wakelee</surname>
+                            <given-names>HA</given-names>
+                        </name>
+					</person-group>:
+                    <article-title>Resistance to Therapy.</article-title>
+                    <source>
+						
+                        <italic>Cancer Treat Res.</italic>
+					</source>
+                    <year>2016</year>;<volume>170</volume>:<fpage>183</fpage>&#x2013;<lpage>202</lpage>.
+                    <pub-id pub-id-type="pmid">27535395</pub-id>
+                    <pub-id pub-id-type="doi">10.1007/978-3-319-40389-2_9</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-10">
+                <label>10</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Suda</surname>
+                            <given-names>K</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Mitsudomi</surname>
+                            <given-names>T</given-names>
+                        </name>
+					</person-group>:
+                    <article-title>Successes and limitations of targeted cancer therapy in lung cancer.</article-title>
+                    <source>
+						
+                        <italic>Prog Tumor Res.</italic>
+					</source>
+                    <year>2014</year>;<volume>41</volume>:<fpage>62</fpage>&#x2013;<lpage>77</lpage>.
+                    <pub-id pub-id-type="pmid">24727987</pub-id>
+                    <pub-id pub-id-type="doi">10.1159/000355902</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-11">
+                <label>11</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Sun</surname>
+                            <given-names>XX</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Yu</surname>
+                            <given-names>Q</given-names>
+                        </name>
+					</person-group>:
+                    <article-title>Intra-tumor heterogeneity of cancer cells and its implications for cancer treatment.</article-title>
+                    <source>
+						
+                        <italic>Acta Pharmacol Sin.</italic>
+					</source>
+                    <year>2015</year>;<volume>36</volume>(<issue>10</issue>):<fpage>1219</fpage>&#x2013;<lpage>27</lpage>.
+                    <pub-id pub-id-type="pmid">26388155</pub-id>
+                    <pub-id pub-id-type="doi">10.1038/aps.2015.92</pub-id>
+                    <pub-id pub-id-type="pmcid">4648179</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-12">
+                <label>12</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>McGranahan</surname>
+                            <given-names>N</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Swanton</surname>
+                            <given-names>C</given-names>
+                        </name>
+					</person-group>:
+                    <article-title>Biological and therapeutic impact of intratumor heterogeneity in cancer evolution.</article-title>
+                    <source>
+						
+                        <italic>Cancer Cell.</italic>
+					</source>
+                    <year>2015</year>;<volume>27</volume>(<issue>1</issue>):<fpage>15</fpage>&#x2013;<lpage>26</lpage>.
+                    <pub-id pub-id-type="pmid">25584892</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/j.ccell.2014.12.001</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-13">
+                <label>13</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Iwasa</surname>
+                            <given-names>Y</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Michor</surname>
+                            <given-names>F</given-names>
+                        </name>
+					</person-group>:
+                    <article-title>Evolutionary dynamics of intratumor heterogeneity.</article-title>
+                    <source>
+						
+                        <italic>PLoS One.</italic>
+					</source>
+                    <year>2011</year>;<volume>6</volume>(<issue>3</issue>):<fpage>e17866</fpage>.
+                    <pub-id pub-id-type="pmid">21479218</pub-id>
+                    <pub-id pub-id-type="doi">10.1371/journal.pone.0017866</pub-id>
+                    <pub-id pub-id-type="pmcid">3068148</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-14">
+                <label>14</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Sottoriva</surname>
+                            <given-names>A</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Spiteri</surname>
+                            <given-names>I</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Piccirillo</surname>
+                            <given-names>SG</given-names>
+                        </name>
+						
+                        <etal/>
+					</person-group>:
+                    <article-title>Intratumor heterogeneity in human glioblastoma reflects cancer evolutionary dynamics.</article-title>
+                    <source>
+						
+                        <italic>Proc Natl Acad Sci U S A.</italic>
+					</source>
+                    <year>2013</year>;<volume>110</volume>(<issue>10</issue>):<fpage>4009</fpage>&#x2013;<lpage>14</lpage>.
+                    <pub-id pub-id-type="pmid">23412337</pub-id>
+                    <pub-id pub-id-type="doi">10.1073/pnas.1219747110</pub-id>
+                    <pub-id pub-id-type="pmcid">3593922</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-15">
+                <label>15</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Grimaldi</surname>
+                            <given-names>AM</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Simeone</surname>
+                            <given-names>E</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Festino</surname>
+                            <given-names>L</given-names>
+                        </name>
+						
+                        <etal/>
+					</person-group>:
+                    <article-title>Novel mechanisms and therapeutic approaches in melanoma: targeting the MAPK pathway.</article-title>
+                    <source>
+						
+                        <italic>Discov Med.</italic>
+					</source>
+                    <year>2015</year>;<volume>19</volume>(<issue>107</issue>):<fpage>455</fpage>&#x2013;<lpage>61</lpage>.
+                    <pub-id pub-id-type="pmid">26175403</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-16">
+                <label>16</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Holderfield</surname>
+                            <given-names>M</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Deuker</surname>
+                            <given-names>MM</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>McCormick</surname>
+                            <given-names>F</given-names>
+                        </name>
+						
+                        <etal/>
+					</person-group>:
+                    <article-title>Targeting RAF kinases for cancer therapy: BRAF-mutated melanoma and beyond.</article-title>
+                    <source>
+						
+                        <italic>Nat Rev Cancer.</italic>
+					</source>
+                    <year>2014</year>;<volume>14</volume>(<issue>7</issue>):<fpage>455</fpage>&#x2013;<lpage>67</lpage>.
+                    <pub-id pub-id-type="pmid">24957944</pub-id>
+                    <pub-id pub-id-type="doi">10.1038/nrc3760</pub-id>
+                    <pub-id pub-id-type="pmcid">4250230</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-17">
+                <label>17</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Burrell</surname>
+                            <given-names>RA</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Swanton</surname>
+                            <given-names>C</given-names>
+                        </name>
+					</person-group>:
+                    <article-title>Tumour heterogeneity and the evolution of polyclonal drug resistance.</article-title>
+                    <source>
+						
+                        <italic>Mol Oncol.</italic>
+					</source>
+                    <year>2014</year>;<volume>8</volume>(<issue>6</issue>):<fpage>1095</fpage>&#x2013;<lpage>111</lpage>.
+                    <pub-id pub-id-type="pmid">25087573</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/j.molonc.2014.06.005</pub-id>
+                    <pub-id pub-id-type="pmcid">5528620</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-18">
+                <label>18</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Cusnir</surname>
+                            <given-names>M</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Cavalcante</surname>
+                            <given-names>L</given-names>
+                        </name>
+					</person-group>:
+                    <article-title>Inter-tumor heterogeneity.</article-title>
+                    <source>
+						
+                        <italic>Hum Vaccin Immunother.</italic>
+					</source>
+                    <year>2012</year>;<volume>8</volume>(<issue>8</issue>):<fpage>1143</fpage>&#x2013;<lpage>5</lpage>.
+                    <pub-id pub-id-type="pmid">22854659</pub-id>
+                    <pub-id pub-id-type="doi">10.4161/hv.21203</pub-id>
+                    <pub-id pub-id-type="pmcid">3551890</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-19">
+                <label>19</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>De Sousa</surname>
+                            <given-names>EMF</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Vermeulen</surname>
+                            <given-names>L</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Fessler</surname>
+                            <given-names>E</given-names>
+                        </name>
+						
+                        <etal/>
+					</person-group>:
+                    <article-title>Cancer heterogeneity--a multifaceted view.</article-title>
+                    <source>
+						
+                        <italic>EMBO Rep.</italic>
+					</source>
+                    <year>2013</year>;<volume>14</volume>(<issue>8</issue>):<fpage>686</fpage>&#x2013;<lpage>95</lpage>.
+                    <pub-id pub-id-type="pmid">23846313</pub-id>
+                    <pub-id pub-id-type="doi">10.1038/embor.2013.92</pub-id>
+                    <pub-id pub-id-type="pmcid">3736134</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-20">
+                <label>20</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Polyak</surname>
+                            <given-names>K</given-names>
+                        </name>
+					</person-group>:
+                    <article-title>Heterogeneity in breast cancer.</article-title>
+                    <source>
+						
+                        <italic>J Clin Invest.</italic>
+					</source>
+                    <year>2011</year>;<volume>121</volume>(<issue>10</issue>):<fpage>3786</fpage>&#x2013;<lpage>8</lpage>.
+                    <pub-id pub-id-type="pmid">21965334</pub-id>
+                    <pub-id pub-id-type="doi">10.1172/JCI60534</pub-id>
+                    <pub-id pub-id-type="pmcid">3195489</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-21">
+                <label>21</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Markowitz</surname>
+                            <given-names>SD</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Bertagnolli</surname>
+                            <given-names>MM</given-names>
+                        </name>
+					</person-group>:
+                    <article-title>Molecular origins of cancer: Molecular basis of colorectal cancer.</article-title>
+                    <source>
+						
+                        <italic>N Engl J Med.</italic>
+					</source>
+                    <year>2009</year>;<volume>361</volume>(<issue>25</issue>):<fpage>2449</fpage>&#x2013;<lpage>60</lpage>.
+                    <pub-id pub-id-type="pmid">20018966</pub-id>
+                    <pub-id pub-id-type="doi">10.1056/NEJMra0804588</pub-id>
+                    <pub-id pub-id-type="pmcid">2843693</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-22">
+                <label>22</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Wang</surname>
+                            <given-names>Z</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Jensen</surname>
+                            <given-names>MA</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Zenklusen</surname>
+                            <given-names>JC</given-names>
+                        </name>
+					</person-group>:
+                    <article-title>A Practical Guide to The Cancer Genome Atlas (TCGA).</article-title>
+                    <source>
+						
+                        <italic>Methods Mol Biol.</italic>
+					</source>
+                    <year>2016</year>;<volume>1418</volume>:<fpage>111</fpage>&#x2013;<lpage>41</lpage>.
+                    <pub-id pub-id-type="pmid">27008012</pub-id>
+                    <pub-id pub-id-type="doi">10.1007/978-1-4939-3578-9_6</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-23">
+                <label>23</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Lee</surname>
+                            <given-names>JS</given-names>
+                        </name>
+					</person-group>:
+                    <article-title>Exploring cancer genomic data from the cancer genome atlas project.</article-title>
+                    <source>
+						
+                        <italic>BMB Rep.</italic>
+					</source>
+                    <year>2016</year>;<volume>49</volume>(<issue>11</issue>):<fpage>607</fpage>&#x2013;<lpage>611</lpage>.
+                    <pub-id pub-id-type="pmid">27530686</pub-id>
+                    <pub-id pub-id-type="doi">10.5483/BMBRep.2016.49.11.145</pub-id>
+                    <pub-id pub-id-type="pmcid">5346320</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-24">
+                <label>24</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>McCain</surname>
+                            <given-names>J</given-names>
+                        </name>
+					</person-group>:
+                    <article-title>The cancer genome atlas: new weapon in old war?</article-title>
+                    <source>
+						
+                        <italic>Biotechnol Healthc.</italic>
+					</source>
+                    <year>2006</year>;<volume>3</volume>(<issue>2</issue>):<fpage>46</fpage>&#x2013;<lpage>51B</lpage>.
+                    <pub-id pub-id-type="pmid">23424349</pub-id>
+                    <pub-id pub-id-type="pmcid">3571024</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-25">
+                <label>25</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+					
+                        <collab>Cancer Genome Atlas Research Network, </collab>
+						
+                        <name>
+                            <surname>Weinstein</surname>
+                            <given-names>JN</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Collisson</surname>
+                            <given-names>EA</given-names>
+                        </name>
+						
+                        <etal/>
+					</person-group>:
+                    <article-title>The Cancer Genome Atlas Pan-Cancer analysis project.</article-title>
+                    <source>
+						
+                        <italic>Nat Genet.</italic>
+					</source>
+                    <year>2013</year>;<volume>45</volume>(<issue>10</issue>):<fpage>1113</fpage>&#x2013;<lpage>20</lpage>.
+                    <pub-id pub-id-type="pmid">24071849</pub-id>
+                    <pub-id pub-id-type="doi">10.1038/ng.2764</pub-id>
+                    <pub-id pub-id-type="pmcid">3919969</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-26">
+                <label>26</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Gao</surname>
+                            <given-names>J</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Aksoy</surname>
+                            <given-names>BA</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Dogrusoz</surname>
+                            <given-names>U</given-names>
+                        </name>
+						
+                        <etal/>
+					</person-group>:
+                    <article-title>Integrative analysis of complex cancer genomics and clinical profiles using the cBioPortal.</article-title>
+                    <source>
+						
+                        <italic>Sci Signal.</italic>
+					</source>
+                    <year>2013</year>;<volume>6</volume>(<issue>269</issue>):<fpage>pl1</fpage>.
+                    <pub-id pub-id-type="pmid">23550210</pub-id>
+                    <pub-id pub-id-type="doi">10.1126/scisignal.2004088</pub-id>
+                    <pub-id pub-id-type="pmcid">4160307</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-27">
+                <label>27</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Barretina</surname>
+                            <given-names>J</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Caponigro</surname>
+                            <given-names>G</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Stransky</surname>
+                            <given-names>N</given-names>
+                        </name>
+						
+                        <etal/>
+					</person-group>:
+                    <article-title>The Cancer Cell Line Encyclopedia enables predictive modelling of anticancer drug sensitivity.</article-title>
+                    <source>
+						
+                        <italic>Nature.</italic>
+					</source>
+                    <year>2012</year>;<volume>483</volume>(<issue>7391</issue>):<fpage>603</fpage>&#x2013;<lpage>7</lpage>.
+                    <pub-id pub-id-type="pmid">22460905</pub-id>
+                    <pub-id pub-id-type="doi">10.1038/nature11003</pub-id>
+                    <pub-id pub-id-type="pmcid">3320027</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-28">
+                <label>28</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Hunter</surname>
+                            <given-names>P</given-names>
+                        </name>
+					</person-group>:
+                    <article-title>The paradox of model organisms. The use of model organisms in research will continue despite their shortcomings.</article-title>
+                    <source>
+						
+                        <italic>EMBO Rep.</italic>
+					</source>
+                    <year>2008</year>;<volume>9</volume>(<issue>8</issue>):<fpage>717</fpage>&#x2013;<lpage>20</lpage>.
+                    <pub-id pub-id-type="pmid">18670440</pub-id>
+                    <pub-id pub-id-type="doi">10.1038/embor.2008.142</pub-id>
+                    <pub-id pub-id-type="pmcid">2515201</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-29">
+                <label>29</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Duina</surname>
+                            <given-names>AA</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Miller</surname>
+                            <given-names>ME</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Keeney</surname>
+                            <given-names>JB</given-names>
+                        </name>
+					</person-group>:
+                    <article-title>Budding yeast for budding geneticists: a primer on the 
+                        <italic>Saccharomyces cerevisiae</italic> model system.</article-title>
+                    <source>
+						
+                        <italic>Genetics.</italic>
+					</source>
+                    <year>2014</year>;<volume>197</volume>(<issue>1</issue>):<fpage>33</fpage>&#x2013;<lpage>48</lpage>.
+                    <pub-id pub-id-type="pmid">24807111</pub-id>
+                    <pub-id pub-id-type="doi">10.1534/genetics.114.163188</pub-id>
+                    <pub-id pub-id-type="pmcid">4012490</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-30">
+                <label>30</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Engel</surname>
+                            <given-names>SR</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Dietrich</surname>
+                            <given-names>FS</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Fisk</surname>
+                            <given-names>DG</given-names>
+                        </name>
+						
+                        <etal/>
+					</person-group>:
+                    <article-title>The reference genome sequence of 
+                        <italic>Saccharomyces cerevisiae</italic>: then and now.</article-title>
+                    <source>
+						
+                        <italic>G3 (Bethesda).</italic>
+					</source>
+                    <year>2014</year>;<volume>4</volume>(<issue>3</issue>):<fpage>389</fpage>&#x2013;<lpage>98</lpage>.
+                    <pub-id pub-id-type="pmid">24374639</pub-id>
+                    <pub-id pub-id-type="doi">10.1534/g3.113.008995</pub-id>
+                    <pub-id pub-id-type="pmcid">3962479</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-31">
+                <label>31</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Huang</surname>
+                            <given-names>S</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>O'Shea</surname>
+                            <given-names>EK</given-names>
+                        </name>
+					</person-group>:
+                    <article-title>A systematic high-throughput screen of a yeast deletion collection for mutants defective in 
+                        <italic>PHO5</italic> regulation.</article-title>
+                    <source>
+						
+                        <italic>Genetics.</italic>
+					</source>
+                    <year>2005</year>;<volume>169</volume>(<issue>4</issue>):<fpage>1859</fpage>&#x2013;<lpage>71</lpage>.
+                    <pub-id pub-id-type="pmid">15695358</pub-id>
+                    <pub-id pub-id-type="doi">10.1534/genetics.104.038695</pub-id>
+                    <pub-id pub-id-type="pmcid">1360160</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-32">
+                <label>32</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Hammonds</surname>
+                            <given-names>TR</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Maxwell</surname>
+                            <given-names>A</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Jenkins</surname>
+                            <given-names>JR</given-names>
+                        </name>
+					</person-group>:
+                    <article-title>Use of a rapid throughput 
+                        <italic>in vivo</italic> screen to investigate inhibitors of eukaryotic topoisomerase II enzymes.</article-title>
+                    <source>
+						
+                        <italic>Antimicrob Agents Chemother.</italic>
+					</source>
+                    <year>1998</year>;<volume>42</volume>(<issue>4</issue>):<fpage>889</fpage>&#x2013;<lpage>94</lpage>.
+                    <pub-id pub-id-type="pmid">9559802</pub-id>
+                    <pub-id pub-id-type="pmcid">105561</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-33">
+                <label>33</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Botstein</surname>
+                            <given-names>D</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Chervitz</surname>
+                            <given-names>SA</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Cherry</surname>
+                            <given-names>JM</given-names>
+                        </name>
+					</person-group>:
+                    <article-title>Yeast as a model organism.</article-title>
+                    <source>
+						
+                        <italic>Science.</italic>
+					</source>
+                    <year>1997</year>;<volume>277</volume>(<issue>5330</issue>):<fpage>1259</fpage>&#x2013;<lpage>60</lpage>.
+                    <pub-id pub-id-type="pmid">9297238</pub-id>
+                    <pub-id pub-id-type="doi">10.1126/science.277.5330.1259</pub-id>
+                    <pub-id pub-id-type="pmcid">3039837</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-34">
+                <label>34</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Botstein</surname>
+                            <given-names>D</given-names>
+                        </name>
+					</person-group>:
+                    <article-title>Why yeast?</article-title>
+                    <source>
+					
+                        <italic>Hosp Pract (Off Ed).</italic>
+					</source>
+                    <year>1991</year>;<volume>26</volume>(<issue>10</issue>):<fpage>157</fpage>&#x2013;<lpage>61</lpage>, 164.
+                    <pub-id pub-id-type="pmid">1918194</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-35">
+                <label>35</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+				
+                        <name>
+                            <surname>Cerami</surname>
+                            <given-names>E</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Gao</surname>
+                            <given-names>J</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Dogrusoz</surname>
+                            <given-names>U</given-names>
+                        </name>
+				
+                        <etal/>
+			</person-group>:
+                    <article-title>The cBio Cancer Genomics Portal: An Open Platform for Exploring Multidimensional Cancer Genomics Data.</article-title>
+                    <source>
+				
+                        <italic>Cancer Discov.</italic>
+			</source>
+                    <year>2012</year>;<volume>2</volume>(<issue>5</issue>):<fpage>401</fpage>&#x2013;<lpage>404</lpage>.
+                    <pub-id pub-id-type="pmid">22588877</pub-id>
+                    <pub-id pub-id-type="doi">10.1158/2159-8290.CD-12-0095</pub-id>
+                    <pub-id pub-id-type="pmcid">3956037</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-36">
+                <label>36</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+						
+                        <name>
+                            <surname>Karathia</surname>
+                            <given-names>H</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Vilaprinyo</surname>
+                            <given-names>E</given-names>
+                        </name>
+						
+                        <name>
+                            <surname>Sorribas</surname>
+                            <given-names>A</given-names>
+                        </name>
+						
+                        <etal/>
+					</person-group>:
+                    <article-title>
+                        <italic>Saccharomyces cerevisiae</italic> as a model organism: a comparative study.</article-title>
+                    <source>
+						
+                        <italic>PLoS One.</italic>
+					</source>
+                    <year>2011</year>;<volume>6</volume>(<issue>2</issue>):<fpage>e16015</fpage>.
+                    <pub-id pub-id-type="pmid">21311596</pub-id>
+                    <pub-id pub-id-type="doi">10.1371/journal.pone.0016015</pub-id>
+                    <pub-id pub-id-type="pmcid">3032731</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-37">
+                <label>37</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+				
+                        <name>
+                            <surname>Galao</surname>
+                            <given-names>RP</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Scheller</surname>
+                            <given-names>N</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Alves-Rodrigues</surname>
+                            <given-names>I</given-names>
+                        </name>
+				
+                        <etal/>
+			</person-group>:
+                    <article-title>
+                        <italic>Saccharomyces cerevisiae</italic>: a versatile eukaryotic system in virology.</article-title>
+                    <source>
+				
+                        <italic>Microb Cell Fact.</italic>
+			</source>
+                    <year>2007</year>;<volume>6</volume>:<fpage>32</fpage>.
+                    <pub-id pub-id-type="pmid">17927824</pub-id>
+                    <pub-id pub-id-type="doi">10.1186/1475-2859-6-32</pub-id>
+                    <pub-id pub-id-type="pmcid">2148055</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-38">
+                <label>38</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+				
+                        <name>
+                            <surname>Bharucha</surname>
+                            <given-names>N</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Kumar</surname>
+                            <given-names>A</given-names>
+                        </name>
+			</person-group>:
+                    <article-title>Yeast genomics and drug target identification.</article-title>
+                    <source>
+				
+                        <italic>Comb Chem High Throughput Screen.</italic>
+			</source>
+                    <year>2007</year>;<volume>10</volume>(<issue>8</issue>):<fpage>618</fpage>&#x2013;<lpage>34</lpage>.
+                    <pub-id pub-id-type="pmid">18045076</pub-id>
+                    <pub-id pub-id-type="doi">10.2174/138620707782507340</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-39">
+                <label>39</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+				
+                        <name>
+                            <surname>Alamgir</surname>
+                            <given-names>M</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Erukova</surname>
+                            <given-names>V</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Jessulat</surname>
+                            <given-names>M</given-names>
+                        </name>
+				
+                        <etal/>
+			</person-group>:
+                    <article-title>Chemical-genetic profile analysis of five inhibitory compounds in yeast.</article-title>
+                    <source>
+				
+                        <italic>BMC Chem Biol.</italic>
+			</source>
+                    <year>2010</year>;<volume>10</volume>:<fpage>6</fpage>.
+                    <pub-id pub-id-type="pmid">20691087</pub-id>
+                    <pub-id pub-id-type="doi">10.1186/1472-6769-10-6</pub-id>
+                    <pub-id pub-id-type="pmcid">2925817</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-40">
+                <label>40</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+				
+                        <name>
+                            <surname>Giaever</surname>
+                            <given-names>G</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Nislow</surname>
+                            <given-names>C</given-names>
+                        </name>
+			</person-group>:
+                    <article-title>The yeast deletion collection: a decade of functional genomics.</article-title>
+                    <source>
+				
+                        <italic>Genetics.</italic>
+			</source>
+                    <year>2014</year>;<volume>197</volume>(<issue>2</issue>):<fpage>451</fpage>&#x2013;<lpage>65</lpage>.
+                    <pub-id pub-id-type="pmid">24939991</pub-id>
+                    <pub-id pub-id-type="doi">10.1534/genetics.114.161620</pub-id>
+                    <pub-id pub-id-type="pmcid">4063906</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-41">
+                <label>41</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+				
+                        <name>
+                            <surname>Lum</surname>
+                            <given-names>PY</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Armour</surname>
+                            <given-names>CD</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Stepaniants</surname>
+                            <given-names>SB</given-names>
+                        </name>
+				
+                        <etal/>
+			</person-group>:
+                    <article-title>Discovering modes of action for therapeutic compounds using a genome-wide screen of yeast heterozygotes.</article-title>
+                    <source>
+				
+                        <italic>Cell.</italic>
+			</source>
+                    <year>2004</year>;<volume>116</volume>(<issue>1</issue>):<fpage>121</fpage>&#x2013;<lpage>37</lpage>.
+                    <pub-id pub-id-type="pmid">14718172</pub-id>
+                    <pub-id pub-id-type="doi">10.1016/S0092-8674(03)01035-3</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-42">
+                <label>42</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+				
+                        <name>
+                            <surname>Marini</surname>
+                            <given-names>NJ</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Thomas</surname>
+                            <given-names>PD</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Rine</surname>
+                            <given-names>J</given-names>
+                        </name>
+			</person-group>:
+                    <article-title>The use of orthologous sequences to predict the impact of amino acid substitutions on protein function.</article-title>
+                    <source>
+				
+                        <italic>PLoS Genet.</italic>
+			</source>
+                    <year>2010</year>;<volume>6</volume>(<issue>5</issue>):<fpage>e1000968</fpage>.
+                    <pub-id pub-id-type="pmid">20523748</pub-id>
+                    <pub-id pub-id-type="doi">10.1371/journal.pgen.1000968</pub-id>
+                    <pub-id pub-id-type="pmcid">2877731</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-43">
+                <label>43</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+				
+                        <name>
+                            <surname>Hamza</surname>
+                            <given-names>A</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Tammpere</surname>
+                            <given-names>E</given-names>
+                        </name>
+				
+                        <name>
+                            <surname>Kofoed</surname>
+                            <given-names>M</given-names>
+                        </name>
+			</person-group>:
+                    <article-title>Complementation of Yeast Genes with Human Genes as an Experimental Platform for Functional Testing of Human Genetic Variants.</article-title>
+                    <source>
+				
+                        <italic>Genetics.</italic>
+			</source>
+                    <year>2015</year>;<volume>201</volume>(<issue>3</issue>):<fpage>1263</fpage>&#x2013;<lpage>1274</lpage>.
+                    <pub-id pub-id-type="pmid">26354769</pub-id>
+                    <pub-id pub-id-type="doi">10.1534/genetics.115.181099</pub-id>
+                    <pub-id pub-id-type="pmcid">4649650</pub-id>
+                </mixed-citation>
+            </ref>
+        </ref-list>
+    </back>
+    <sub-article article-type="ref-report" id="report35343">
+        <front-stub>
+            <article-id pub-id-type="doi">10.5256/f1000research.16523.r35343</article-id>
+            <title-group>
+                <article-title>Reviewer response for version 1</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Reid</surname>
+                        <given-names>Robert J. D.</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="r35343a1">1</xref>
+                    <role>Referee</role>
+                </contrib>
+                <aff id="r35343a1">
+                    <label>1</label>Department Genetics and Development, Columbia University Medical Center, New York, NY, USA</aff>
+            </contrib-group>
+            <author-notes>
+                <fn fn-type="conflict">
+                    <p>
+                        <bold>Competing interests: </bold>No competing interests were disclosed.</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="epub">
+                <day>10</day>
+                <month>7</month>
+                <year>2018</year>
+            </pub-date>
+            <permissions>
+                <copyright-statement>Copyright: &#x00a9; 2018 Reid RJD</copyright-statement>
+                <copyright-year>2018</copyright-year>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                    <license-p>This is an open access peer review report distributed under the terms of the Creative Commons Attribution Licence, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+            </permissions>
+            <related-article ext-link-type="doi" id="relatedArticleReport35343" related-article-type="peer-reviewed-article" xlink:href="10.12688/f1000research.15168.1"/>
+            <custom-meta-group>
+                <custom-meta>
+                    <meta-name>recommendation</meta-name>
+                    <meta-value>reject</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </front-stub>
+        <body>
+            <p>Gupta 
+                <italic>et al.</italic> report a web-based application, Onco-Yeasti, to identify human homologs of yeast genes and link to information from The Cancer Genome Atlas through cBio portal. While the concept of the software is reasonable, there are serious limitations to the approach. The core function of the web app is to provide links to information in cBIO portal based on a homologous yeast gene. There are significant issues with how the homology with human genes is determined and it is unclear whether this direct linking to cBIO portal is an advantage compared to initiating a query directly in the cBIO portal interface.</p>
+            <p> &#x00a0;&#x00a0;</p>
+            <p> &#x00a0; The main problem with the approach taken in Oncoyeasti is that gene orthology between organisms as diverged as yeast and humans is difficult and there does not seem to be a systematic approach to this core function of the software. There is not a single way to accomplish the task of identifying orthologs as evidenced by the multiple algorithms and databases available, such as InParanoid, Orthofinder, Ensemble compara, etc. There are distinctions between orthologs (same gene in a different organism), paralogs (duplicated gene either within or between organisms), and functional orthologs (different gene that plays an orthologous role in another organism). It is not at all clear how these issues are addressed by Oncoyeasti. My understanding from the manuscript is that the homologs are taken from a static list provided by the 
+                <italic>Saccharomyces Genome Database</italic>. If so, then the details of how that list is derived and curated needs to be stated. On the other hand, based on the comments section of F1000, it seems as though homology is now acquired from ENSEMBL. Details of this approach would need to be similarly defined and cited in the manuscript. In any case, there are some strange calls of orthologs. For instance, Oncoyeasti shows that the yeast genes 
+                <italic>RAS1</italic> and 
+                <italic>RAS2</italic> have the Human GTPase 
+                <italic>REM2</italic> as the ortholog. How was this call made? I doubt that 
+                <italic>REM2</italic> is a better choice of ortholog than 
+                <italic>H-RAS</italic>, 
+                <italic>K-RAS</italic>, 
+                <italic>N-RAS</italic>, 
+                <italic>RRAS</italic> or 
+                <italic>RRAS2</italic> - especially considering that 
+                <italic>H-RAS</italic> is capable of complementing the inviability of a 
+                <italic>ras1 ras2</italic> double mutant yeast 
+                <sup>
+                    <xref ref-type="bibr" rid="rep-ref-35343-1">1</xref>
+                </sup>. Nevertheless, there are already good web resources for identifying orthologs. Queries of yeast genes in the Alliance of Genome Resources web site (Stanford) compares multiple orthology methods such as PANTHER, InParanoid, etc and ranks orthologs in multiple species based on an aggregate of the methods. A useful extension of this approach might include functional orthologs as well as evidence of complementation between human and yeast genes 
+                <sup>
+                    <xref ref-type="bibr" rid="rep-ref-35343-2">2</xref>
+                </sup>
+                <sup>,</sup>
+                <sup>
+                    <xref ref-type="bibr" rid="rep-ref-35343-3">3</xref>
+                </sup> as part of the scoring metric.</p>
+            <p> &#x00a0;&#x00a0;</p>
+            <p> The second issue with Oncoyeasti is whether the links it generates to cBIO portal are more useful than querying the cBIO portal website directly. Part of this is a design issue, the row and column labels for the the genes and cancer studies scroll off the page and the site becomes difficult to use. More importantly, I am not sure that a direct link to the cBIO portal oncolinks page is the best approach. For instance, the yeast 
+                <italic>MMS2</italic> gene is correctly identified as human 
+                <italic>UBE2V2</italic> and following the link for breast invasive carcinoma calls up the cBIO portal oncoprint showing the modifications in the different breast carcinoma studies. What this does not indicate is that there is significant sample overlap in these studies and the resulting value for percent altered does not automatically remove duplicated samples possibly leading to erroneous conclusions. Making the same query in cBIO portal warns the user of overlapping studies up front. This does not happen in Oncoyeasti.</p>
+            <p> </p>
+            <p> &#x00a0; In summary, since the core function of the software is identifying orthologs, and it does not seem to do this in a systematic way or offer an improvement over existing methods, I cannot approve this manuscript.</p>
+            <p>Are the conclusions about the tool and its performance adequately supported by the findings presented in the article?</p>
+            <p>No</p>
+            <p>Is the rationale for developing the new software tool clearly explained?</p>
+            <p>Yes</p>
+            <p>Is the description of the software tool technically sound?</p>
+            <p>Yes</p>
+            <p>Are sufficient details of the code, methods and analysis (if applicable) provided to allow replication of the software development and its use by others?</p>
+            <p>No</p>
+            <p>Is sufficient information provided to allow interpretation of the expected output datasets and any results generated using the tool?</p>
+            <p>No</p>
+            <p>Reviewer Expertise:</p>
+            <p>Genetics, Molecular Biology, Yeast, DNA repair</p>
+            <p>I confirm that I have read this submission and believe that I have an appropriate level of expertise to state that I do not consider it to be of an acceptable scientific standard, for reasons outlined above.</p>
+        </body>
+        <back>
+            <ref-list>
+                <title>References</title>
+                <ref id="rep-ref-35343-1">
+                    <label>1</label>
+                    <mixed-citation publication-type="journal">
+                        <person-group person-group-type="author"/>:
+                        <article-title>Functional homology of mammalian and yeast RAS genes.</article-title>
+                        <source>
+                            <italic>Cell</italic>
+                        </source>.<year>1985</year>;<volume>40</volume>(<issue>1</issue>) :<fpage>19</fpage>-<lpage>26</lpage>
+                        <pub-id pub-id-type="pmid">2981628</pub-id>
+                    </mixed-citation>
+                </ref>
+                <ref id="rep-ref-35343-2">
+                    <label>2</label>
+                    <mixed-citation publication-type="journal">
+                        <person-group person-group-type="author"/>:
+                        <article-title>Complementation of Yeast Genes with Human Genes as an Experimental Platform for Functional Testing of Human Genetic Variants.</article-title>
+                        <source>
+                            <italic>Genetics</italic>
+                        </source>.<year>2015</year>;<volume>201</volume>(<issue>3</issue>) :
+                        <elocation-id>10.1534/genetics.115.181099</elocation-id>
+                        <fpage>1263</fpage>-<lpage>74</lpage>
+                        <pub-id pub-id-type="pmid">26354769</pub-id>
+                        <pub-id pub-id-type="doi">10.1534/genetics.115.181099</pub-id>
+                    </mixed-citation>
+                </ref>
+                <ref id="rep-ref-35343-3">
+                    <label>3</label>
+                    <mixed-citation publication-type="journal">
+                        <person-group person-group-type="author"/>:
+                        <article-title>Evolution. Systematic humanization of yeast genes reveals conserved functions and genetic modularity.</article-title>
+                        <source>
+                            <italic>Science</italic>
+                        </source>.<year>2015</year>;<volume>348</volume>(<issue>6237</issue>) :
+                        <elocation-id>10.1126/science.aaa0769</elocation-id>
+                        <fpage>921</fpage>-<lpage>5</lpage>
+                        <pub-id pub-id-type="pmid">25999509</pub-id>
+                        <pub-id pub-id-type="doi">10.1126/science.aaa0769</pub-id>
+                    </mixed-citation>
+                </ref>
+            </ref-list>
+        </back>
+    </sub-article>
+    <sub-article article-type="ref-report" id="report35158">
+        <front-stub>
+            <article-id pub-id-type="doi">10.5256/f1000research.16523.r35158</article-id>
+            <title-group>
+                <article-title>Reviewer response for version 1</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Galli</surname>
+                        <given-names>Alvaro</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="r35158a1">1</xref>
+                    <role>Referee</role>
+                    <uri content-type="orcid">https://orcid.org/0000-0002-9091-5639</uri>
+                </contrib>
+                <aff id="r35158a1">
+                    <label>1</label>Laboratory of Functional Genetics and Genomics, Institute of Clinical Physiology, National Research Council (CNR), Pisa, Italy</aff>
+            </contrib-group>
+            <author-notes>
+                <fn fn-type="conflict">
+                    <p>
+                        <bold>Competing interests: </bold>No competing interests were disclosed.</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="epub">
+                <day>28</day>
+                <month>6</month>
+                <year>2018</year>
+            </pub-date>
+            <permissions>
+                <copyright-statement>Copyright: &#x00a9; 2018 Galli A</copyright-statement>
+                <copyright-year>2018</copyright-year>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                    <license-p>This is an open access peer review report distributed under the terms of the Creative Commons Attribution Licence, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+            </permissions>
+            <related-article ext-link-type="doi" id="relatedArticleReport35158" related-article-type="peer-reviewed-article" xlink:href="10.12688/f1000research.15168.1"/>
+            <custom-meta-group>
+                <custom-meta>
+                    <meta-name>recommendation</meta-name>
+                    <meta-value>reject</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </front-stub>
+        <body>
+            <p>The web-based application, described in the manuscript, could be relevant in terms of applicability in cancer therapy because has the potentiality to find new targets or new factors affecting drug response.</p>
+            <p> </p>
+            <p> &#x00a0;The starting point is&#x00a0; homology between yeast and human. The authors only showed the RAD9 as example and reported that the human counterpart is the TP53BP1 gene. Where did they find this information? To my knowledge, yeast RAD9 has no human homolog; I have&#x00a0; checked in the yeast genome database (
+                <ext-link ext-link-type="uri" xlink:href="https://www.yeastgenome.org/">https://www.yeastgenome.org/</ext-link>)&#x00a0; and I could not find any homology. TP53BP1 appers to be RAD9 homolog only if you find homoly with no filted application ( PANTHER method only giving this result , 1 out of 10 )&#x00a0;I guess that the authors has to state how and where the human homologous to the yeast gene are found and show a little more examples.</p>
+            <p> </p>
+            <p> Moreover, the application only shows&#x00a0;data from cBioPortal with no statistical evaluation on how it would be relevant to translate study form yeast to human. What I mean is that there is no functional evaluation of the gene, no data about the level of conservation between human and yeast. What I think is that a high level of conservation should correspond a high degree of reliability.</p>
+            <p> </p>
+            <p> Recently, Mercatanti 
+                <italic>et al</italic> (FEMS Yeast Yesearch, Dec. 2017)
+                <sup>
+                    <xref ref-type="bibr" rid="rep-ref-35158-1">1</xref>
+                </sup> published a web tool where yeast strains could be "humanized" and evaluated the reliability score to make the functional assay more relevant for cancer risk evaluation.</p>
+            <p> </p>
+            <p> I do not think that the&#x00a0;manuscript is not acceptable in the present form.</p>
+            <p>Are the conclusions about the tool and its performance adequately supported by the findings presented in the article?</p>
+            <p>No</p>
+            <p>Is the rationale for developing the new software tool clearly explained?</p>
+            <p>No</p>
+            <p>Is the description of the software tool technically sound?</p>
+            <p>No</p>
+            <p>Are sufficient details of the code, methods and analysis (if applicable) provided to allow replication of the software development and its use by others?</p>
+            <p>No</p>
+            <p>Is sufficient information provided to allow interpretation of the expected output datasets and any results generated using the tool?</p>
+            <p>No</p>
+            <p>Reviewer Expertise:</p>
+            <p>NA</p>
+            <p>I confirm that I have read this submission and believe that I have an appropriate level of expertise to state that I do not consider it to be of an acceptable scientific standard, for reasons outlined above.</p>
+        </body>
+        <back>
+            <ref-list>
+                <title>References</title>
+                <ref id="rep-ref-35158-1">
+                    <label>1</label>
+                    <mixed-citation publication-type="journal">
+                        <person-group person-group-type="author"/>:
+                        <article-title>CRIMEtoYHU: a new web tool to develop yeast-based functional assays for characterizing cancer-associated missense variants.</article-title>
+                        <source>
+                            <italic>FEMS Yeast Res</italic>
+                        </source>.<year>2017</year>;<volume>17</volume>(<issue>8</issue>) :
+                        <elocation-id>10.1093/femsyr/fox078</elocation-id>
+                        <pub-id pub-id-type="pmid">29069390</pub-id>
+                        <pub-id pub-id-type="doi">10.1093/femsyr/fox078</pub-id>
+                    </mixed-citation>
+                </ref>
+            </ref-list>
+        </back>
+    </sub-article>
+    <sub-article article-type="ref-report" id="report35163">
+        <front-stub>
+            <article-id pub-id-type="doi">10.5256/f1000research.16523.r35163</article-id>
+            <title-group>
+                <article-title>Reviewer response for version 1</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Najafov</surname>
+                        <given-names>Ayaz</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="r35163a1">1</xref>
+                    <role>Referee</role>
+                    <uri content-type="orcid">https://orcid.org/0000-0002-1350-2056</uri>
+                </contrib>
+                <aff id="r35163a1">
+                    <label>1</label>Department of Cell Biology, &#x00a0;Harvard Medical School , Boston, MA, USA</aff>
+            </contrib-group>
+            <author-notes>
+                <fn fn-type="conflict">
+                    <p>
+                        <bold>Competing interests: </bold>No competing interests were disclosed.</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="epub">
+                <day>19</day>
+                <month>6</month>
+                <year>2018</year>
+            </pub-date>
+            <permissions>
+                <copyright-statement>Copyright: &#x00a9; 2018 Najafov A</copyright-statement>
+                <copyright-year>2018</copyright-year>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                    <license-p>This is an open access peer review report distributed under the terms of the Creative Commons Attribution Licence, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+            </permissions>
+            <related-article ext-link-type="doi" id="relatedArticleReport35163" related-article-type="peer-reviewed-article" xlink:href="10.12688/f1000research.15168.1"/>
+            <custom-meta-group>
+                <custom-meta>
+                    <meta-name>recommendation</meta-name>
+                    <meta-value>approve-with-reservations</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </front-stub>
+        <body>
+            <p>The authors have developed a web tool called Oncoyeasti, which bridges the gap between yeast and human ortholog gene symbols, and allows for easier submission of the queried genes to the TCGA/cBioportal database search. While this software can be useful, the following issues have to be addressed:</p>
+            <p> 
+                <bold>
+                    <underline>Major points:</underline>
+                </bold> 
+                <list list-type="order">
+                    <list-item>
+                        <p>Oncoyeasti should be able to retrieve the full list of human homologs that match to the yeast orthologs. For instance, if Sch9 is an ortholog of the Akt family, the output should be Akt1, Akt2, Akt3, rather than Akt3 only.</p>
+                    </list-item>
+                    <list-item>
+                        <p>Oncoyeasti does not seem to retrieve some human orthologs accurately. For example, when TOR1 and TOR2 are queried, TOR1 matches to SMG1, while TOR2 matches to mTOR. In reality, both yeast TOR1 and yeast TOR2 should match to human mTOR.</p>
+                        <p> </p>
+                        <p> Additionally, PKC1, YPK1, and YPK2 all match to Akt3, but they should match to PRKCE and SGK2 instead.</p>
+                        <p> </p>
+                        <p> Thus, the Oncoyeasti database needs to be improved for accurate yeast-to-human gene symbol matching. The NCBI&#x2019;s Homologene database can be employed for this purpose.</p>
+                    </list-item>
+                    <list-item>
+                        <p>If a certain yeast gene does not have a human ortholog, this should be reported in the output of Oncoyeasti (instead of only reporting those that have a human ortholog and skipping those that don&#x2019;t have a human ortholog).</p>
+                    </list-item>
+                </list> </p>
+            <p> 
+                <bold>
+                    <underline>Minor points:</underline>
+                </bold> 
+                <list list-type="order">
+                    <list-item>
+                        <p>The article would benefit from grammatical and typographical improvement. This is especially important where such mistakes may lead to misunderstanding of the authors&#x2019; message by the readers. Some examples:</p>
+                        <p> </p>
+                        <p> a) &#x201c;the backbone of cancer, treatment&#x201d; should be &#x201c;the backbone of cancer treatment&#x201d;.</p>
+                        <p> b) &#x201c;BRAFV600E&#x201d; should be &#x201c;BRAF-V600E&#x201d; or &#x201c;BRAF
+                            <sup>V600E</sup>&#x201d;.</p>
+                        <p> c) &#x201c;BRAFV600E amplification&#x201d; should be &#x201c;BRAF-V600E mutation&#x201d;, since the V600E mutation is not an amplification.</p>
+                        <p> d) &#x201c;containing only 10% of the DNA of human chromosomes&#x201d; should be rephrased.</p>
+                        <p> e) &#x201c;humologs&#x201d; should be &#x201c;homologs&#x201d;.</p>
+                        <p> f) &#x201c;MSQL&#x201d; should be either &#x201c;MySQL&#x201d; or &#x201c;mSQL&#x201d;.</p>
+                        <p> g) &#x201c;feature rich&#x201d; should be &#x201c;feature-rich&#x201d;.</p>
+                        <p> h) &#x201c;cross cancer&#x201d; should be &#x201c;cross-cancer&#x201d;.</p>
+                    </list-item>
+                    <list-item>
+                        <p>The introduction part of the manuscript should be as concise and as relevant as possible. Since Oncoyeasti does not address the cancer heterogeneity directly, that part of the introduction seems unimportant for the manuscript.</p>
+                    </list-item>
+                    <list-item>
+                        <p>The presentation of the output can be improved. For instance, the following sentence occupies a large area in the output, but the actual link-containing columns are squeezed to the right end of the page: &#x201c;THE NEXT COLUMNS CONTAINS ONCOPRINT OF TUMOR GROUPS PRESENT IN CROSS CANCER SUMMARY STUDIES OF THE PATIENT TUMOR SETS PRESENT IN TCGA DATABASE&#x201d;.</p>
+                    </list-item>
+                </list>
+            </p>
+            <p>Are the conclusions about the tool and its performance adequately supported by the findings presented in the article?</p>
+            <p>No</p>
+            <p>Is the rationale for developing the new software tool clearly explained?</p>
+            <p>Yes</p>
+            <p>Is the description of the software tool technically sound?</p>
+            <p>Yes</p>
+            <p>Are sufficient details of the code, methods and analysis (if applicable) provided to allow replication of the software development and its use by others?</p>
+            <p>Yes</p>
+            <p>Is sufficient information provided to allow interpretation of the expected output datasets and any results generated using the tool?</p>
+            <p>Yes</p>
+            <p>Reviewer Expertise:</p>
+            <p>NA</p>
+            <p>I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above.</p>
+        </body>
+        <sub-article article-type="response" id="comment3791-35163">
+            <front-stub>
+                <contrib-group>
+                    <contrib contrib-type="author">
+                        <name>
+                            <surname>Patil</surname>
+                            <given-names>Ashish</given-names>
+                        </name>
+                        <aff>LSUHSC, USA</aff>
+                    </contrib>
+                </contrib-group>
+                <author-notes>
+                    <fn fn-type="conflict">
+                        <p>
+                            <bold>Competing interests: </bold>None</p>
+                    </fn>
+                </author-notes>
+                <pub-date pub-type="epub">
+                    <day>2</day>
+                    <month>7</month>
+                    <year>2018</year>
+                </pub-date>
+            </front-stub>
+            <body>
+                <p>The following were the major points&#x00a0;Major points which had raised:</p>
+                <p> 1) Oncoyeasti should be able to retrieve the full list of human homologs that match to the yeast orthologs. For instance, if Sch9 is an ortholog of the Akt family, the output should be Akt1, Akt2, Akt3, rather than Akt3 only.</p>
+                <p> 2) Oncoyeasti does not seem to retrieve some human orthologs accurately. For example, when TOR1 and TOR2 are queried, TOR1 matches to SMG1, while TOR2 matches to mTOR. In reality, both yeast TOR1 and yeast TOR2 should match to human mTOR.</p>
+                <p> </p>
+                <p> Additionally, PKC1, YPK1, and YPK2 all match to Akt3, but they should match to PRKCE and SGK2 instead.</p>
+                <p> </p>
+                <p> Thus, the Oncoyeasti database needs to be improved for accurate yeast-to-human gene symbol matching. The NCBI&#x2019;s Homologene database can be employed for this purpose.</p>
+                <p> </p>
+                <p> Response: Initially we had used a homolog gene list which was provided to us, by www.yeastgenome.org (Stanford database), but we did not know that this list was not complete and was missing significant number of human homologs. Thank you for bringing this to our notice.&#x00a0;</p>
+                <p> Now we used&#x00a0;http://useast.ensembl.org/biomart/martview/ba508c9593727fcc0111904d444c5296</p>
+                <p> and generated the list for human homologs for S Cerevisiae. This is the list we generated</p>
+                <p> http://useast.ensembl.org/biomart/martresults/148?file=martquery_0621224014_815.xls.gz</p>
+                <p> </p>
+                <p> Then we compared ensemble list with our stanford database list, to do corrections and also to add to our database, the &#x00a0;additional s cerevisiae genes and their human homologs, which were missing in our list, that we got from yeast genome.org.</p>
+                <p> Using ensemble biomart, we have added 4157 additional human homologs to our existing list which we got from yeastgenome.org and thus making oncoyeasti much more comprehensive.</p>
+            </body>
+        </sub-article>
+    </sub-article>
+</article>
