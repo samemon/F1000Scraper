@@ -19,6 +19,8 @@ import datetime
 # importing module to wget
 import urllib.request
 import requests
+# importing mmodule to parse xml
+import lxml.etree as ET
 
 
 def convert_date_to_ms(d):
@@ -50,6 +52,8 @@ def create_f1000_query(date_from_ms, date_to_ms, output_format,
 		- date_in: int of date in ms
 		- output_format: string ("xml" or "pdf")
 		- keyword: optional string for checking titles
+
+	Returns: query: string
 	"""
 
 	query = 'https://f1000research.com/extapi/search?q='
@@ -60,6 +64,36 @@ def create_f1000_query(date_from_ms, date_to_ms, output_format,
 		str(date_to_ms)+']'
 
 	return query
+
+
+def get_all_dois(url, dois, number_of_pages):
+	"""
+	This function takes in url query, dois list 
+	and number of pages, and crawls through all 
+	the pages and collects all dois.
+
+	Input:
+		- query: url string
+		- dois: list
+		- number of pages (integer > 1)
+	
+	Output: nothing
+
+	Actions:
+		- Appends to the dois list 
+	"""
+
+	for page in range(1, number_of_pages):
+		url = url + "&page=" + str(page)
+
+		# opening the url and scraping
+		opener = urllib.request.build_opener()
+		tree = ET.parse(opener.open(url))
+
+		for p in tree.xpath("//results//doi"):
+			dois.append(p.text.strip())
+
+
 	
 def download(date_from, date_to, output_directory,
 		output_format, keyword=None):
@@ -106,18 +140,47 @@ def download(date_from, date_to, output_directory,
 			output_format)
 
 	# Converting query to url object for control characters
-	url  = requests.get(query)
+	url  = requests.get(query).url
 
+	'''
 	# Now that we have a query, we need to wget
+	
 	html = ""
 	with urllib.request.urlopen(url.url) as f:
 		html = f.read().decode('utf-8')
-		print(html)
+	'''
+
+	"""
+	Now that we have the xml, we need to parse it, 
+	get two things: (i) number of pages, and (ii) 
+	all the dois as list.
+	"""
+
+	# opening the url and scraping
+	opener = urllib.request.build_opener()
+	tree = ET.parse(opener.open(url))
+
+	# parsing the xml
+	
+	number_of_pages = int(tree.xpath('//@totalNumberOfPages')[0])
+
+	# initializing a list of dois
+	dois = []
+
+
+	# extract all dois
+	for p in tree.xpath("//results//doi"):
+		dois.append(p.text.strip())
+
+	print(len(dois))
+	# now we get all dois from all pages
+	get_all_dois(url, dois, number_of_pages)
+	print(len(dois))
 
 	return
 
 # Testing date conversion to ms
-download("1-1-2019","1-1-2020", "","")
+download("1-1-2018","1-1-2020", "","")
 
 
 
