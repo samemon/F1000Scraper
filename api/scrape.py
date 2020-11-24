@@ -131,6 +131,7 @@ def download(date_from, date_to, output_directory,
 	#First we need to convert the dates to milliseconds
 	date_from_ms = date_from
 	date_to_ms = date_from
+	print(date_from)
 
 	if(date_from != "*"):
 		date_from_ms = convert_date_to_ms(date_from)
@@ -193,11 +194,11 @@ def download(date_from, date_to, output_directory,
 	if not os.path.exists(output_directory):
 		os.makedirs(output_directory)
 
+	print("Number of files downloading:", len(dois))
    	# reading and writing xml
-	for doi in dois[:10]:
+	for doi in dois:
 		doi_query = base + doi
-		print(doi)
-		print(doi_query)
+		print("Doi:",doi)
 		opener = urllib.request.build_opener()
 		url_open = opener.open(doi_query)
 		xml = open(output_directory+"/"+doi.split("/f1000research.")[1]+\
@@ -205,14 +206,15 @@ def download(date_from, date_to, output_directory,
 		xml.write(url_open.read().decode('utf-8'))
 		xml.close()
 
+	print("Downloaded",len(dois),"files.")
 	return
 
 
 if __name__ == "__main__":
 	argv = sys.argv[1:]
 	if(len(argv) < 4 or len(argv)> 5):
-		print("Usage: python3 scrape.py <date from as dd-mm-yyyy> or * "\
-			"<date to as dd-mm-yyyy or *> <output_directory_path> "\
+		print("Usage: python3 scrape.py <date from as dd-mm-yyyy> or '*'' "\
+			"<date to as dd-mm-yyyy or '*'> <output_directory_path> "\
 			"<output_format as 'xml' or 'pdf' <keyword (optional>")
 		sys.exit()
 	else:
@@ -220,6 +222,7 @@ if __name__ == "__main__":
 		date_to = argv[1]
 		output_directory = argv[2]
 		output_format = argv[3]
+
 		if(len(argv) == 4):
 			download(date_from, date_to, output_directory,output_format)
 		else:
