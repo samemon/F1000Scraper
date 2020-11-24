@@ -131,7 +131,6 @@ def download(date_from, date_to, output_directory,
 	#First we need to convert the dates to milliseconds
 	date_from_ms = date_from
 	date_to_ms = date_from
-	print(date_from)
 
 	if(date_from != "*"):
 		date_from_ms = convert_date_to_ms(date_from)
