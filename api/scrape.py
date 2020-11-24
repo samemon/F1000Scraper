@@ -207,8 +207,28 @@ def download(date_from, date_to, output_directory,
 
 	return
 
+
+if __name__ == "__main__":
+	argv = sys.argv[1:]
+	if(len(argv) < 4 or len(argv)> 5):
+		print("Usage: python3 scrape.py <date from as dd-mm-yyyy> or * "\
+			"<date to as dd-mm-yyyy or *> <output_directory_path> "\
+			"<output_format as 'xml' or 'pdf' <keyword (optional>")
+		sys.exit()
+	else:
+		date_from = argv[0]
+		date_to = argv[1]
+		output_directory = argv[2]
+		output_format = argv[3]
+		if(len(argv) == 4):
+			download(date_from, date_to, output_directory,output_format)
+		else:
+			download(date_from, date_to, output_directory,
+					output_format, argv[4])
+
+
 # Testing date conversion to ms
-download("1-1-2018","1-1-2020", "/Users/samemon/desktop/nyuad/F1000Scraper/api/data","xml")
+#download("1-1-2018","1-1-2020", "/Users/samemon/desktop/nyuad/F1000Scraper/api/data","xml")
 
 
 
