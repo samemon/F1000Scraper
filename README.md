@@ -4,6 +4,15 @@
 
 [F1000Research](https://f1000research.com/) is an open access publishing platform. It provides an [API](https://f1000research.com/developers) to extract XML or PDF of articles published in F1000Research. F1000Scraper is a python wrapper for scraping these articles as XML, and parsing the XML. 
 
+## Usage
+
+### Collecting data using start and end date of articles
+
+Currently, the only functionality we provide within this wrapper is that of collecting data using the date option in the API. After downloading the files, you can simply run the program `scrape.py` from the api directory as follows:
+
+`python3 scrape.py <date_from> <date_to> <output_directory_path> <output_format> <keyword in the title (optional)>`
+
+
 ## Disclaimer
 
 This is a work in progress. 
