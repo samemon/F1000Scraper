@@ -6,11 +6,29 @@
 
 ## Usage
 
-### Collecting data using start and end date of articles
+### Collecting data using start and end date of the articles
 
 Currently, the only functionality we provide within this wrapper is that of collecting data using the date option in the API. After downloading the files, you can simply run the program `scrape.py` from the api directory as follows:
 
 `python3 scrape.py <date_from> <date_to> <output_directory_path> <output_format> <keyword in the title (optional)>`
+
+whereas
+
+- `data_from` can be any date of the form `"dd-mm-yyyy"` or just `"*"` and defines the starting date.
+- `data_to` can be any date of the form `"dd-mm-yyyy"` or just `"*"` and defines the end date.
+- `output_directory` defines the path where the data files should be saved.
+- `output_format` needs to be either `xml` or `pdf`
+- `keyword` is an optional argument and will only download articles within the given date range where the provided keyword occurs in the title.
+
+#### Example 1
+`python3 scrape.py 01-01-2019 01-01-2020 data/ xml`
+
+The above commmand will download articles in the XML format from 1st January 2019 to 1st January 2020, and save them to the data folder in the current directory.
+
+#### Example 2
+`python3 scrape.py 01-01-2019 * data/ pdf`
+
+The above commmand will download articles in the PDF format from 1st January 2019 to today's date, and save them to the data folder in the current directory.
 
 
 ## Disclaimer
