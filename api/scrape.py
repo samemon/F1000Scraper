@@ -195,15 +195,18 @@ def download(date_from, date_to, output_directory,
 
 	print("Number of files downloading:", len(set(dois)))
    	# reading and writing xml
-	for doi in dois:
-		doi_query = base + doi
-		print("Doi:",doi)
-		opener = urllib.request.build_opener()
-		url_open = opener.open(doi_query)
-		xml = open(output_directory+"/"+doi.split("/f1000research.")[1]+\
-				".xml", "w+")
-		xml.write(url_open.read().decode('utf-8'))
-		xml.close()
+	for doi in dois[300:]:
+		try:
+			doi_query = base + doi
+			print("Doi:",doi)
+			opener = urllib.request.build_opener()
+			url_open = opener.open(doi_query)
+			xml = open(output_directory+"/"+doi.split("/f1000research.")[1]+\
+					".xml", "w+")
+			xml.write(url_open.read().decode('utf-8'))
+			xml.close()
+		except:
+			print("COULD NOT DOWNLOAD:",doi)
 
 	print("Downloaded",len(dois),"files.")
 	return
