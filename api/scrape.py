@@ -232,8 +232,5 @@ if __name__ == "__main__":
 					output_format, argv[4])
 
 
-# Testing date conversion to ms
-#download("1-1-2018","1-1-2020", "/Users/samemon/desktop/nyuad/F1000Scraper/api/data","xml")
-
 
 
